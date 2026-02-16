@@ -25,7 +25,7 @@ function initSelectors() {
     }
 
     // 2. Reset Department Dropdown (sel2) to initial state
-    sel2.innerHTML = '<option value="" disabled selected>Πρώτα επέλεξε Πρόγραμμα...</option>';
+    sel2.innerHTML = '<option value="" disabled selected>Πρώτα Eπέλεξε Πρόγραμμα...</option>';
 
     // 3. Add Event Listener to sel1
     sel1.onchange = function() {
