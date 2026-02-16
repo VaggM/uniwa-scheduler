@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniWA Scheduler</title>
+    <link rel="icon" type="image/png" href="images/doge_uniwa.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vaggm.github.io/uniwa-scheduler">
+    <meta property="og:title" content="UniWA Scheduler">
+    <meta property="og:description" content="Δημιουργήστε το δικό σας πρόγραμμα μαθημάτων και εξεταστικής για το Πανεπιστήμιο Δυτικής Αττικής.">
+    <meta property="og:image" content="images/doge_uniwa.png">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx-js-style@1.2.0/dist/xlsx.bundle.min.js"></script>
+
+    <style>
+        /* Custom scrollbar styling */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #a8a8a8; }
+        
+        /* Smooth scrolling for autofocus */
+        html { scroll-behavior: smooth; }
+
+        select:empty::before {
+            content: "Δεν βρέθηκαν δεδομένα";
+            display: block;
+            padding: 10px;
+            color: #9ca3af;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex flex-col min-h-screen text-gray-800 font-sans">
+
+    <main class="flex-grow container mx-auto px-4 py-10 max-w-5xl">
+        
+        <div class="mb-8 text-center">
+            <h1 class="text-4xl font-extrabold text-blue-700 mb-3">UniWA Scheduler</h1>
+            <p class="text-2xl text-gray-600">Εφαρμογή δημιουργίας προγράμματος εξαμήνου και εξεταστικής για τους φοιτητές του Πανεπιστημιού Δυτικής Αττικής</p>
+        </div>
+
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8 mx-auto max-w-3xl shadow-sm rounded-r">
+            <div class="flex">
+                <div class="flex-shrink-0">
+                    <svg class="h-5 w-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="ml-3">
+                    <p class="text-sm text-yellow-700">
+                        <span class="font-bold">Προσοχή!</span> 
+                        Τα προγράμματα που δημιουργούνται από την εφαρμογή βασίζονται σε δεδομένα από το <a href="http://classschedule.uniwa.gr" target="_blank" class="font-bold underline text-yellow-800 hover:text-yellow-900">Αιθουσιολόγιο του Πανεπιστημιού Δυτικής Αττικής</a> και περιλαμβάνουν <span class="font-bold">μόνο τα μαθήματα θεωρίας.</span> Τα μαθήματα εργαστηρίων και τα μαθήματα που πραγματοποιούνται με ομάδες χρηστών από άλλες πλατφόρμες, όπως eclass ή moodle, δεν υποστηρίζονται από το Αιθουσιολόγιο. Οποιοδήποτε λάθος, όπως λανθασμένη ώρα/αίθουσα ή και απουσία μαθήματος, οφείλεται στους διαχειριστές του Αιθουσιολογίου από το αντίστοιχο τμήμα του πανεπιστημίου.
+                        <span class="font-bold"> <br> <br> Προτείνεται o επανέλεγχος του προγράμματος με το επίσημο πρόγραμμα του τμήματος.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div class="bg-white p-5 rounded shadow-sm border-t-4 border-blue-500">
+                <label class="block mb-2 font-bold text-gray-700">1. Πρόγραμμα Μαθημάτων</label>
+                <select id="sel1" class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-200 outline-none" onchange="updateAvailableTasks()">
+                    <option value="" disabled selected>Loading Data...</option>
+                </select>
+            </div>
+            <div class="bg-white p-5 rounded shadow-sm border-t-4 border-blue-500">
+                <label class="block mb-2 font-bold text-gray-700">2. Τμήμα</label>
+                <select id="sel2" class="w-full p-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-200 outline-none" onchange="updateDepartmentSelector(this.value); updateAvailableTasks();">
+                    <option value="" disabled selected>Επέλεξε Πρόγραμμα...</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md mb-10 border border-gray-200">
+            <h3 class="text-xl font-bold mb-4 text-gray-800 border-b pb-2">Επιλογή Μαθημάτων</h3>
+            
+            <div class="flex flex-col md:flex-row items-stretch gap-4">
+                
+                <div class="flex-1 w-full min-w-0">
+                    <div class="flex justify-between items-end mb-1">
+                        <label class="font-semibold text-gray-600 text-sm">
+                            Διαθέσιμα Μαθήματα <span id="count-left" class="ml-1 text-xs bg-gray-200 text-gray-700 py-0.5 px-2 rounded-full">0</span>
+                        </label>
+                    </div>
+                    
+                    <div class="w-full h-72 border border-gray-300 rounded bg-white flex flex-col shadow-sm">
+                        
+                        <div class="p-2 border-b border-gray-200 bg-gray-50 rounded-t">
+                            <div class="relative">
+                                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                    <svg class="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                                    </svg>
+                                </div>
+                                <input type="text" id="search-left" onkeyup="filterLeftList()" placeholder="Αναζήτηση..." 
+                                       class="w-full pl-9 pr-3 py-1.5 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 bg-white">
+                            </div>
+                        </div>
+
+                        <div class="flex-grow overflow-y-auto bg-gray-50 rounded-b">
+                            <select id="list-left" multiple 
+                                    ondblclick="moveItems('list-left', 'list-right')"
+                                    class="w-full h-full p-2 bg-transparent outline-none cursor-pointer text-sm">
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-row md:flex-col gap-2 justify-center items-center md:pt-6">
+                    <button onclick="moveItems('list-left', 'list-right')" class="bg-blue-100 hover:bg-blue-200 text-blue-800 font-bold py-2 px-4 rounded transition shadow-sm" title="Add Selected">&rarr;</button>
+                    <button onclick="moveItems('list-right', 'list-left')" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded transition shadow-sm" title="Remove Selected">&larr;</button>
+                    <button onclick="clearAll()" class="bg-red-100 hover:bg-red-200 text-red-800 font-bold py-2 px-4 rounded text-sm mt-2 transition shadow-sm" title="Clear All">Καθαρισμός</button>
+                </div>
+
+                <div class="flex-1 w-full min-w-0">
+                    <div class="flex justify-between items-end mb-1">
+                        <label class="font-semibold text-green-700 text-sm">
+                            Επιλεγμένα Μαθήματα <span id="count-right" class="ml-1 text-xs bg-green-100 text-green-800 py-0.5 px-2 rounded-full">0</span>
+                        </label>
+                    </div>
+
+                    <div class="w-full h-72 border border-green-300 rounded bg-green-50 flex flex-col shadow-sm">
+                        <div class="flex-grow overflow-y-auto rounded">
+                            <select id="list-right" multiple 
+                                    ondblclick="moveItems('list-right', 'list-left')"
+                                    class="w-full h-full p-2 bg-transparent outline-none cursor-pointer text-sm">
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <p class="text-xs text-gray-400 mt-2 text-center">Tip: Hold Ctrl (Windows) or Cmd (Mac) to select multiple items.</p>
+        </div>
+        <div class="text-center mb-12">
+            <button id="btn-generate" disabled onclick="generateSchedule()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-10 rounded-full shadow-lg transform transition hover:-translate-y-1 hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed">
+                Δημιουργία Προγράμματος
+            </button>
+        </div>
+
+        <div id="conflict-container" class="hidden mb-8 bg-red-50 border-l-4 border-red-500 p-4 mx-auto max-w-4xl shadow-sm rounded-r">
+            <div class="flex">
+                <div class="flex-shrink-0">
+                    <svg class="h-5 w-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+                    </svg>
+                </div>
+                <div class="ml-3">
+                    <h3 class="text-sm font-bold text-red-800 tracking-wide">Μαθήματα που συμπίπτουν:</h3>
+                    <ul id="conflict-list" class="mt-2 text-sm text-red-700 list-disc list-inside">
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="result-container" class="hidden animate-fade-in-up mb-20">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
+                <div class="bg-gray-50 px-6 py-4 border-b border-gray-200 flex justify-between items-center">
+                    <h2 class="text-xl font-bold text-gray-800">Προεπισκόπηση Προγράμματος</h2>
+                    <div class="flex items-center space-x-4">
+                        <button id="btn-download" onclick="downloadExcel()" class="hidden bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-full shadow transition font-semibold" title="Download Excel File">
+                            Λήψη
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="overflow-x-auto border-b border-gray-200">
+                    <table class="min-w-full relative">
+                        <thead class="bg-gray-100 text-gray-600 text-sm leading-normal sticky top-0 z-10 shadow-sm">
+                            <tr id="table-head-row"></tr>
+                        </thead>
+                        <tbody id="table-body" class="text-gray-600 text-sm divide-y divide-gray-100 bg-white"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300 py-6 text-center mt-auto">
+        <div class="container mx-auto">
+            <p class="text-sm">&copy; 2026 UniWA Scheduler by <a href="https://github.com/VaggM" target="_blank" class="underline"> Evangelos Mitikas</a>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/data.js"></script>
+    <script src="scripts/calendar.js"></script>
+    <script src="scripts/excel.js"></script>
+    <script src="scripts/excel_preview.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
