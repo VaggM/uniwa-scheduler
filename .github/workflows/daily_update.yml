@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f scraper/requirements.txt ]; then pip install -r scraper/requirements.txt; fi
+          pip install -r scraper/requirements.txt
 
       - name: Run script
         run: python scraper/main.py
