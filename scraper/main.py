@@ -172,8 +172,10 @@ for dep_name, dep_value in departments.items():
     for period in dep_value.keys():
         print(f"\t{len(dep_value[period])}: {period}")
 
+# keep period :1 to have only the latest one available
+# keeping all makes the operation fail as it takes too long to retrieve data
 data = {
-    "period_names": [period["name"] for period in periods],
+    "period_names": [period["name"] for period[:1] in periods],
     "classrooms": classrooms,
     "departments": departments
 }
