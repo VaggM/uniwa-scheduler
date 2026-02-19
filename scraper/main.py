@@ -175,7 +175,7 @@ for dep_name, dep_value in departments.items():
 # keep period :1 to have only the latest one available
 # keeping all makes the operation fail as it takes too long to retrieve data
 data = {
-    "period_names": [period["name"] for period[:1] in periods],
+    "period_names": [period["name"] for period in periods[:1]],
     "classrooms": classrooms,
     "departments": departments
 }
