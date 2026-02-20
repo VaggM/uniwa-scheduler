@@ -175,7 +175,11 @@ function generateSchedule() {
         if (cldr.conflicts.length > 0) {
             cldr.conflicts.forEach(c => {
                 const li = document.createElement('li');
-                li.innerHTML = `<strong>${c.new}</strong> συμπίπτει με το <strong>${c.existing}</strong> την ${c.day} στις ${c.time}:00`;
+                if (c.new !== c.existing)
+                    li.innerHTML = `<strong>${c.new}</strong> συμπίπτει με το <strong>${c.existing}</strong> την ${c.day} στις ${c.time}:00`;
+                else
+                    li.innerHTML = `<strong>${c.new}</strong> έχει περαστεί στο Αιθουσιολόγιο δύο φορές την ${c.day} στις ${c.time}:00`;
+    
                 conflictList.appendChild(li);
             });
             conflictContainer.classList.remove('hidden');
@@ -268,4 +272,6 @@ function generateSchedule() {
     renderPreviewFromWorkbook(wb);
     
     document.getElementById('btn-generate').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    const btn_gen = document.getElementById('btn-generate');
+    btn_gen.textContent = "Επαναδημιουργία Προγράμματος";
 }
