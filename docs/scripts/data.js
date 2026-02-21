@@ -2793,17 +2793,17 @@ const appData = {
                 },
                 {
                     "day": 1,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u039c\u0395\u0398\u039f\u0394\u039f\u0399 \u0391\u039d\u0391\u039b\u03a5\u03a3\u0397\u03a3 \u0391\u03a0\u039f\u03a6\u0391\u03a3\u0395\u03a9\u039d",
+                    "time_start": "14:00",
+                    "time_end": "17:00",
+                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397 \u0394\u0399\u039f\u0399\u039a\u0397\u03a3\u0397 \u0395\u03a0\u0399\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0395\u03a9\u039d",
                     "professor": "",
                     "area_id": 266
                 },
                 {
                     "day": 1,
-                    "time_start": "18:00",
-                    "time_end": "21:00",
-                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397 \u0394\u0399\u039f\u0399\u039a\u0397\u03a3\u0397 \u0395\u03a0\u0399\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0395\u03a9\u039d",
+                    "time_start": "17:00",
+                    "time_end": "20:00",
+                    "course": "\u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0391\u03a4\u0391 \u03a5\u03a0\u039f\u03a3\u03a4\u0397\u03a1\u0399\u039e\u0397\u03a3 \u0391\u03a0\u039f\u03a6\u0391\u03a3\u0395\u03a9\u039d",
                     "professor": "",
                     "area_id": 266
                 },
@@ -2968,6 +2968,14 @@ const appData = {
                     "area_id": 252
                 },
                 {
+                    "day": 2,
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "course": "\u039f\u03a1\u0393\u0391\u039d\u03a9\u03a3\u0397 \u0394\u0399\u0391\u03a6\u0397\u039c\u0399\u03a3\u03a4\u0399\u039a\u0397\u03a3 \u0395\u03a0\u0399\u039a\u039f\u0399\u039d\u03a9\u039d\u0399\u0391\u03a3",
+                    "professor": "",
+                    "area_id": 252
+                },
+                {
                     "day": 3,
                     "time_start": "09:00",
                     "time_end": "12:00",
@@ -3112,10 +3120,34 @@ const appData = {
                     "area_id": 259
                 },
                 {
+                    "day": 2,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0395\u039b\u0395\u0393\u039a\u03a4\u0399\u039a\u0397 \u0395\u03a0\u0399\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0395\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 259
+                },
+                {
+                    "day": 3,
+                    "time_start": "10:00",
+                    "time_end": "13:00",
+                    "course": "\u0394\u0399\u039f\u0399\u039a\u0397\u03a3\u0397 \u039c\u0391\u03a1\u039a\u0395\u03a4\u0399\u039d\u0393\u039a",
+                    "professor": "",
+                    "area_id": 259
+                },
+                {
                     "day": 3,
                     "time_start": "15:00",
                     "time_end": "18:00",
                     "course": "\u0391\u03a3\u03a6\u0391\u039b\u0395\u0399\u0391 \u03a0\u039b\u0397\u03a1\u039f\u03a6\u039f\u03a1\u0399\u0391\u039a\u03a9\u039d \u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0391\u03a4\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 259
+                },
+                {
+                    "day": 4,
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "course": "\u0394\u0399\u0395\u0398\u039d\u0395\u03a3 \u039c\u0391\u03a1\u039a\u0395\u03a4\u0399\u039d\u0393\u039a",
                     "professor": "",
                     "area_id": 259
                 },
@@ -3368,6 +3400,14 @@ const appData = {
                     "area_id": 309
                 },
                 {
+                    "day": 4,
+                    "time_start": "14:00",
+                    "time_end": "17:00",
+                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397 \u0394\u0399\u039f\u0399\u039a\u0397\u03a3\u0397 \u0395\u03a0\u0399\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0395\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 309
+                },
+                {
                     "day": 1,
                     "time_start": "09:00",
                     "time_end": "11:00",
@@ -3598,6 +3638,22 @@ const appData = {
                     "course": "\u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0391\u03a4\u0391 \u0394\u0399\u0391\u03a7\u0395\u0399\u03a1\u0399\u03a3\u0397\u03a3 \u0395\u03a0\u0399\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0399\u0391\u039a\u03a9\u039d \u03a0\u039f\u03a1\u03a9\u039d",
                     "professor": "",
                     "area_id": 310
+                },
+                {
+                    "day": 1,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u039f\u03a1\u0393\u0391\u039d\u03a9\u03a3\u0399\u0391\u039a\u0397 \u03a3\u03a5\u039c\u03a0\u0395\u03a1\u0399\u03a6\u039f\u03a1\u0391",
+                    "professor": "",
+                    "area_id": 255
+                },
+                {
+                    "day": 4,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0395\u03a0\u0399\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0399\u0391\u039a\u0395\u03a3 \u0395\u03a0\u0399\u039a\u039f\u0399\u039d\u03a9\u039d\u0399\u0395\u03a3",
+                    "professor": "",
+                    "area_id": 255
                 }
             ],
             "\u03a7\u03b5\u03b9\u03bc\u03b5\u03c1\u03b9\u03bd\u03cc \u03b5\u03be\u03ac\u03bc\u03b7\u03bd\u03bf 2025-2026": [
