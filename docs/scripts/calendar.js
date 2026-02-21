@@ -1,4 +1,3 @@
-
 class SpaceTakenError extends Error {}
 
 class CalendarMatrix {
@@ -38,7 +37,6 @@ class CalendarMatrix {
 
     write_lesson(lesson_text, dayName, time, lasting = 2) {
         let x = 0, y = 0;
-        
         const cleanDayName = dayName.trim();
         
         for (let c = 1; c < this.calendar[0].length; c++) {
@@ -47,7 +45,7 @@ class CalendarMatrix {
                 break;
             }
         }
-        if (x === 0) return; // Day not found
+        if (x === 0) return;
 
         const targetTime = parseInt(time);
         for (let r = 1; r < this.calendar.length; r++) {
@@ -58,8 +56,8 @@ class CalendarMatrix {
         }
         
         if (y === 0) {
-                console.warn(`Time '${targetTime}' not found.`);
-                return; 
+            console.warn(`Time '${targetTime}' not found.`);
+            return; 
         }
 
         this._check_space_taken(x, y, lesson_text, lasting, cleanDayName, targetTime);
@@ -67,39 +65,55 @@ class CalendarMatrix {
 
     _check_space_taken(x, y, lesson_text, lasting, dayName, time) {
         try {
-            // Check collision
+            // Έλεγχος αν ο χώρος είναι ελεύθερος
             for (let i = 0; i < lasting; i++) {
                 if (y + i >= this.calendar.length) break; 
                 if (this.calendar[y + i][x] !== '') throw new SpaceTakenError();
             }
-            // Write
+            // Εγγραφή μαθήματος
             for (let i = 0; i < lasting; i++) {
                 if (y + i < this.calendar.length) this.calendar[y + i][x] = lesson_text;
             }
         } catch (e) {
             if (e instanceof SpaceTakenError) {
-                // 1. Record Conflict
-                let existingText = this.calendar[y][x].split('\n')[0];
-                let newText = lesson_text.split('\n')[0];
+                // ΕΥΡΕΣΗ ΥΠΑΡΧΟΝΤΟΣ ΜΑΘΗΜΑΤΟΣ (Ακόμα και αν η σύγκρουση είναι σε ενδιάμεση ώρα)
+                let existingVal = this.calendar[y][x];
+                
+                if (existingVal === '') {
+                    // Αν το συγκεκριμένο κελί είναι κενό, σημαίνει ότι το μάθημα ξεκίνησε νωρίτερα
+                    for (let r = y - 1; r >= 1; r--) {
+                        if (this.calendar[r][x] !== '') {
+                            existingVal = this.calendar[r][x];
+                            break;
+                        }
+                    }
+                }
+
+                let existingName = (existingVal || "Άγνωστο Μάθημα").split('\n')[0];
+                let newName = lesson_text.split('\n')[0];
                 
                 this.conflicts.push({
-                    existing: existingText,
-                    new: newText,
+                    existing: existingName,
+                    new: newName,
                     day: dayName,
                     time: time
                 });
 
-                // 2. Resolve Conflict (Add Column)
-                let condition = true;
+                // Επίλυση: Προσθήκη νέας στήλης για την ίδια μέρα
+                let shouldAddColumn = true;
                 if (x + 1 < this.calendar[0].length) {
-                    condition = (this.calendar[0][x] !== this.calendar[0][x + 1]);
+                    // Αν η επόμενη στήλη έχει ήδη το ίδιο όνομα μέρας, μην ξαναπροσθέτεις
+                    shouldAddColumn = (this.calendar[0][x] !== this.calendar[0][x + 1]);
                 }
-                if (condition) {
+
+                if (shouldAddColumn) {
                     for (let row of this.calendar) {
-                        if (row === this.calendar[0]) row.splice(x + 1, 0, row[x]);
-                        else row.splice(x + 1, 0, '');
+                        if (row === this.calendar[0]) row.splice(x + 1, 0, row[x]); // Αντιγραφή επικεφαλίδας μέρας
+                        else row.splice(x + 1, 0, ''); // Κενό κελί στις υπόλοιπες γραμμές
                     }
                 }
+                
+                // Αναδρομική προσπάθεια εγγραφής στη νέα στήλη
                 this._check_space_taken(x + 1, y, lesson_text, lasting, dayName, time);
             } else throw e;
         }
@@ -111,7 +125,7 @@ class CalendarMatrix {
         const W = this.calendar[0].length;
         const visited = Array.from({ length: H }, () => Array(W).fill(false));
 
-        // 1. Horizontal Merges (Headers - Row 0)
+        // 1. Οριζόντια Merges για τις Ημέρες (Header)
         let first_row = this.calendar[0];
         let j = 0;
         while (j < first_row.length) {
@@ -122,7 +136,6 @@ class CalendarMatrix {
             }
             if (k !== 0) {
                 this.merge_cells.push({s: {r:0, c:j}, e: {r:0, c:j+k}, text: text});
-                // Mark header cells as visited so main loop ignores them
                 for(let m=0; m<=k; m++) visited[0][j+m] = true;
                 j = j + k;
             } else {
@@ -131,7 +144,7 @@ class CalendarMatrix {
             j++;
         }
 
-        // 2. Vertical Merges + Expansion into Empty Space (Body)
+        // 2. Κάθετα Merges για τα Μαθήματα
         for (let c = 1; c < W; c++) {
             for (let r = 1; r < H; r++) {
                 if (visited[r][c]) continue;
@@ -139,22 +152,16 @@ class CalendarMatrix {
                 const val = this.calendar[r][c];
                 if (val === '') { visited[r][c] = true; continue; }
 
-                // A. Calculate Vertical Height (Standard)
                 let height = 1;
                 while (r + height < H && this.calendar[r + height][c] === val) {
                     height++;
                 }
 
-                // B. Calculate Horizontal Width (Expansion into EMPTY neighbors)
                 let width = 1;
-                let currentDay = this.calendar[0][c]; // Get day name from header
+                let currentDay = this.calendar[0][c];
 
-                // Look at neighbors to the right
                 while (c + width < W) {
-                    // Stop if we cross into a different day
                     if (this.calendar[0][c + width] !== currentDay) break;
-
-                    // Stop if ANY cell in the neighbor column (for this height duration) is NOT empty
                     let isColumnFree = true;
                     for (let k = 0; k < height; k++) {
                         if (this.calendar[r + k][c + width] !== '') {
@@ -163,18 +170,15 @@ class CalendarMatrix {
                         }
                     }
                     if (!isColumnFree) break;
-
                     width++;
                 }
 
-                // C. Mark area as visited
                 for (let i = 0; i < height; i++) {
                     for (let k = 0; k < width; k++) {
                         visited[r + i][c + k] = true;
                     }
                 }
 
-                // D. Push Merge if larger than 1x1
                 if (height > 1 || width > 1) {
                     this.merge_cells.push({
                         s: { r: r, c: c },
