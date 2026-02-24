@@ -22344,7 +22344,7 @@ const appData = {
                     "day": 5,
                     "time_start": "12:00",
                     "time_end": "14:00",
-                    "course": "\u039a\u0392\u0391\u039d\u03a4\u0399\u039a\u0395\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0395\u03a3 \u039a\u0391\u0399 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0395\u03a3",
+                    "course": "\u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0391\u03a4\u0391 \u0391\u03a5\u03a4\u039f\u039c\u0391\u03a4\u039f\u03a5 \u0395\u039b\u0395\u0393\u03a7\u039f\u03a5",
                     "professor": "",
                     "area_id": 152
                 },
