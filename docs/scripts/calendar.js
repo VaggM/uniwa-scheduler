@@ -89,15 +89,16 @@ class CalendarMatrix {
                     }
                 }
 
-                let existingName = (existingVal || "Άγνωστο Μάθημα").split('\n')[0];
+                let existingName = (existingVal || "").split('\n')[0];
                 let newName = lesson_text.split('\n')[0];
-                
-                this.conflicts.push({
-                    existing: existingName,
-                    new: newName,
-                    day: dayName,
-                    time: time
-                });
+
+                if (existingName !== "")
+                    this.conflicts.push({
+                        existing: existingName,
+                        new: newName,
+                        day: dayName,
+                        time: time
+                    });
 
                 // Επίλυση: Προσθήκη νέας στήλης για την ίδια μέρα
                 let shouldAddColumn = true;
