@@ -9822,6 +9822,14 @@ const appData = {
                 },
                 {
                     "day": 2,
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "course": "\u039c\u0391\u0398\u0397\u039c\u0391\u03a4\u0399\u039a\u0397 \u0391\u039d\u0391\u039b\u03a5\u03a3\u0397 \u0399 [1]",
+                    "professor": "\u03a7\u03c9\u03c1\u03b9\u03b1\u03bd\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+                    "area_id": 278
+                },
+                {
+                    "day": 2,
                     "time_start": "11:00",
                     "time_end": "13:00",
                     "course": "\u0394\u03af\u03ba\u03c4\u03c5\u03b1 \u03a5\u03c0\u03bf\u03bb\u03bf\u03b3\u03b9\u03c3\u03c4\u03ce\u03bd [1]",
@@ -10186,14 +10194,6 @@ const appData = {
                     "time_end": "15:00",
                     "course": "\u0397\u03bb\u03b5\u03ba\u03c4\u03c1\u03bf\u03bc\u03b1\u03b3\u03bd\u03b7\u03c4\u03b9\u03ba\u03ac \u03a0\u03b5\u03b4\u03af\u03b1 \u0399",
                     "professor": "\u0392\u03b1\u03c1\u03c3\u03ac\u03bc\u03b7\u03c2",
-                    "area_id": 242
-                },
-                {
-                    "day": 3,
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "course": "\u039c\u03b1\u03b8\u03b7\u03bc\u03b1\u03c4\u03b9\u03ba\u03ae \u0391\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 \u0399\u0399 [1]",
-                    "professor": "\u03a7\u03c9\u03c1\u03b9\u03b1\u03bd\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
                     "area_id": 242
                 },
                 {
@@ -14035,6 +14035,22 @@ const appData = {
                     "time_end": "17:00",
                     "course": "\u039c\u0391\u039a\u03a1\u039f\u039f\u0399\u039a\u039f\u039d\u039f\u039c\u0399\u039a\u0397 \u0391\u039d\u0391\u039b\u03a5\u03a3\u0397",
                     "professor": "\u039a. \u039c\u0391\u03a1\u0399\u039d\u0391\u039a\u039f\u03a3",
+                    "area_id": 137
+                },
+                {
+                    "day": 4,
+                    "time_start": "17:00",
+                    "time_end": "20:00",
+                    "course": "\u0395\u03a5\u03a1\u03a9\u03a0\u0391\u03aa\u039a\u0395\u03a3 \u03a0\u039f\u039b\u0399\u03a4\u0399\u039a\u0395\u03a3 \u03a3\u03a4\u039f\u039d \u03a4\u039f\u03a5\u03a1\u0399\u03a3\u039c\u039f",
+                    "professor": "\u03a0. \u039c\u03a0\u0391\u039b\u0399\u039f\u03a5\u03a3\u039a\u0391\u03a3",
+                    "area_id": 137
+                },
+                {
+                    "day": 5,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0395\u03a5\u03a1\u03a9\u03a0\u0391\u03aa\u039a\u0395\u03a3 \u03a0\u039f\u039b\u0399\u03a4\u0399\u039a\u0395\u03a3 \u03a3\u03a4\u039f\u039d \u03a4\u039f\u03a5\u03a1\u0399\u03a3\u039c\u039f",
+                    "professor": "\u03a0. \u039c\u03a0\u0391\u039b\u0399\u039f\u03a5\u03a3\u039a\u0391\u03a3",
                     "area_id": 137
                 },
                 {
@@ -18738,6 +18754,2812 @@ const appData = {
                     "time_end": "15:00",
                     "area_id": [
                         250
+                    ]
+                }
+            }
+        },
+        "\u03a4\u03bc\u03ae\u03bc\u03b1 \u0392\u03b9\u03bf\u03ca\u03b1\u03c4\u03c1\u03b9\u03ba\u03ce\u03bd \u0395\u03c0\u03b9\u03c3\u03c4\u03b7\u03bc\u03ce\u03bd": {
+            "\u0395\u03b1\u03c1\u03b9\u03bd\u03cc \u0395\u03be\u03ac\u03bc\u03b7\u03bd\u03bf 2025-2026": [
+                {
+                    "day": 1,
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "course": "\u0392\u0399\u039f\u0391\u03a3\u03a6\u0391\u039b\u0395\u0399\u0391",
+                    "professor": "",
+                    "area_id": 304
+                },
+                {
+                    "day": 1,
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "course": "\u039b\u0397\u03a8\u0395\u0399\u03a3 \u0392\u0399\u039f\u039b\u039f\u0393\u0399\u039a\u03a9\u039d \u0394\u0395\u0399\u0393\u039c\u0391\u03a4\u03a9\u039d - \u03a6\u039b\u0395\u0392\u039f\u03a0\u0391\u03a1\u0391\u039a\u0395\u039d\u03a4\u0397\u03a3\u0397",
+                    "professor": "",
+                    "area_id": 304
+                },
+                {
+                    "day": 1,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0395\u0399\u0394\u0399\u039a\u0397 \u0392\u0399\u039f\u03a7\u0397\u039c\u0395\u0399\u0391",
+                    "professor": "",
+                    "area_id": 304
+                },
+                {
+                    "day": 1,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u0393\u0395\u039d\u0399\u039a\u0397 \u0399\u03a3\u03a4\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 304
+                },
+                {
+                    "day": 3,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0393\u0395\u039d\u0395\u03a4\u0399\u039a\u0397 \u03a4\u039f\u03a5 \u0391\u039d\u0398\u03a1\u03a9\u03a0\u039f\u03a5",
+                    "professor": "",
+                    "area_id": 304
+                },
+                {
+                    "day": 3,
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "course": "\u0393\u0395\u039d\u0399\u039a\u0395\u03a3 \u0391\u039d\u0391\u039b\u03a5\u03a3\u0395\u0399\u03a3 \u0392\u0399\u039f\u039b\u039f\u0393\u0399\u039a\u03a9\u039d \u0394\u0395\u0399\u0393\u039c\u0391\u03a4\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 304
+                },
+                {
+                    "day": 3,
+                    "time_start": "13:00",
+                    "time_end": "16:00",
+                    "course": "\u039c\u039f\u03a1\u0399\u0391\u039a\u0397 \u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 304
+                },
+                {
+                    "day": 1,
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "course": "\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u039a\u0395\u03a1\u0391\u039c\u0399\u039a\u0397 \u0399",
+                    "professor": "",
+                    "area_id": 198
+                },
+                {
+                    "day": 1,
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "course": "\u03a8\u0397\u03a6\u0399\u0391\u039a\u0397 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 198
+                },
+                {
+                    "day": 2,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u039c\u039f\u03a1\u03a6\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 198
+                },
+                {
+                    "day": 2,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399\u0399",
+                    "professor": "",
+                    "area_id": 198
+                },
+                {
+                    "day": 3,
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "course": "\u03a3\u03a5\u0393\u039a\u039b\u0395\u0399\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 198
+                },
+                {
+                    "day": 3,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u03a8\u0397\u03a6\u0399\u0391\u039a\u0397 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 198
+                },
+                {
+                    "day": 4,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0391\u03a1\u03a7\u0395\u03a3 \u0394\u0399\u039f\u0399\u039a\u0397\u03a3\u0397\u03a3 \u0395\u03a0\u0399\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0395\u03a9\u039d \u039a\u0391\u0399 \u039f\u03a1\u0393\u0391\u039d\u03a9\u03a3\u0397 \u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a5",
+                    "professor": "",
+                    "area_id": 198
+                },
+                {
+                    "day": 5,
+                    "time_start": "08:00",
+                    "time_end": "14:00",
+                    "course": "\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u039c\u039f\u03a1\u03a6\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 198
+                },
+                {
+                    "day": 1,
+                    "time_start": "08:30",
+                    "time_end": "11:30",
+                    "course": "\u0392\u0399\u039f\u03a7\u0397\u039c\u0395\u0399\u0391",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 1,
+                    "time_start": "11:30",
+                    "time_end": "13:30",
+                    "course": "\u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397 \u0399\u0399",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 1,
+                    "time_start": "13:30",
+                    "time_end": "15:30",
+                    "course": "\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 1,
+                    "time_start": "15:30",
+                    "time_end": "18:30",
+                    "course": "\u039f\u03a1\u0393\u0391\u039d\u0399\u039a\u0397 \u03a7\u0397\u039c\u0395\u0399\u0391",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 1,
+                    "time_start": "18:30",
+                    "time_end": "19:30",
+                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0399\u03a3 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0395\u03a3",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 2,
+                    "time_start": "08:00",
+                    "time_end": "12:00",
+                    "course": "\u0391\u0399\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 2,
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "course": "\u0391\u039d\u039f\u03a3\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 2,
+                    "time_start": "14:00",
+                    "time_end": "17:00",
+                    "course": "\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 3,
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "course": "\u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397 \u0399\u0399",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 3,
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0399\u03a3 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0395\u03a3",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 3,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0392\u0399\u039f\u03a3\u03a4\u0391\u03a4\u0399\u03a3\u03a4\u0399\u039a\u0397",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 3,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u0392\u0399\u039f\u03aa\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0391\u0393\u0393\u039b\u0399\u039a\u0397 \u039f\u03a1\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 3,
+                    "time_start": "18:00",
+                    "time_end": "20:00",
+                    "course": "\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 4,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0394\u0399\u0391\u03a0\u0399\u03a3\u03a4\u0395\u03a5\u03a3\u0397 - \u03a0\u0399\u03a3\u03a4\u039f\u03a0\u039f\u0399\u0397\u03a3\u0397",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 4,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u03a7\u0397\u039c\u0395\u0399\u0391 \u0399\u0399",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 4,
+                    "time_start": "14:00",
+                    "time_end": "16:00",
+                    "course": "\u0391\u039d\u039f\u03a3\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 1,
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "course": "\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 2,
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "course": "\u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0395\u03a0\u0399 \u0395\u039c\u03a6\u03a5\u03a4\u0395\u03a5\u039c\u0391\u03a4\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 2,
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "course": "\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 2,
+                    "time_start": "13:00",
+                    "time_end": "16:00",
+                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0391 \u0392\u0399\u039f\u03a5\u039b\u0399\u039a\u0391 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3 - \u0398",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 3,
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "course": "\u0391\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 4,
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "course": "\u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u0399\u0399",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 4,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0395\u039e\u0395\u0399\u0394\u0399\u039a\u0395\u03a5\u039c\u0395\u039d\u0397 \u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 5,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0391\u03a0\u039f\u039a\u0391\u03a4\u0391\u03a3\u03a4\u0391\u03a3\u0397 \u0394\u03a5\u03a3\u039b\u0395\u0399\u03a4\u039f\u03a5\u03a1\u0393\u0399\u03a9\u039d \u03a3\u03a5\u0393\u039a\u039b\u0395\u0399\u03a3\u0397\u03a3",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 5,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u0393\u039d\u0391\u0398\u039f\u03a0\u03a1\u039f\u03a3\u03a9\u03a0\u0399\u039a\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 5,
+                    "time_start": "14:00",
+                    "time_end": "17:00",
+                    "course": "\u0391\u03a1\u03a7\u0395\u03a3 \u039c\u0391\u03a1\u039a\u0395\u03a4\u0399\u039d\u0393\u039a",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 1,
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "course": "\u039f\u03a0\u03a4\u0399\u039a\u0391 KAI \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u039a\u0391 \u039f\u03a1\u0393\u0391\u039d\u0391",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 2,
+                    "time_start": "14:00",
+                    "time_end": "15:00",
+                    "course": "\u03a0\u03a1\u039f\u0395\u0393\u03a7\u0395\u0399\u03a1\u0397\u03a4\u0399\u039a\u039f\u03a3 \u0395\u039b\u0395\u0393\u03a7\u039f\u03a3",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 2,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u03a8\u03a5\u03a7\u039f\u039b\u039f\u0393\u0399\u0391 \u03a4\u0397\u03a3 \u039f\u03a1\u0391\u03a3\u0397\u03a3",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 2,
+                    "time_start": "18:00",
+                    "time_end": "21:00",
+                    "course": "\u0395\u03a0\u0399\u039a\u039f\u0399\u039d\u03a9\u039d\u0399\u0391\u039a\u0395\u03a3 \u0394\u0395\u039e\u0399\u039f\u03a4\u0397\u03a4\u0395\u03a3",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 3,
+                    "time_start": "09:00",
+                    "time_end": "10:00",
+                    "course": "\u03a0\u03a1\u039f\u0392\u039b\u0397\u039c\u0391\u03a4\u0391 \u039f\u03a1\u0391\u03a3\u0397\u03a3 \u03a3\u0395 \u03a5\u03a0\u0395\u03a1\u0397\u039b\u0399\u039a\u0395\u03a3",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 3,
+                    "time_start": "10:00",
+                    "time_end": "13:00",
+                    "course": "\u0393\u039b\u0391\u03a5\u039a\u03a9\u039c\u0391 KAI \u03a0\u0395\u03a1\u0399\u039c\u0395\u03a4\u03a1\u0399\u0391",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 3,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397\u039d \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 4,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u03a4\u0395\u03a7\u039d\u0399\u039a\u0395\u03a3 LASER \u03a3\u03a4\u0397\u039d \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 4,
+                    "time_start": "14:00",
+                    "time_end": "16:00",
+                    "course": "\u039f\u03a0\u03a4\u0399\u039a\u0391 KAI \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u039a\u0391 \u039f\u03a1\u0393\u0391\u039d\u0391",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 4,
+                    "time_start": "19:00",
+                    "time_end": "21:00",
+                    "course": "\u0395\u039c\u03a0\u039f\u03a1\u0399\u039a\u039f KAI \u0395\u03a1\u0393\u0391\u03a4\u0399\u039a\u039f \u0394\u0399\u039a\u0391\u0399\u039f",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 5,
+                    "time_start": "09:00",
+                    "time_end": "12:00",
+                    "course": "\u03a0\u03a1\u039f\u0392\u039b\u0397\u039c\u0391\u03a4\u0391 \u039f\u03a1\u0391\u03a3\u0397\u03a3 \u03a3\u0395 \u03a5\u03a0\u0395\u03a1\u0397\u039b\u0399\u039a\u0395\u03a3",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 5,
+                    "time_start": "13:00",
+                    "time_end": "16:00",
+                    "course": "\u03a0\u03a1\u039f\u0395\u0393\u03a7\u0395\u0399\u03a1\u0397\u03a4\u0399\u039a\u039f\u03a3 \u0395\u039b\u0395\u0393\u03a7\u039f\u03a3",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 6,
+                    "time_start": "17:30",
+                    "time_end": "21:30",
+                    "course": "\u03a0\u039c\u03a3 \u03a0\u03b1\u03b9\u03b4\u03b1\u03b3\u03c9\u03b3\u03b9\u03ba\u03ae \u03bc\u03ad\u03c3\u03c9 \u039a\u03b1\u03b9\u03bd\u03bf\u03c4\u03cc\u03bc\u03c9\u03bd \u03a4\u03b5\u03c7\u03bd\u03bf\u03bb\u03bf\u03b3\u03b9\u03ce\u03bd \u03ba\u03b1\u03b9 \u0392\u03b9\u03bf\u03ca\u03b1\u03c4\u03c1\u03b9\u03ba\u03ce\u03bd \u03a0\u03c1\u03bf\u03c3\u03b5\u03b3\u03b3\u03af\u03c3\u03b5\u03c9\u03bd",
+                    "professor": "",
+                    "area_id": 177
+                },
+                {
+                    "day": 1,
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "course": "\u03a0\u03a5\u03a1\u0397\u039d\u0399\u039a\u0397 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0399\u0399",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 1,
+                    "time_start": "17:00",
+                    "time_end": "19:00",
+                    "course": "\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 \u039c\u0395 \u03a1\u0391\u0394\u0399\u039f\u03a6\u0391\u03a1\u039c\u0391\u039a\u0391",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 2,
+                    "time_start": "08:00",
+                    "time_end": "12:00",
+                    "course": "\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 2,
+                    "time_start": "17:00",
+                    "time_end": "20:00",
+                    "course": "\u0395\u0399\u0394\u0399\u039a\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3 \u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 3,
+                    "time_start": "18:00",
+                    "time_end": "20:00",
+                    "course": "\u0392\u0399\u039f\u0397\u0398\u0399\u039a\u0397 KAI \u0394\u0395\u039f\u039d\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0395\u03a0\u0391\u0393\u0393\u0395\u039b\u039c\u0391\u03a4\u039f\u03a3",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 4,
+                    "time_start": "08:00",
+                    "time_end": "12:00",
+                    "course": "\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 4,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391 - \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u03a5\u03a4\u0399\u039a\u0397 \u039f\u0393\u039a\u039f\u039b\u039f\u0393\u0399\u0391 I",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 4,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u03a5\u03a4\u0399\u039a\u0397 \u039f\u0393\u039a\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399\u0399 - \u03a3\u03a5\u039d\u0394\u03a5\u0391\u03a3\u039c\u039f\u03a3 \u039f\u0393\u039a\u039f\u039b\u039f\u0393\u0399\u039a\u03a9\u039d \u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 1,
+                    "time_start": "09:00",
+                    "time_end": "12:00",
+                    "course": "\u0392\u0399\u039f\u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 1,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0391\u039d\u0391\u0393\u039d\u03a9\u03a1\u0399\u03a3\u0397 \u03a0\u03a1\u039f\u03a4\u03a5\u03a0\u03a9\u039d \u03a3\u0395 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u0399\u039a\u039f\u039d\u0395\u03a3 \u039c\u0395 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0397 \u03a3\u03a4\u0397\u039d \u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 1,
+                    "time_start": "17:00",
+                    "time_end": "20:00",
+                    "course": "\u0393\u0397\u03a1\u0391\u039d\u03a3\u0397 - \u039c\u0391\u039a\u03a1\u039f\u0396\u03a9\u03aa\u0391",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 2,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u03a4\u039f\u039e\u0399\u039a\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 2,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u03a5\u0393\u0399\u0395\u0399\u039d\u0397 \u039a\u0391\u0399 \u0395\u03a0\u0399\u0394\u0397\u039c\u0399\u039f\u039b\u039f\u0393\u0399\u0391-\u0394\u0397\u039c\u039f\u03a3\u0399\u0391 \u03a5\u0393\u0395\u0399\u0391",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 2,
+                    "time_start": "17:00",
+                    "time_end": "20:00",
+                    "course": "\u0394\u0399\u0391\u03a4\u03a1\u039f\u03a6\u0397 \u039a\u0391\u0399 \u03a5\u0393\u0395\u0399\u0391",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 3,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u039c\u0395\u03a4\u0391\u0393\u0393\u0399\u03a3\u0399\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391-\u0399\u03a3\u03a4\u039f\u03a3\u03a5\u039c\u0392\u0391\u03a4\u039f\u03a4\u0397\u03a4\u0391",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 3,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u0395\u0399\u0394\u0399\u039a\u0391 \u039a\u0395\u03a6\u0391\u039b\u0391\u0399\u0391 \u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u0391\u039a\u0397\u03a3 \u0391\u0399\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391\u03a3 - \u0391\u0399\u039c\u039f\u0394\u039f\u03a3\u0399\u0391\u03a3",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 4,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0395\u0399\u0394\u0399\u039a\u0391 \u039a\u0395\u03a6\u0391\u039b\u0391\u0399\u0391 \u039a\u039b\u0399\u039d\u0399\u039a\u0397\u03a3 \u03a7\u0397\u039c\u0395\u0399\u0391\u03a3",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 4,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u0394\u0399\u0391\u03a7\u0395\u0399\u03a1\u0399\u03a3\u0397 \u0396\u03a9\u03a9\u039d \u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a5",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 4,
+                    "time_start": "14:00",
+                    "time_end": "17:00",
+                    "course": "\u0395\u03a0\u0399\u0394\u0397\u039c\u0399\u039f\u039b\u039f\u0393\u0399\u0391 \u039b\u039f\u0399\u039c\u03a9\u0394\u03a9\u039d \u039d\u039f\u03a3\u0397\u039c\u0391\u03a4\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 4,
+                    "time_start": "17:00",
+                    "time_end": "20:00",
+                    "course": "\u039c\u0399\u039a\u03a1\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391 \u03a5\u0394\u0391\u03a4\u03a9\u039d \u039a\u0391\u0399 \u03a4\u03a1\u039f\u03a6\u0399\u039c\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 5,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0395\u0399\u0394\u0399\u039a\u0395\u03a3 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 5,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u0391\u039a\u0397 \u0394\u0399\u0395\u03a1\u0395\u03a5\u039d\u0397\u03a3\u0397 \u03a7\u0395\u0399\u03a1\u039f\u03a5\u03a1\u0393\u0399\u039a\u039f\u03a5 \u0391\u03a3\u0398\u0395\u039d\u0397",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 2,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u039a\u0397 \u03a0\u0391\u0398\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 209
+                },
+                {
+                    "day": 2,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399\u0399",
+                    "professor": "",
+                    "area_id": 209
+                },
+                {
+                    "day": 3,
+                    "time_start": "16:00",
+                    "time_end": "18:00",
+                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3",
+                    "professor": "",
+                    "area_id": 209
+                },
+                {
+                    "day": 4,
+                    "time_start": "17:00",
+                    "time_end": "19:00",
+                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3",
+                    "professor": "",
+                    "area_id": 209
+                },
+                {
+                    "day": 1,
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "course": "\u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0395\u03a0\u0399 \u0395\u039c\u03a6\u03a5\u03a4\u0395\u03a5\u039c\u0391\u03a4\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 199
+                },
+                {
+                    "day": 1,
+                    "time_start": "10:00",
+                    "time_end": "13:00",
+                    "course": "\u03a8\u0397\u03a6\u0399\u0391\u039a\u0397 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 199
+                },
+                {
+                    "day": 2,
+                    "time_start": "10:00",
+                    "time_end": "13:00",
+                    "course": "\u03a0\u039f\u039b\u03a5\u039c\u0395\u03a1\u0397 \u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397\u03a3 \u0395\u03a0\u0399\u039a\u0391\u039b\u03a5\u03a8\u0397\u03a3",
+                    "professor": "",
+                    "area_id": 199
+                },
+                {
+                    "day": 2,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u0395\u039c\u0392\u0399\u039f\u039c\u0397\u03a7\u0391\u039d\u0399\u039a\u0397 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3",
+                    "professor": "",
+                    "area_id": 199
+                },
+                {
+                    "day": 3,
+                    "time_start": "08:00",
+                    "time_end": "12:00",
+                    "course": "\u03a3\u03a5\u0393\u039a\u039b\u0395\u0399\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 199
+                },
+                {
+                    "day": 3,
+                    "time_start": "14:00",
+                    "time_end": "17:00",
+                    "course": "\u039f\u03a1\u0393\u0391\u039d\u03a9\u03a3\u0397 \u0395\u03a1\u0395\u03a5\u039d\u0391\u03a3",
+                    "professor": "",
+                    "area_id": 199
+                },
+                {
+                    "day": 4,
+                    "time_start": "09:00",
+                    "time_end": "12:00",
+                    "course": "\u039a\u0395\u03a1\u0391\u039c\u0399\u039a\u0391 \u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397\u03a3 \u0395\u03a0\u0399\u039a\u0391\u039b\u03a5\u03a8\u0397\u03a3",
+                    "professor": "",
+                    "area_id": 199
+                },
+                {
+                    "day": 5,
+                    "time_start": "08:00",
+                    "time_end": "14:00",
+                    "course": "\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u039c\u039f\u03a1\u03a6\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 199
+                },
+                {
+                    "day": 1,
+                    "time_start": "10:00",
+                    "time_end": "11:00",
+                    "course": "\u039f\u03a1\u0398\u039f\u03a0\u03a4\u0399\u039a\u0397",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 1,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u03a6\u0391\u039a\u039f\u0399 \u0395\u03a0\u0391\u03a6\u0397\u03a3 \u0399",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 1,
+                    "time_start": "14:00",
+                    "time_end": "15:00",
+                    "course": "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 1,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u039f\u0399 \u03a6\u0391\u039a\u039f\u0399 \u0399",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 2,
+                    "time_start": "10:00",
+                    "time_end": "11:00",
+                    "course": "\u03a6\u0391\u039a\u039f\u0399 \u0395\u03a0\u0391\u03a6\u0397\u03a3 \u0399",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 2,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u039f\u03a1\u0398\u039f\u03a0\u03a4\u0399\u039a\u0397",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 3,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0399\u039a\u0395\u03a3 \u03a0\u0391\u0398\u0397\u03a3\u0395\u0399\u03a3 \u039f\u03a6\u0398\u0391\u039b\u039c\u039f\u03a5",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 3,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u039d\u0395\u03a5\u03a1\u039f\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u039f\u03a5",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 3,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 3,
+                    "time_start": "18:00",
+                    "time_end": "19:00",
+                    "course": "\u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u039f\u0399 \u03a6\u0391\u039a\u039f\u0399 \u0399",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 4,
+                    "time_start": "16:00",
+                    "time_end": "19:00",
+                    "course": "\u039c\u0391\u03a1\u039a\u0395\u03a4\u0399\u039d\u0393\u039a",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 5,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u03a0\u0391\u0398\u039f\u039b\u039f\u0393\u0399\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u039f\u03a5",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 5,
+                    "time_start": "17:00",
+                    "time_end": "20:00",
+                    "course": "\u039a\u039f\u03a3\u03a4\u039f\u039b\u039f\u0393\u0397\u03a3\u0397 KAI \u03a4\u0399\u039c\u039f\u039b\u039f\u0393\u0397\u03a3\u0397",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 1,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 \u0399",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 1,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u0399",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 1,
+                    "time_start": "16:00",
+                    "time_end": "20:00",
+                    "course": "\u03a0\u039c\u03a3 \u03a0\u03c1\u03bf\u03c7\u03c9\u03c1\u03b7\u03bc\u03ad\u03bd\u03b7 \u0391\u03b9\u03c3\u03b8\u03b7\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u039a\u03bf\u03c3\u03bc\u03b7\u03c4\u03bf\u03bb\u03bf\u03b3\u03af\u03b1: \u0391\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7-\u03a0\u03bf\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc\u03c2 \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf\u03c2 \u03ba\u03b1\u03b9 \u0391\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03bd\u03ad\u03c9\u03bd \u03ba\u03b1\u03bb\u03bb\u03c5\u03bd\u03c4\u03b9\u03ba\u03ce\u03bd \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03c9\u03bd",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 2,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u0393\u03a5\u039c\u039d\u0391\u03a3\u03a4\u0399\u039a\u0397",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 2,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0399\u0391\u039c\u0391\u03a4\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 3,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u0399\u039a\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3 LASER \u039a\u0391\u0399 \u03a6\u03a9\u03a4\u039f\u039d\u0399\u039a\u0397\u03a3",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 3,
+                    "time_start": "16:00",
+                    "time_end": "20:00",
+                    "course": "\u03a0\u039c\u03a3 \u03a0\u03c1\u03bf\u03c7\u03c9\u03c1\u03b7\u03bc\u03ad\u03bd\u03b7 \u0391\u03b9\u03c3\u03b8\u03b7\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u039a\u03bf\u03c3\u03bc\u03b7\u03c4\u03bf\u03bb\u03bf\u03b3\u03af\u03b1: \u0391\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7-\u03a0\u03bf\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc\u03c2 \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf\u03c2 \u03ba\u03b1\u03b9 \u0391\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03bd\u03ad\u03c9\u03bd \u03ba\u03b1\u03bb\u03bb\u03c5\u03bd\u03c4\u03b9\u03ba\u03ce\u03bd \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03c9\u03bd",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 4,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0392\u0391\u03a3\u0399\u039a\u0395\u03a3 \u0391\u03a1\u03a7\u0395\u03a3 \u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397\u03a3 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391\u03a3",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 4,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u039a\u0391\u0399 \u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u03a3\u0395 \u0395\u0399\u0394\u0399\u039a\u039f\u03a5\u03a3 \u03a0\u039b\u0397\u0398\u03a5\u03a3\u039c\u039f\u03a5\u03a3",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 5,
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "course": "\u03a0\u039b\u0391\u03a3\u03a4\u0399\u039a\u0397 \u03a7\u0395\u0399\u03a1\u039f\u03a5\u03a1\u0393\u0399\u039a\u0397 \u039a\u0391\u0399 \u0391\u0398\u039b\u0397\u03a4\u0399\u039a\u0397 \u0394\u03a1\u0391\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a4\u0397\u03a4\u0391",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 5,
+                    "time_start": "10:00",
+                    "time_end": "14:00",
+                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 1,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039a\u039f\u03a3\u039c\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 1,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u03a6\u03a5\u03a3\u0399\u039a\u0391 \u039a\u0391\u0399 \u0392\u0399\u039f\u039b\u039f\u0393\u0399\u039a\u0391 \u039a\u0391\u039b\u039b\u03a5\u039d\u03a4\u0399\u039a\u0391",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 1,
+                    "time_start": "14:00",
+                    "time_end": "17:00",
+                    "course": "\u0395\u039d\u0391\u039b\u039b\u0391\u039a\u03a4\u0399\u039a\u0395\u03a3 \u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0395\u03a3",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 2,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u039a\u0391\u0399 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039a\u039f\u03a3\u039c\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u03a3\u03a4\u039f\u03a5\u03a3 \u039f\u0393\u039a\u039f\u039b\u039f\u0393\u0399\u039a\u039f\u03a5\u03a3 \u0391\u03a3\u0398\u0395\u039d\u0395\u0399\u03a3",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 2,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u03a7\u0397\u039c\u0395\u0399\u0391 \u039a\u0391\u0399 \u039a\u039f\u03a3\u039c\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u03a6\u03a5\u03a3\u0399\u039a\u03a9\u039d \u03a0\u03a1\u039f\u0399\u039f\u039d\u03a4\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 3,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u0391\u03a0\u039f\u03a4\u0395\u039b\u0395\u03a3\u039c\u0391\u03a4\u0399\u039a\u039f\u03a4\u0397\u03a4\u0391 \u039a\u0391\u039b\u039b\u03a5\u039d\u03a4\u0399\u039a\u03a9\u039d \u03a0\u03a1\u039f\u0399\u039f\u039d\u03a4\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 3,
+                    "time_start": "14:00",
+                    "time_end": "17:00",
+                    "course": "\u0391\u039e\u0399\u039f\u039b\u039f\u0393\u0397\u03a3\u0397 \u0391\u03a3\u03a6\u0391\u039b\u0395\u0399\u0391\u03a3 \u039a\u0391\u039b\u039b\u03a5\u039d\u03a4\u0399\u039a\u03a9\u039d \u03a0\u03a1\u039f\u03aa\u039f\u039d\u03a4\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 4,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0394\u0399\u0391\u03a4\u03a1\u039f\u03a6\u0397 \u039a\u0391\u0399 \u0394\u0395\u03a1\u039c\u0391",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 5,
+                    "time_start": "09:00",
+                    "time_end": "12:00",
+                    "course": "\u03a0\u039f\u0399\u039f\u03a4\u0399\u039a\u039f\u03a3 \u0395\u039b\u0395\u0393\u03a7\u039f\u03a3 \u039a\u0391\u039b\u039b\u03a5\u039d\u03a4\u0399\u039a\u03a9\u039d \u03a0\u03a1\u039f\u03aa\u039f\u039d\u03a4\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 5,
+                    "time_start": "14:00",
+                    "time_end": "17:00",
+                    "course": "\u03a0\u0391\u03a1\u0391\u0393\u03a9\u0393\u0397 \u039a\u0391\u039b\u039b\u03a5\u039d\u03a4\u0399\u039a\u03a9\u039d \u03a0\u03a1\u039f\u03aa\u039f\u039d\u03a4\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 3,
+                    "time_start": "17:00",
+                    "time_end": "21:00",
+                    "course": "\u0392\u0399\u039f\u0397\u0398\u0399\u039a\u0397",
+                    "professor": "",
+                    "area_id": 192
+                }
+            ],
+            "\u03a7\u03b5\u03b9\u03bc\u03b5\u03c1\u03b9\u03bd\u03cc \u03b5\u03be\u03ac\u03bc\u03b7\u03bd\u03bf 2025-2026": [
+                {
+                    "day": 1,
+                    "time_start": "09:00",
+                    "time_end": "12:00",
+                    "course": "\u039a\u03a5\u03a4\u03a4\u0391\u03a1\u0399\u039a\u0397 \u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 304
+                },
+                {
+                    "day": 1,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0393\u0395\u039d\u0399\u039a\u0397 KAI \u0391\u039d\u039f\u03a1\u0393\u0391\u039d\u0397 \u03a7\u0397\u039c\u0395\u0399\u0391 - \u0398",
+                    "professor": "",
+                    "area_id": 304
+                },
+                {
+                    "day": 1,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u039c\u0391\u0398\u0397\u039c\u0391\u03a4\u0399\u039a\u0391 \u03a3\u03a4\u0399\u03a3 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0395\u03a3",
+                    "professor": "",
+                    "area_id": 304
+                },
+                {
+                    "day": 3,
+                    "time_start": "09:00",
+                    "time_end": "12:00",
+                    "course": "\u0392\u0399\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 - \u0398",
+                    "professor": "",
+                    "area_id": 304
+                },
+                {
+                    "day": 3,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u03a0\u039b\u0397\u03a1\u039f\u03a6\u039f\u03a1\u0399\u039a\u0397 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u03a9\u039d \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 304
+                },
+                {
+                    "day": 3,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u039c\u0391\u0398\u0397\u039c\u0391\u03a4\u0399\u039a\u0391 \u03a3\u03a4\u0399\u03a3 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0395\u03a3",
+                    "professor": "",
+                    "area_id": 304
+                },
+                {
+                    "day": 1,
+                    "time_start": "13:00",
+                    "time_end": "16:00",
+                    "course": "\u03a5\u0393\u0399\u0395\u0399\u039d\u0397 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u03a3 \u039a\u0391\u0399 \u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a5",
+                    "professor": "",
+                    "area_id": 198
+                },
+                {
+                    "day": 2,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u0391\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399",
+                    "professor": "",
+                    "area_id": 198
+                },
+                {
+                    "day": 3,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0391\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399\u0399 - \u0398",
+                    "professor": "",
+                    "area_id": 198
+                },
+                {
+                    "day": 3,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u03a9\u039d \u0391\u03a0\u039f\u039a\u0391\u03a4\u0391\u03a3\u03a4\u0391\u03a3\u0395\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 198
+                },
+                {
+                    "day": 4,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u039a\u0395\u03a1\u0391\u039c\u0399\u039a\u0397 \u0399\u0399 - \u0398",
+                    "professor": "",
+                    "area_id": 198
+                },
+                {
+                    "day": 5,
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "course": "\u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u0399 - \u0395",
+                    "professor": "",
+                    "area_id": 198
+                },
+                {
+                    "day": 1,
+                    "time_start": "09:00",
+                    "time_end": "12:00",
+                    "course": "\u0391\u0399\u039c\u039f\u0394\u039f\u03a3\u0399\u0391 - \u0398",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 1,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u03a0\u0391\u03a1\u0391\u03a3\u0399\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 1,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u03a0\u0391\u0398\u039f\u039b\u039f\u0393\u0399\u039a\u0397 \u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397 - \u0398",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 2,
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "course": "\u0393\u0395\u039d\u0399\u039a\u0397 \u039c\u0399\u039a\u03a1\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 2,
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "course": "\u03a0\u03a1\u03a9\u03a4\u0395\u03a3 \u0392\u039f\u0397\u0398\u0395\u0399\u0395\u03a3 - \u0398",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 2,
+                    "time_start": "13:00",
+                    "time_end": "15:00",
+                    "course": "\u039c\u0395\u0398\u039f\u0394\u039f\u039b\u039f\u0393\u0399\u0391 \u0395\u03a1\u0395\u03a5\u039d\u0391\u03a3",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 2,
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "course": "\u03a0\u0391\u0398\u039f\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 3,
+                    "time_start": "08:00",
+                    "time_end": "12:00",
+                    "course": "\u0391\u0399\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399 - \u0398",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 3,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0392\u0391\u039a\u03a4\u0397\u03a1\u0399\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 3,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u0395\u0399\u0394\u0399\u039a\u0397 \u0399\u03a3\u03a4\u039f\u039b\u039f\u0393\u0399\u0391-\u039a\u03a5\u03a4\u03a4\u0391\u03a1\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 4,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397 \u0399 - \u0398",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 4,
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "course": "\u0393\u0395\u039d\u0399\u039a\u0397 \u039c\u0399\u039a\u03a1\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 4,
+                    "time_start": "13:00",
+                    "time_end": "16:00",
+                    "course": "\u039d\u039f\u03a3\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 4,
+                    "time_start": "16:00",
+                    "time_end": "18:00",
+                    "course": "\u039c\u0395\u0398\u039f\u0394\u039f\u039b\u039f\u0393\u0399\u0391 \u0395\u03a1\u0395\u03a5\u039d\u0391\u03a3",
+                    "professor": "",
+                    "area_id": 305
+                },
+                {
+                    "day": 1,
+                    "time_start": "10:00",
+                    "time_end": "13:00",
+                    "course": "\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u0393\u039d\u0391\u0398\u0399\u039a\u039f\u03a5 \u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0391\u03a4\u039f\u03a3",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 1,
+                    "time_start": "13:00",
+                    "time_end": "15:00",
+                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0391 \u0392\u0399\u039f\u03a5\u039b\u0399\u039a\u0391 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3 - \u0398",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 2,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399 - \u0398",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 4,
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "course": "\u0399\u03a3\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u03a3 \u039a \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u03a9\u039d \u0399\u03a3\u03a4\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 4,
+                    "time_start": "10:00",
+                    "time_end": "13:00",
+                    "course": "\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u0393\u039d\u0391\u0398\u0399\u039a\u039f\u03a5 \u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0391\u03a4\u039f\u03a3",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 5,
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "course": "\u0399\u03a3\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u03a3 \u039a \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u03a9\u039d \u0399\u03a3\u03a4\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 5,
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0391 \u0392\u0399\u039f\u03a5\u039b\u0399\u039a\u0391 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3 - \u0398",
+                    "professor": "",
+                    "area_id": 200
+                },
+                {
+                    "day": 1,
+                    "time_start": "08:00",
+                    "time_end": "12:00",
+                    "course": "\u0393\u0395\u03a9\u039c\u0395\u03a4\u03a1\u0399\u039a\u0397 \u039a\u0391\u0399 \u03a6\u03a5\u03a3\u0399\u039a\u0397 \u039f\u03a0\u03a4\u0399\u039a\u0397 - \u0398",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 1,
+                    "time_start": "16:00",
+                    "time_end": "18:00",
+                    "course": "\u039f\u03a0\u03a4\u0399\u039a\u0391 \u03a5\u039b\u0399\u039a\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u03a9\u039d \u03a6\u0391\u039a\u03a9\u039d \u039a\u0391\u0399 \u0399\u03a3\u03a4\u039f\u03a1\u0399\u0391 \u03a4\u039f\u03a5 \u0393\u03a5\u0391\u039b\u0399\u039f\u03a5",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 3,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u03a6\u03a9\u03a4\u0399\u03a3\u039c\u039f\u03a3 \u03a0\u0395\u03a1\u0399\u0392\u0391\u039b\u039b\u039f\u039d\u03a4\u039f\u03a3 KAI \u039f\u03a1\u0391\u03a3\u0397",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 4,
+                    "time_start": "08:00",
+                    "time_end": "12:00",
+                    "course": "\u039f\u03a0\u03a4\u0399\u039a\u0397 \u03a4\u0397\u03a3 \u039f\u03a1\u0391\u03a3\u0397\u03a3",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 4,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0395\u03a1\u0393\u0391\u03a3\u0399\u0391\u039a\u0397 \u0391\u03a3\u03a6\u0391\u039b\u0395\u0399\u0391 KAI \u03a5\u0393\u0399\u0395\u0399\u039d\u0397 \u03a3\u03a4\u039f \u03a7\u03a9\u03a1\u039f \u0395\u03a1\u0393\u0391\u03a3\u0399\u0391\u03a3 \u03a4\u039f\u03a5 \u039f\u03a0\u03a4\u0399\u039a\u039f\u03a5 - \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0397",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 4,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u0394\u0395\u039f\u039d\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u039f\u03a0\u03a4\u0399\u039a\u039f\u03a5 - \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0397",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 5,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0395\u0399\u0394\u0399\u039a\u0395\u03a3 \u03a4\u0395\u03a7\u039d\u0399\u039a\u0395\u03a3 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u039a\u039f\u03a5 \u0395\u039b\u0395\u0393\u03a7\u039f\u03a5 - \u0398",
+                    "professor": "",
+                    "area_id": 206
+                },
+                {
+                    "day": 1,
+                    "time_start": "11:00",
+                    "time_end": "15:00",
+                    "course": "\u039c\u0397 \u03a0\u0391\u03a1\u0395\u039c\u0392\u0391\u03a4\u0399\u039a\u0397 \u0391\u039d\u03a4\u0399\u039c\u0395\u03a4\u03a9\u03a0\u0399\u03a3\u0397 \u03a4\u0397\u03a3 \u03a0\u0391\u03a7\u03a5\u03a3\u0391\u03a1\u039a\u0399\u0391\u03a3 - \u0398",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 1,
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "course": "\u03a0\u03a5\u03a1\u0397\u039d\u0399\u039a\u0397 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0399 - \u0398",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 1,
+                    "time_start": "17:00",
+                    "time_end": "20:00",
+                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u03a5\u03a4\u0399\u039a\u0397 \u039f\u0393\u039a\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399 - \u03a3\u03a5\u0393\u03a7\u03a1\u039f\u039d\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3 \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391\u03a3",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 2,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u0395\u0399\u0394\u0399\u039a\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3 \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0397\u03a3 KAI \u039c\u0391\u0393\u039d\u0397\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391\u03a3 - \u03a5\u0392\u03a1\u0399\u0394\u0399\u039a\u0395\u03a3 \u03a4\u0395\u03a7\u039d\u0399\u039a\u0395\u03a3",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 2,
+                    "time_start": "14:00",
+                    "time_end": "17:00",
+                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397\u039d \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0397 \u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391 - \u03a8\u0397\u03a6\u0399\u0391\u039a\u0397 \u0391\u03a0\u0395\u0399\u039a\u039f\u039d\u0399\u03a3\u0397",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 3,
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "course": "\u03a0\u03a5\u03a1\u0397\u039d\u0399\u039a\u0397 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0399 - \u0398",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 3,
+                    "time_start": "17:00",
+                    "time_end": "20:00",
+                    "course": "\u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u039a\u0397 \u0391\u03a0\u0395\u0399\u039a\u039f\u039d\u0399\u03a3\u03a4\u0399\u039a\u0397 \u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 4,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391\u03a3 - \u0398",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 4,
+                    "time_start": "18:00",
+                    "time_end": "20:00",
+                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391\u03a3 - \u0395",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 5,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u0391\u039d\u0395\u03a0\u0399\u0398\u03a5\u039c\u0397\u03a4\u0395\u03a3 \u0395\u039d\u0395\u03a1\u0393\u0395\u0399\u0395\u03a3 \u0391\u03a0\u039f \u039a\u0391\u039b\u03a5\u039d\u03a4\u0399\u039a\u0391-\u03a4\u039f\u039e\u0399\u039a\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 5,
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391\u03a3 - \u0398",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 5,
+                    "time_start": "17:00",
+                    "time_end": "19:00",
+                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391\u03a3 - \u0395",
+                    "professor": "",
+                    "area_id": 208
+                },
+                {
+                    "day": 2,
+                    "time_start": "11:00",
+                    "time_end": "20:00",
+                    "course": "\u03a0\u039b\u0397\u03a1\u039f\u03a6\u039f\u03a1\u0399\u039a\u0397 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u03a9\u039d \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 4,
+                    "time_start": "08:00",
+                    "time_end": "12:00",
+                    "course": "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u03a7\u0397\u039c\u0395\u0399\u0391 \u0399 - \u0398",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 5,
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "course": "\u039c\u0395\u0398\u039f\u0394\u039fI \u03a5\u03a0\u039f\u0392\u039f\u0397\u0398\u039f\u03a5\u039c\u0395\u039d\u0397\u03a3 \u0391\u039d\u0391\u03a0\u0391\u03a1\u0391\u0393\u03a9\u0393\u0397\u03a3 - \u0398",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 5,
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "course": "\u0391\u03a1\u03a7\u0395\u03a3 \u0395\u039d\u039f\u03a1\u0393\u0391\u039d\u0397\u03a3 \u0391\u039d\u0391\u039b\u03a5\u03a3\u0397\u03a3 - \u0398",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 5,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u039c\u0399\u039a\u03a1\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 5,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u039c\u03a5\u039a\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398",
+                    "professor": "",
+                    "area_id": 195
+                },
+                {
+                    "day": 1,
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399 - \u0398",
+                    "professor": "",
+                    "area_id": 209
+                },
+                {
+                    "day": 2,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u039c\u0391\u0393\u039d\u0397\u03a4\u0399\u039a\u0397 \u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391 - \u0398",
+                    "professor": "",
+                    "area_id": 209
+                },
+                {
+                    "day": 2,
+                    "time_start": "17:00",
+                    "time_end": "20:00",
+                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399 - \u0398",
+                    "professor": "",
+                    "area_id": 209
+                },
+                {
+                    "day": 1,
+                    "time_start": "14:00",
+                    "time_end": "17:00",
+                    "course": "\u03a3\u03a5\u039d\u0394\u03a5\u0391\u03a3\u039c\u0395\u039d\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397-\u03a3\u03a5\u039d\u0394\u0395\u03a3\u039c\u039f\u0399 \u0391\u039a\u03a1\u0399\u0392\u0395\u0399\u0391\u03a3 - \u0398",
+                    "professor": "",
+                    "area_id": 199
+                },
+                {
+                    "day": 4,
+                    "time_start": "09:00",
+                    "time_end": "12:00",
+                    "course": "\u0392\u03b9\u03bf\u03ca\u03b1\u03c4\u03c1\u03b9\u03ba\u03ad\u03c2 \u03ba\u03b1\u03b9 \u039d\u03b5\u03c5\u03c1\u03bf\u03bc\u03bf\u03c1\u03c6\u03b9\u03ba\u03ad\u03c2 \u039f\u03bb\u03bf\u03ba\u03bb\u03b7\u03c1\u03c9\u03bc\u03ad\u03bd\u03b5\u03c2 \u03a6\u03c9\u03c4\u03bf\u03bd\u03b9\u03ba\u03ad\u03c2 \u0394\u03b9\u03b1\u03c4\u03ac\u03be\u03b5\u03b9\u03c2",
+                    "professor": "",
+                    "area_id": 199
+                },
+                {
+                    "day": 4,
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "course": "\u039f\u03a0\u03a4\u0399\u039a\u0397 \u039c\u0399\u039a\u03a1\u039f\u03a3\u039a\u039f\u03a0\u0399\u0391 \u039a\u0391\u0399 \u0391\u039d\u0391\u039b\u03a5\u03a3\u0397 \u0392\u0399\u039f\u039b\u039f\u0393\u0399\u039a\u03a9\u039d \u0395\u0399\u039a\u039f\u039d\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 199
+                },
+                {
+                    "day": 5,
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "course": "\u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u0399 - \u0398",
+                    "professor": "",
+                    "area_id": 199
+                },
+                {
+                    "day": 5,
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "course": "\u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u0399 - \u0395",
+                    "professor": "",
+                    "area_id": 199
+                },
+                {
+                    "day": 1,
+                    "time_start": "13:00",
+                    "time_end": "15:00",
+                    "course": "\u03a0\u0391\u0398\u039f\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 309
+                },
+                {
+                    "day": 1,
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "course": "\u0391\u03a1\u03a7\u0395\u03a3 \u0395\u039d\u039f\u03a1\u0393\u0391\u039d\u0397\u03a3 \u0391\u039d\u0391\u039b\u03a5\u03a3\u0397\u03a3 - \u0398",
+                    "professor": "",
+                    "area_id": 309
+                },
+                {
+                    "day": 1,
+                    "time_start": "17:00",
+                    "time_end": "20:00",
+                    "course": "\u03a6\u0391\u03a1\u039c\u0391\u039a\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 309
+                },
+                {
+                    "day": 1,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u039d\u0395\u0395\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0395\u03a3 \u03a3\u03a4\u0397\u039d \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 1,
+                    "time_start": "11:00",
+                    "time_end": "12:00",
+                    "course": "\u03a6\u0391\u039a\u039f\u0399 \u0395\u03a0\u0391\u03a6\u0397\u03a3 \u0399\u0399",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 1,
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "course": "\u0394\u0399\u039f\u03a6\u0398\u0391\u039b\u039c\u0397 \u039f\u03a1\u0391\u03a3\u0397",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 1,
+                    "time_start": "14:00",
+                    "time_end": "15:00",
+                    "course": "\u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u039f\u0399 \u03a6\u0391\u039a\u039f\u0399 \u0399\u0399",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 1,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u0392\u0391\u03a3\u0399\u039a\u0397 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391 - \u0398",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 2,
+                    "time_start": "11:00",
+                    "time_end": "14:00",
+                    "course": "\u03a6\u0391\u039a\u039f\u0399 \u0395\u03a0\u0391\u03a6\u0397\u03a3 \u0399\u0399",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 2,
+                    "time_start": "14:00",
+                    "time_end": "15:00",
+                    "course": "\u0394\u0399\u039f\u03a6\u0398\u0391\u039b\u039c\u0397 \u039f\u03a1\u0391\u03a3\u0397",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 3,
+                    "time_start": "11:00",
+                    "time_end": "12:00",
+                    "course": "\u03a6\u03a9\u03a4\u0399\u03a3\u039c\u039f\u03a3 \u03a0\u0395\u03a1\u0399\u0392\u0391\u039b\u039b\u039f\u039d\u03a4\u039f\u03a3 & \u039f\u03a1\u0391\u03a3\u0397 - \u0398",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 3,
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "course": "\u039f\u03a0\u03a4\u0399\u039a\u0391 \u03a5\u039b\u0399\u039a\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u03a9\u039d \u03a6\u0391\u039a\u03a9\u039d \u039a\u0391\u0399 \u0399\u03a3\u03a4\u039f\u03a1\u0399\u0391 \u03a4\u039f\u03a5 \u0393\u03a5\u0391\u039b\u0399\u039f\u03a5",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 3,
+                    "time_start": "14:00",
+                    "time_end": "15:00",
+                    "course": "\u0392\u0391\u03a3\u0399\u039a\u0397 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391 - \u0398",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 3,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u039f\u0399 \u03a6\u0391\u039a\u039f\u0399 \u0399\u0399",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 4,
+                    "time_start": "10:00",
+                    "time_end": "14:00",
+                    "course": "\u03a7\u0391\u039c\u0397\u039b\u0397 \u039f\u03a1\u0391\u03a3\u0397 KAI \u0392\u039f\u0397\u0398\u0397\u039c\u0391\u03a4\u0391 - \u0398",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 5,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u039f\u03a5",
+                    "professor": "",
+                    "area_id": 205
+                },
+                {
+                    "day": 4,
+                    "time_start": "18:00",
+                    "time_end": "20:00",
+                    "course": "\u03a0\u039c\u03a3 \u03a0\u03b1\u03b9\u03b4\u03b1\u03b3\u03c9\u03b3\u03b9\u03ba\u03ae \u03bc\u03ad\u03c3\u03c9 \u039a\u03b1\u03b9\u03bd\u03bf\u03c4\u03cc\u03bc\u03c9\u03bd \u03a4\u03b5\u03c7\u03bd\u03bf\u03bb\u03bf\u03b3\u03b9\u03ce\u03bd \u03ba\u03b1\u03b9 \u0392\u03b9\u03bf\u03ca\u03b1\u03c4\u03c1\u03b9\u03ba\u03ce\u03bd \u03a0\u03c1\u03bf\u03c3\u03b5\u03b3\u03b3\u03af\u03c3\u03b5\u03c9\u03bd",
+                    "professor": "",
+                    "area_id": 268
+                },
+                {
+                    "day": 1,
+                    "time_start": "09:00",
+                    "time_end": "12:00",
+                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u0399\u0399",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 1,
+                    "time_start": "16:00",
+                    "time_end": "20:00",
+                    "course": "\u03a0\u039c\u03a3 \u03a0\u03c1\u03bf\u03c7\u03c9\u03c1\u03b7\u03bc\u03ad\u03bd\u03b7 \u0391\u03b9\u03c3\u03b8\u03b7\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u039a\u03bf\u03c3\u03bc\u03b7\u03c4\u03bf\u03bb\u03bf\u03b3\u03af\u03b1: \u0391\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7-\u03a0\u03bf\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc\u03c2 \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf\u03c2 \u03ba\u03b1\u03b9 \u0391\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03bd\u03ad\u03c9\u03bd \u03ba\u03b1\u03bb\u03bb\u03c5\u03bd\u03c4\u03b9\u03ba\u03ce\u03bd \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03c9\u03bd",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 2,
+                    "time_start": "09:00",
+                    "time_end": "12:00",
+                    "course": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 \u0399\u0399-LASER - \u0395",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 2,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 \u0399\u0399-LASER - \u0395",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 3,
+                    "time_start": "08:00",
+                    "time_end": "12:00",
+                    "course": "\u03a8\u0399\u039c\u03a5\u0398\u0399\u03a9\u03a3\u0397 - \u0394\u0399\u039f\u03a1\u0398\u03a9\u03a4\u0399\u039a\u0397 \u03a8\u0399\u039c\u03a5\u0398\u0399\u03a9\u03a3\u0397 \u0394\u0399\u0391\u03a1\u039a\u0395\u0399\u0391\u03a3 - \u0398",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 3,
+                    "time_start": "12:00",
+                    "time_end": "15:00",
+                    "course": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 \u0399\u0399-LASER - \u0398",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 3,
+                    "time_start": "16:00",
+                    "time_end": "20:00",
+                    "course": "\u03a0\u039c\u03a3 \u03a0\u03c1\u03bf\u03c7\u03c9\u03c1\u03b7\u03bc\u03ad\u03bd\u03b7 \u0391\u03b9\u03c3\u03b8\u03b7\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u039a\u03bf\u03c3\u03bc\u03b7\u03c4\u03bf\u03bb\u03bf\u03b3\u03af\u03b1: \u0391\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7-\u03a0\u03bf\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc\u03c2 \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf\u03c2 \u03ba\u03b1\u03b9 \u0391\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03bd\u03ad\u03c9\u03bd \u03ba\u03b1\u03bb\u03bb\u03c5\u03bd\u03c4\u03b9\u03ba\u03ce\u03bd \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03c9\u03bd",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 4,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399-A\u03a6\u03a1\u039f\u0394\u0399\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 4,
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399-A\u03a6\u03a1\u039f\u0394\u0399\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 - \u0395",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 5,
+                    "time_start": "08:00",
+                    "time_end": "12:00",
+                    "course": "\u0392\u0391\u03a3\u0399\u039a\u0395\u03a3 \u0391\u03a1\u03a7\u0395\u03a3 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391\u03a3 - \u0398",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 5,
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "course": "\u0392\u0391\u03a3\u0399\u039a\u0395\u03a3 \u0391\u03a1\u03a7\u0395\u03a3 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391\u03a3 - \u0395",
+                    "professor": "",
+                    "area_id": 202
+                },
+                {
+                    "day": 1,
+                    "time_start": "09:00",
+                    "time_end": "13:00",
+                    "course": "\u039c\u0397 \u03a0\u0391\u03a1\u0395\u039c\u0392\u0391\u03a4\u0399\u039a\u0397 \u0391\u039d\u03a4\u0399\u039c\u0395\u03a4\u03a9\u03a0\u0399\u03a3\u0397 \u03a4\u0397\u03a3 \u03a0\u0391\u03a7\u03a5\u03a3\u0391\u03a1\u039a\u0399\u0391\u03a3 - \u0398",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 1,
+                    "time_start": "16:00",
+                    "time_end": "18:00",
+                    "course": "\u03a0\u039c\u03a3 \u03a0\u03c1\u03bf\u03c7\u03c9\u03c1\u03b7\u03bc\u03ad\u03bd\u03b7 \u0391\u03b9\u03c3\u03b8\u03b7\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u039a\u03bf\u03c3\u03bc\u03b7\u03c4\u03bf\u03bb\u03bf\u03b3\u03af\u03b1: \u0391\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7-\u03a0\u03bf\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc\u03c2 \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf\u03c2 \u03ba\u03b1\u03b9 \u0391\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03bd\u03ad\u03c9\u03bd \u03ba\u03b1\u03bb\u03bb\u03c5\u03bd\u03c4\u03b9\u03ba\u03ce\u03bd \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03c9\u03bd",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 2,
+                    "time_start": "10:00",
+                    "time_end": "13:00",
+                    "course": "\u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0391\u03a4\u0391 \u039c\u0395\u03a4\u0391\u03a6\u039f\u03a1\u0391\u03a3 \u0394\u03a1\u0391\u03a3\u03a4\u0399\u039a\u03a9\u039d \u039f\u03a5\u03a3\u0399\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 2,
+                    "time_start": "15:00",
+                    "time_end": "18:00",
+                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039a\u039f\u03a3\u039c\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399 - \u0398",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 3,
+                    "time_start": "10:00",
+                    "time_end": "14:00",
+                    "course": "\u0392\u0391\u03a3\u0399\u039a\u0395\u03a3 \u0391\u03a1\u03a7\u0395\u03a3 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039a\u039f\u03a3\u039c\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391\u03a3",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 4,
+                    "time_start": "10:00",
+                    "time_end": "13:00",
+                    "course": "\u0394\u0395\u039f\u039d\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0395\u03a0\u0391\u0393\u0393\u0395\u039b\u039c\u0391\u03a4\u039f\u03a3",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 4,
+                    "time_start": "13:00",
+                    "time_end": "16:00",
+                    "course": "\u0395\u039d\u0396\u03a5\u039c\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 - \u0398",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 5,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u039d\u039f\u039c\u039f\u0398\u0395\u03a3\u0399\u0391 \u039a\u0391\u039b\u039b\u03a5\u039d\u03a4\u0399\u039a\u03a9\u039d \u039a\u0391\u0399 \u0399\u0391\u03a4\u03a1\u039f\u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u039a\u03a9\u039d \u03a0\u03a1\u039f\u0399\u039f\u039d\u03a4\u03a9\u039d",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 5,
+                    "time_start": "14:00",
+                    "time_end": "17:00",
+                    "course": "\u0391\u039d\u0395\u03a0\u0399\u0398\u03a5\u039c\u0397\u03a4\u0395\u03a3 \u0395\u039d\u0395\u03a1\u0393\u0395\u0399\u0395\u03a3 \u0391\u03a0\u039f \u039a\u0391\u039b\u03a5\u039d\u03a4\u0399\u039a\u0391-\u03a4\u039f\u039e\u0399\u039a\u039f\u039b\u039f\u0393\u0399\u0391",
+                    "professor": "",
+                    "area_id": 203
+                },
+                {
+                    "day": 5,
+                    "time_start": "17:00",
+                    "time_end": "21:00",
+                    "course": "\u03a0\u039c\u03a3 \u03a0\u03b1\u03b9\u03b4\u03b1\u03b3\u03c9\u03b3\u03b9\u03ba\u03ae \u03bc\u03ad\u03c3\u03c9 \u039a\u03b1\u03b9\u03bd\u03bf\u03c4\u03cc\u03bc\u03c9\u03bd \u03a4\u03b5\u03c7\u03bd\u03bf\u03bb\u03bf\u03b3\u03b9\u03ce\u03bd \u03ba\u03b1\u03b9 \u0392\u03b9\u03bf\u03ca\u03b1\u03c4\u03c1\u03b9\u03ba\u03ce\u03bd \u03a0\u03c1\u03bf\u03c3\u03b5\u03b3\u03b3\u03af\u03c3\u03b5\u03c9\u03bd",
+                    "professor": "",
+                    "area_id": 158
+                }
+            ],
+            "\u0395\u03be\u03b5\u03c4\u03b1\u03c3\u03c4\u03b9\u03ba\u03ae \u03c0\u03b5\u03c1\u03af\u03bf\u03b4\u03bf\u03c2 \u03a6\u03b5\u03b2\u03c1\u03bf\u03c5\u03b1\u03c1\u03af\u03bf\u03c5 2026": {
+                "\u0399\u03a3\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u03a3 \u039a \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u03a9\u039d \u0399\u03a3\u03a4\u03a9\u039d": {
+                    "date": "2026-02-02",
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "area_id": [
+                        198,
+                        200,
+                        199
+                    ]
+                },
+                "\u0391\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399 - \u0398": {
+                    "date": "2026-01-26",
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "area_id": [
+                        198,
+                        200,
+                        199
+                    ]
+                },
+                "\u0393\u039d\u0391\u0398\u039f\u03a0\u03a1\u039f\u03a3\u03a9\u03a0\u0399\u039a\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397": {
+                    "date": "2026-02-09",
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "area_id": [
+                        198,
+                        199
+                    ]
+                },
+                "\u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u03a9\u039d \u0391\u03a0\u039f\u039a\u0391\u03a4\u0391\u03a3\u03a4\u0391\u03a3\u0395\u03a9\u039d": {
+                    "date": "2026-01-26",
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        198,
+                        200,
+                        199
+                    ]
+                },
+                "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0391 \u0392\u0399\u039f\u03a5\u039b\u0399\u039a\u0391 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3 - \u0398": {
+                    "date": "2026-02-09",
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        198,
+                        198,
+                        200,
+                        199,
+                        199
+                    ]
+                },
+                "\u03a8\u0397\u03a6\u0399\u0391\u039a\u0397 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391": {
+                    "date": "2026-02-16",
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "area_id": [
+                        198,
+                        198
+                    ]
+                },
+                "\u0391\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399\u0399 - \u0398": {
+                    "date": "2026-01-27",
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "area_id": [
+                        198,
+                        200,
+                        199
+                    ]
+                },
+                "\u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0395\u03a0\u0399 \u0395\u039c\u03a6\u03a5\u03a4\u0395\u03a5\u039c\u0391\u03a4\u03a9\u039d": {
+                    "date": "2026-02-10",
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "area_id": [
+                        198,
+                        199
+                    ]
+                },
+                "\u03a3\u03a5\u039d\u0394\u03a5\u0391\u03a3\u039c\u0395\u039d\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397-\u03a3\u03a5\u039d\u0394\u0395\u03a3\u039c\u039f\u0399 \u0391\u039a\u03a1\u0399\u0392\u0395\u0399\u0391\u03a3": {
+                    "date": "2026-02-10",
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        198,
+                        200,
+                        199
+                    ]
+                },
+                "\u03a0\u039f\u039b\u03a5\u039c\u0395\u03a1\u0397 \u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397\u03a3 \u0395\u03a0\u0399\u039a\u0391\u039b\u03a5\u03a8\u0397\u03a3": {
+                    "date": "2026-01-27",
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        198,
+                        200,
+                        199
+                    ]
+                },
+                "\u0395\u039e\u0395\u0399\u0394\u0399\u039a\u0395\u03a5\u039c\u0395\u039d\u0397 \u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397": {
+                    "date": "2026-02-03",
+                    "time_start": "13:00",
+                    "time_end": "15:00",
+                    "area_id": [
+                        198,
+                        199
+                    ]
+                },
+                "\u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u0399\u0399": {
+                    "date": "2026-02-03",
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "area_id": [
+                        198,
+                        199
+                    ]
+                },
+                "\u0391\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399": {
+                    "date": "2026-01-28",
+                    "time_start": "08:00",
+                    "time_end": "09:00",
+                    "area_id": [
+                        198
+                    ]
+                },
+                "\u0391\u03a0\u039f\u039a\u0391\u03a4\u0391\u03a3\u03a4\u0391\u03a3\u0397 \u0394\u03a5\u03a3\u039b\u0395\u0399\u03a4\u039f\u03a5\u03a1\u0393\u0399\u03a9\u039d \u03a3\u03a5\u0393\u039a\u039b\u0395\u0399\u03a3\u0397\u03a3": {
+                    "date": "2026-02-11",
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "area_id": [
+                        198,
+                        199
+                    ]
+                },
+                "\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399": {
+                    "date": "2026-02-04",
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "area_id": [
+                        198,
+                        200,
+                        199
+                    ]
+                },
+                "\u0391\u03a1\u03a7\u0395\u03a3 \u039c\u0391\u03a1\u039a\u0395\u03a4\u0399\u039d\u0393\u039a": {
+                    "date": "2026-01-28",
+                    "time_start": "09:00",
+                    "time_end": "10:00",
+                    "area_id": [
+                        198
+                    ]
+                },
+                "\u03a3\u03a5\u0393\u039a\u039b\u0395\u0399\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391": {
+                    "date": "2026-01-28",
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        198
+                    ]
+                },
+                "\u03a5\u0393\u0399\u0395\u0399\u039d\u0397 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u03a3 \u039a\u0391\u0399 \u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a5": {
+                    "date": "2026-02-11",
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        198,
+                        200,
+                        199
+                    ]
+                },
+                "\u039f\u03a1\u0393\u0391\u039d\u03a9\u03a3\u0397 \u0395\u03a1\u0395\u03a5\u039d\u0391\u03a3": {
+                    "date": "2026-01-28",
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "area_id": [
+                        198
+                    ]
+                },
+                "\u039a\u0395\u03a1\u0391\u039c\u0399\u039a\u0391 \u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397\u03a3 \u0395\u03a0\u0399\u039a\u0391\u039b\u03a5\u03a8\u0397\u03a3": {
+                    "date": "2026-02-11",
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "area_id": [
+                        198
+                    ]
+                },
+                "\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u0393\u039d\u0391\u0398\u0399\u039a\u039f\u03a5 \u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0391\u03a4\u039f\u03a3": {
+                    "date": "2026-02-05",
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        198,
+                        200,
+                        199
+                    ]
+                },
+                "\u0395\u039c\u0392\u0399\u039f\u039c\u0397\u03a7\u0391\u039d\u0399\u039a\u0397 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3": {
+                    "date": "2026-02-05",
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "area_id": [
+                        198
+                    ]
+                },
+                "\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u039a\u0395\u03a1\u0391\u039c\u0399\u039a\u0397 \u0399\u0399 - \u0398": {
+                    "date": "2026-01-29",
+                    "time_start": "13:00",
+                    "time_end": "15:00",
+                    "area_id": [
+                        198,
+                        200,
+                        199
+                    ]
+                },
+                "\u0391\u0399\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399 - \u0398": {
+                    "date": "2026-02-02",
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u03a0\u0391\u03a1\u0391\u03a3\u0399\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398": {
+                    "date": "2026-02-09",
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u039c\u0391\u0398\u0397\u039c\u0391\u03a4\u0399\u039a\u0391 \u03a3\u03a4\u0399\u03a3 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0395\u03a3": {
+                    "date": "2026-02-02",
+                    "time_start": "11:00",
+                    "time_end": "15:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u0392\u0391\u039a\u03a4\u0397\u03a1\u0399\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398": {
+                    "date": "2026-02-09",
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u0393\u0395\u039d\u0399\u039a\u0397 KAI \u0391\u039d\u039f\u03a1\u0393\u0391\u039d\u0397 \u03a7\u0397\u039c\u0395\u0399\u0391 - \u0398": {
+                    "date": "2026-02-09",
+                    "time_start": "13:00",
+                    "time_end": "17:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u0392\u0399\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 - \u0398": {
+                    "date": "2026-01-26",
+                    "time_start": "13:00",
+                    "time_end": "17:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u039c\u0395\u0398\u039f\u0394\u039f\u039b\u039f\u0393\u0399\u0391 \u0395\u03a1\u0395\u03a5\u039d\u0391\u03a3": {
+                    "date": "2026-02-02",
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u03a0\u039b\u0397\u03a1\u039f\u03a6\u039f\u03a1\u0399\u039a\u0397 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u03a9\u039d \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u03a9\u039d": {
+                    "date": "2026-02-03",
+                    "time_start": "09:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u03a0\u0391\u0398\u039f\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391": {
+                    "date": "2026-02-10",
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u039c\u03a5\u039a\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398": {
+                    "date": "2026-01-27",
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u039c\u0395\u0398\u039f\u0394\u039fI \u03a5\u03a0\u039f\u0392\u039f\u0397\u0398\u039f\u03a5\u039c\u0395\u039d\u0397\u03a3 \u0391\u039d\u0391\u03a0\u0391\u03a1\u0391\u0393\u03a9\u0393\u0397\u03a3": {
+                    "date": "2026-02-10",
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u039c\u0399\u039a\u03a1\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391": {
+                    "date": "2026-02-03",
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u03a7\u0397\u039c\u0395\u0399\u0391 \u0399 - \u0398": {
+                    "date": "2026-01-27",
+                    "time_start": "13:00",
+                    "time_end": "15:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u03a6\u0391\u03a1\u039c\u0391\u039a\u039f\u039b\u039f\u0393\u0399\u0391": {
+                    "date": "2026-01-27",
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u0395\u0399\u0394\u0399\u039a\u0397 \u0399\u03a3\u03a4\u039f\u039b\u039f\u0393\u0399\u0391-\u039a\u03a5\u03a4\u03a4\u0391\u03a1\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398": {
+                    "date": "2026-02-04",
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u03a0\u0391\u0398\u039f\u039b\u039f\u0393\u0399\u039a\u0397 \u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397 - \u0398": {
+                    "date": "2026-02-04",
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u039d\u039f\u03a3\u039f\u039b\u039f\u0393\u0399\u0391": {
+                    "date": "2026-02-04",
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0399\u03a3 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0395\u03a3": {
+                    "date": "2026-02-11",
+                    "time_start": "16:00",
+                    "time_end": "18:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u039a\u03a5\u03a4\u03a4\u0391\u03a1\u0399\u039a\u0397 \u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391": {
+                    "date": "2026-02-12",
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397 \u0399 - \u0398": {
+                    "date": "2026-01-29",
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u0391\u03a1\u03a7\u0395\u03a3 \u0395\u039d\u039f\u03a1\u0393\u0391\u039d\u0397\u03a3 \u0391\u039d\u0391\u039b\u03a5\u03a3\u0397\u03a3 - \u0395": {
+                    "date": "2026-02-05",
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u0393\u0395\u039d\u0399\u039a\u0397 \u039c\u0399\u039a\u03a1\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391": {
+                    "date": "2026-02-12",
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u03a0\u03a1\u03a9\u03a4\u0395\u03a3 \u0392\u039f\u0397\u0398\u0395\u0399\u0395\u03a3 - \u0398": {
+                    "date": "2026-01-29",
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u0391\u0399\u039c\u039f\u0394\u039f\u03a3\u0399\u0391 - \u0398": {
+                    "date": "2026-02-12",
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "area_id": [
+                        305
+                    ]
+                },
+                "\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399\u0399": {
+                    "date": "2026-02-10",
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "area_id": [
+                        200,
+                        199
+                    ]
+                },
+                "\u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u0399 - \u0398": {
+                    "date": "2026-02-12",
+                    "time_start": "13:00",
+                    "time_end": "15:00",
+                    "area_id": [
+                        200,
+                        199
+                    ]
+                },
+                "\u03a7\u0391\u039c\u0397\u039b\u0397 \u039f\u03a1\u0391\u03a3\u0397 KAI \u0392\u039f\u0397\u0398\u0397\u039c\u0391\u03a4\u0391": {
+                    "date": "2026-02-09",
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u0395\u03a1\u0393\u0391\u03a3\u0399\u0391\u039a\u0397 \u0391\u03a3\u03a6\u0391\u039b\u0395\u0399\u0391 KAI \u03a5\u0393\u0399\u0395\u0399\u039d\u0397 \u03a3\u03a4\u039f \u03a7\u03a9\u03a1\u039f \u0395\u03a1\u0393\u0391\u03a3\u0399\u0391\u03a3 \u03a4\u039f\u03a5 \u039f\u03a0\u03a4\u0399\u039a\u039f\u03a5 - \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0397": {
+                    "date": "2026-01-26",
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u039f\u03a0\u03a4\u0399\u039a\u0391 \u03a5\u039b\u0399\u039a\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u03a9\u039d \u03a6\u0391\u039a\u03a9\u039d \u039a\u0391\u0399 \u0399\u03a3\u03a4\u039f\u03a1\u0399\u0391 \u03a4\u039f\u03a5 \u0393\u03a5\u0391\u039b\u0399\u039f\u03a5": {
+                    "date": "2026-02-09",
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u03a8\u03a5\u03a7\u039f\u039b\u039f\u0393\u0399\u0391 \u03a4\u0397\u03a3 \u039f\u03a1\u0391\u03a3\u0397\u03a3": {
+                    "date": "2026-01-26",
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u0395\u0399\u0394\u0399\u039a\u0395\u03a3 \u03a4\u0395\u03a7\u039d\u0399\u039a\u0395\u03a3 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u039a\u039f\u03a5 \u0395\u039b\u0395\u0393\u03a7\u039f\u03a5": {
+                    "date": "2026-02-10",
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u03a6\u0391\u03a1\u039c\u0391\u039a\u039f\u039b\u039f\u0393\u0399\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u039f\u03a5": {
+                    "date": "2026-02-10",
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u0395\u03a0\u0399\u039a\u039f\u0399\u039d\u03a9\u039d\u0399\u0391\u039a\u0395\u03a3 \u0394\u0395\u039e\u0399\u039f\u03a4\u0397\u03a4\u0395\u03a3": {
+                    "date": "2026-02-03",
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u0395\u039c\u03a0\u039f\u03a1\u0399\u039a\u039f KAI \u0395\u03a1\u0393\u0391\u03a4\u0399\u039a\u039f \u0394\u0399\u039a\u0391\u0399\u039f": {
+                    "date": "2026-02-03",
+                    "time_start": "14:00",
+                    "time_end": "16:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u039d\u0395\u03a5\u03a1\u039f\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u039f\u03a5": {
+                    "date": "2026-02-10",
+                    "time_start": "16:00",
+                    "time_end": "18:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u039f\u03a5": {
+                    "date": "2026-02-03",
+                    "time_start": "16:00",
+                    "time_end": "18:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u039d\u0395\u0395\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0395\u03a3 \u03a3\u03a4\u0397\u039d \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391": {
+                    "date": "2026-02-03",
+                    "time_start": "18:00",
+                    "time_end": "20:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u0393\u0395\u03a9\u039c\u0395\u03a4\u03a1\u0399\u039a\u0397 \u039a\u0391\u0399 \u03a6\u03a5\u03a3\u0399\u039a\u0397 \u039f\u03a0\u03a4\u0399\u039a\u0397 - \u0395": {
+                    "date": "2026-02-11",
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397\u039d \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391": {
+                    "date": "2026-01-28",
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u0394\u0395\u039f\u039d\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u039f\u03a0\u03a4\u0399\u039a\u039f\u03a5 - \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0397": {
+                    "date": "2026-02-04",
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u0392\u0391\u03a3\u0399\u039a\u0397 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391 - \u0398": {
+                    "date": "2026-01-28",
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u039f\u0399 \u03a6\u0391\u039a\u039f\u0399 \u0399\u0399": {
+                    "date": "2026-02-04",
+                    "time_start": "16:00",
+                    "time_end": "18:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391": {
+                    "date": "2026-01-28",
+                    "time_start": "17:00",
+                    "time_end": "19:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u039f\u03a0\u03a4\u0399\u039a\u0397 \u03a4\u0397\u03a3 \u039f\u03a1\u0391\u03a3\u0397\u03a3": {
+                    "date": "2026-02-05",
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u03a6\u03a9\u03a4\u0399\u03a3\u039c\u039f\u03a3 \u03a0\u0395\u03a1\u0399\u0392\u0391\u039b\u039b\u039f\u039d\u03a4\u039f\u03a3 KAI \u039f\u03a1\u0391\u03a3\u0397 - \u0398": {
+                    "date": "2026-02-05",
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u0394\u0399\u039f\u03a6\u0398\u0391\u039b\u039c\u0397 \u039f\u03a1\u0391\u03a3\u0397": {
+                    "date": "2026-01-29",
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u039f\u03a0\u03a4\u0399\u039a\u0391 KAI \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u039a\u0391 \u039f\u03a1\u0393\u0391\u039d\u0391": {
+                    "date": "2026-02-05",
+                    "time_start": "13:00",
+                    "time_end": "15:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u03a6\u0391\u039a\u039f\u0399 \u0395\u03a0\u0391\u03a6\u0397\u03a3 \u0399\u0399": {
+                    "date": "2026-01-29",
+                    "time_start": "14:00",
+                    "time_end": "16:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u039c\u0391\u03a1\u039a\u0395\u03a4\u0399\u039d\u0393\u039a": {
+                    "date": "2026-01-29",
+                    "time_start": "16:00",
+                    "time_end": "18:00",
+                    "area_id": [
+                        206,
+                        205
+                    ]
+                },
+                "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399 - \u0398": {
+                    "date": "2026-02-16",
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u039c\u0391\u0393\u039d\u0397\u03a4\u0399\u039a\u0397 \u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391 - \u0398": {
+                    "date": "2026-02-16",
+                    "time_start": "17:00",
+                    "time_end": "19:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399\u0399": {
+                    "date": "2026-02-16",
+                    "time_start": "19:00",
+                    "time_end": "21:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397\u039d \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0391\u03a0\u0395\u0399\u039a\u039f\u039d\u0399\u03a3\u0397 \u039a\u0391\u0399 \u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 - \u0398": {
+                    "date": "2026-02-10",
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u03a0\u03a5\u03a1\u0397\u039d\u0399\u039a\u0397 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0399": {
+                    "date": "2026-02-17",
+                    "time_start": "14:00",
+                    "time_end": "16:00",
+                    "area_id": [
+                        208
+                    ]
+                },
+                "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391 \u0399": {
+                    "date": "2026-02-10",
+                    "time_start": "14:00",
+                    "time_end": "16:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u03a5\u03a4\u0399\u039a\u0397 \u039f\u0393\u039a\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399 - \u03a3\u03a5\u0393\u03a7\u03a1\u039f\u039d\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3 \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391\u03a3": {
+                    "date": "2026-02-10",
+                    "time_start": "16:00",
+                    "time_end": "18:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u03a0\u03a5\u03a1\u0397\u039d\u0399\u039a\u0397 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0399\u0399": {
+                    "date": "2026-02-17",
+                    "time_start": "16:00",
+                    "time_end": "18:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u0391\u039a\u03a4\u0399\u039d\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391 - \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u03a5\u03a4\u0399\u039a\u0397 \u039f\u0393\u039a\u039f\u039b\u039f\u0393\u0399\u0391 I": {
+                    "date": "2026-02-10",
+                    "time_start": "18:00",
+                    "time_end": "20:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a0\u03a1\u039f\u03a3\u03a4\u0391\u03a3\u0399\u0391": {
+                    "date": "2026-02-11",
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u03a0\u03a5\u03a1\u0397\u039d\u0399\u039a\u0397\u03a3 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397\u03a3": {
+                    "date": "2026-02-11",
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0399\u03a3 \u0391\u039a\u03a4\u0399\u039d\u039f\u0392\u039f\u039b\u0399\u0395\u03a3": {
+                    "date": "2026-02-11",
+                    "time_start": "13:00",
+                    "time_end": "15:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391\u03a3 - \u0398": {
+                    "date": "2026-02-18",
+                    "time_start": "14:00",
+                    "time_end": "16:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u0395\u0399\u0394\u0399\u039a\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3 \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0397\u03a3 KAI \u039c\u0391\u0393\u039d\u0397\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391\u03a3 - \u03a5\u0392\u03a1\u0399\u0394\u0399\u039a\u0395\u03a3 \u03a4\u0395\u03a7\u039d\u0399\u039a\u0395\u03a3": {
+                    "date": "2026-01-28",
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u039a\u0397 \u0391\u03a0\u0395\u0399\u039a\u039f\u039d\u0399\u03a3\u03a4\u0399\u039a\u0397 \u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397": {
+                    "date": "2026-02-18",
+                    "time_start": "16:00",
+                    "time_end": "18:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397\u039d \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0397 \u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391 - \u03a8\u0397\u03a6\u0399\u0391\u039a\u0397 \u0391\u03a0\u0395\u0399\u039a\u039f\u039d\u0399\u03a3\u0397": {
+                    "date": "2026-01-28",
+                    "time_start": "17:00",
+                    "time_end": "19:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3": {
+                    "date": "2026-02-11",
+                    "time_start": "18:00",
+                    "time_end": "20:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397 \u039c\u0391\u0393\u039d\u0397\u03a4\u0399\u039a\u0397 \u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391 - \u0391\u039d\u0391\u039b\u03a5\u03a3\u0397 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397\u03a3 \u0395\u0399\u039a\u039f\u039d\u0391\u03a3": {
+                    "date": "2026-01-28",
+                    "time_start": "19:00",
+                    "time_end": "21:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u039a\u0397 \u03a0\u0391\u0398\u039f\u039b\u039f\u0393\u0399\u0391": {
+                    "date": "2026-02-05",
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u0395\u0399\u0394\u0399\u039a\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3 \u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3": {
+                    "date": "2026-02-05",
+                    "time_start": "16:00",
+                    "time_end": "18:00",
+                    "area_id": [
+                        208,
+                        209
+                    ]
+                },
+                "\u03a0\u03a5\u03a1\u0397\u039d\u0399\u039a\u0397 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0399 - \u0398": {
+                    "date": "2026-02-17",
+                    "time_start": "14:00",
+                    "time_end": "16:00",
+                    "area_id": [
+                        209
+                    ]
+                },
+                "\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u039c\u039f\u03a1\u03a6\u039f\u039b\u039f\u0393\u0399\u0391": {
+                    "date": "2026-01-27",
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "area_id": [
+                        199
+                    ]
+                },
+                "\u0391\u03a1\u03a7\u0395\u03a3 \u0394\u0399\u039f\u0399\u039a\u0397\u03a3\u0397\u03a3 \u0395\u03a0\u0399\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0395\u03a9\u039d \u039a\u0391\u0399 \u039f\u03a1\u0393\u0391\u039d\u03a9\u03a3\u0397 \u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a5": {
+                    "date": "2026-02-11",
+                    "time_start": "12:00",
+                    "time_end": "14:00",
+                    "area_id": [
+                        199
+                    ]
+                },
+                "\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399": {
+                    "date": "2026-02-05",
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "area_id": [
+                        199
+                    ]
+                },
+                "\u039d\u039f\u039c\u039f\u0398\u0395\u03a3\u0399\u0391 \u039a\u0391\u039b\u039b\u03a5\u039d\u03a4\u0399\u039a\u03a9\u039d \u039a\u0391\u0399 \u0399\u0391\u03a4\u03a1\u039f\u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u039a\u03a9\u039d \u03a0\u03a1\u039f\u0399\u039f\u039d\u03a4\u03a9\u039d": {
+                    "date": "2026-02-09",
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        202,
+                        203
+                    ]
+                },
+                "\u039c\u0397 \u03a0\u0391\u03a1\u0395\u039c\u0392\u0391\u03a4\u0399\u039a\u0397 \u0391\u039d\u03a4\u0399\u039c\u0395\u03a4\u03a9\u03a0\u0399\u03a3\u0397 \u03a4\u0397\u03a3 \u03a0\u0391\u03a7\u03a5\u03a3\u0391\u03a1\u039a\u0399\u0391\u03a3": {
+                    "date": "2026-01-26",
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        202,
+                        203
+                    ]
+                },
+                "\u03a0\u039c\u03a3 \u03a0\u03c1\u03bf\u03c7\u03c9\u03c1\u03b7\u03bc\u03ad\u03bd\u03b7 \u0391\u03b9\u03c3\u03b8\u03b7\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u039a\u03bf\u03c3\u03bc\u03b7\u03c4\u03bf\u03bb\u03bf\u03b3\u03af\u03b1: \u0391\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7-\u03a0\u03bf\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc\u03c2 \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf\u03c2 \u03ba\u03b1\u03b9 \u0391\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03bd\u03ad\u03c9\u03bd \u03ba\u03b1\u03bb\u03bb\u03c5\u03bd\u03c4\u03b9\u03ba\u03ce\u03bd \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03c9\u03bd": {
+                    "date": "2026-02-02",
+                    "time_start": "16:00",
+                    "time_end": "20:00",
+                    "area_id": [
+                        202,
+                        202,
+                        202,
+                        202,
+                        202,
+                        202,
+                        202,
+                        202,
+                        203,
+                        203,
+                        203,
+                        203,
+                        203,
+                        203,
+                        203,
+                        203
+                    ]
+                },
+                "\u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0391\u03a4\u0391 \u039c\u0395\u03a4\u0391\u03a6\u039f\u03a1\u0391\u03a3 \u0394\u03a1\u0391\u03a3\u03a4\u0399\u039a\u03a9\u039d \u039f\u03a5\u03a3\u0399\u03a9\u039d": {
+                    "date": "2026-01-27",
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "area_id": [
+                        202,
+                        203
+                    ]
+                },
+                "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u0399\u0399": {
+                    "date": "2026-02-10",
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "area_id": [
+                        202,
+                        203
+                    ]
+                },
+                "\u0391\u039d\u0395\u03a0\u0399\u0398\u03a5\u039c\u0397\u03a4\u0395\u03a3 \u0395\u039d\u0395\u03a1\u0393\u0395\u0399\u0395\u03a3 \u0391\u03a0\u039f \u039a\u0391\u039b\u03a5\u039d\u03a4\u0399\u039a\u0391-\u03a4\u039f\u039e\u0399\u039a\u039f\u039b\u039f\u0393\u0399\u0391": {
+                    "date": "2026-02-10",
+                    "time_start": "13:00",
+                    "time_end": "15:00",
+                    "area_id": [
+                        202,
+                        203
+                    ]
+                },
+                "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039a\u039f\u03a3\u039c\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399": {
+                    "date": "2026-02-03",
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "area_id": [
+                        202,
+                        203
+                    ]
+                },
+                "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399-A\u03a6\u03a1\u039f\u0394\u0399\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398": {
+                    "date": "2026-01-28",
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "area_id": [
+                        202,
+                        203
+                    ]
+                },
+                "\u03a8\u0399\u039c\u03a5\u0398\u0399\u03a9\u03a3\u0397 - \u0394\u0399\u039f\u03a1\u0398\u03a9\u03a4\u0399\u039a\u0397 \u03a8\u0399\u039c\u03a5\u0398\u0399\u03a9\u03a3\u0397 \u0394\u0399\u0391\u03a1\u039a\u0395\u0399\u0391\u03a3": {
+                    "date": "2026-02-04",
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "area_id": [
+                        202,
+                        203
+                    ]
+                },
+                "\u0392\u0391\u03a3\u0399\u039a\u0395\u03a3 \u0391\u03a1\u03a7\u0395\u03a3 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039a\u039f\u03a3\u039c\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391\u03a3": {
+                    "date": "2026-02-11",
+                    "time_start": "10:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        202,
+                        203
+                    ]
+                },
+                "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 \u0399\u0399-LASER": {
+                    "date": "2026-01-28",
+                    "time_start": "11:00",
+                    "time_end": "13:00",
+                    "area_id": [
+                        202,
+                        203
+                    ]
+                },
+                "\u0392\u0391\u03a3\u0399\u039a\u0395\u03a3 \u0391\u03a1\u03a7\u0395\u03a3 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391\u03a3": {
+                    "date": "2026-02-05",
+                    "time_start": "09:00",
+                    "time_end": "11:00",
+                    "area_id": [
+                        202,
+                        203
+                    ]
+                },
+                "\u0394\u0395\u039f\u039d\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0395\u03a0\u0391\u0393\u0393\u0395\u039b\u039c\u0391\u03a4\u039f\u03a3": {
+                    "date": "2026-02-05",
+                    "time_start": "11:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        202,
+                        203
+                    ]
+                },
+                "\u0395\u039d\u0396\u03a5\u039c\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391": {
+                    "date": "2026-02-12",
+                    "time_start": "13:00",
+                    "time_end": "15:00",
+                    "area_id": [
+                        202,
+                        203
                     ]
                 }
             }
@@ -25373,2748 +28195,6 @@ const appData = {
                         154,
                         155,
                         158
-                    ]
-                }
-            }
-        },
-        "\u03a4\u03bc\u03ae\u03bc\u03b1 \u0392\u03b9\u03bf\u03ca\u03b1\u03c4\u03c1\u03b9\u03ba\u03ce\u03bd \u0395\u03c0\u03b9\u03c3\u03c4\u03b7\u03bc\u03ce\u03bd": {
-            "\u0395\u03b1\u03c1\u03b9\u03bd\u03cc \u0395\u03be\u03ac\u03bc\u03b7\u03bd\u03bf 2025-2026": [
-                {
-                    "day": 1,
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "course": "\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u039a\u0395\u03a1\u0391\u039c\u0399\u039a\u0397 \u0399",
-                    "professor": "",
-                    "area_id": 198
-                },
-                {
-                    "day": 1,
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "course": "\u03a8\u0397\u03a6\u0399\u0391\u039a\u0397 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 198
-                },
-                {
-                    "day": 2,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u039c\u039f\u03a1\u03a6\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 198
-                },
-                {
-                    "day": 2,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399\u0399",
-                    "professor": "",
-                    "area_id": 198
-                },
-                {
-                    "day": 3,
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "course": "\u03a3\u03a5\u0393\u039a\u039b\u0395\u0399\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 198
-                },
-                {
-                    "day": 3,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u03a8\u0397\u03a6\u0399\u0391\u039a\u0397 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 198
-                },
-                {
-                    "day": 4,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u0391\u03a1\u03a7\u0395\u03a3 \u0394\u0399\u039f\u0399\u039a\u0397\u03a3\u0397\u03a3 \u0395\u03a0\u0399\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0395\u03a9\u039d \u039a\u0391\u0399 \u039f\u03a1\u0393\u0391\u039d\u03a9\u03a3\u0397 \u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a5",
-                    "professor": "",
-                    "area_id": 198
-                },
-                {
-                    "day": 5,
-                    "time_start": "08:00",
-                    "time_end": "14:00",
-                    "course": "\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u039c\u039f\u03a1\u03a6\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 198
-                },
-                {
-                    "day": 1,
-                    "time_start": "08:30",
-                    "time_end": "11:30",
-                    "course": "\u0392\u0399\u039f\u03a7\u0397\u039c\u0395\u0399\u0391",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 1,
-                    "time_start": "11:30",
-                    "time_end": "13:30",
-                    "course": "\u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397 \u0399\u0399",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 1,
-                    "time_start": "13:30",
-                    "time_end": "15:30",
-                    "course": "\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 1,
-                    "time_start": "15:30",
-                    "time_end": "18:30",
-                    "course": "\u039f\u03a1\u0393\u0391\u039d\u0399\u039a\u0397 \u03a7\u0397\u039c\u0395\u0399\u0391",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 1,
-                    "time_start": "18:30",
-                    "time_end": "19:30",
-                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0399\u03a3 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0395\u03a3",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 2,
-                    "time_start": "08:00",
-                    "time_end": "12:00",
-                    "course": "\u0391\u0399\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 2,
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "course": "\u0391\u039d\u039f\u03a3\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 2,
-                    "time_start": "14:00",
-                    "time_end": "17:00",
-                    "course": "\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 3,
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "course": "\u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397 \u0399\u0399",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 3,
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0399\u03a3 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0395\u03a3",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 3,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u0392\u0399\u039f\u03a3\u03a4\u0391\u03a4\u0399\u03a3\u03a4\u0399\u039a\u0397",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 3,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u0392\u0399\u039f\u03aa\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0391\u0393\u0393\u039b\u0399\u039a\u0397 \u039f\u03a1\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 3,
-                    "time_start": "18:00",
-                    "time_end": "20:00",
-                    "course": "\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 4,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u0394\u0399\u0391\u03a0\u0399\u03a3\u03a4\u0395\u03a5\u03a3\u0397 - \u03a0\u0399\u03a3\u03a4\u039f\u03a0\u039f\u0399\u0397\u03a3\u0397",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 4,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u03a7\u0397\u039c\u0395\u0399\u0391 \u0399\u0399",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 4,
-                    "time_start": "14:00",
-                    "time_end": "16:00",
-                    "course": "\u0391\u039d\u039f\u03a3\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 1,
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "course": "\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 2,
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "course": "\u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0395\u03a0\u0399 \u0395\u039c\u03a6\u03a5\u03a4\u0395\u03a5\u039c\u0391\u03a4\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 2,
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "course": "\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 2,
-                    "time_start": "13:00",
-                    "time_end": "16:00",
-                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0391 \u0392\u0399\u039f\u03a5\u039b\u0399\u039a\u0391 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3 - \u0398",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 3,
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "course": "\u0391\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 4,
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "course": "\u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u0399\u0399",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 4,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u0395\u039e\u0395\u0399\u0394\u0399\u039a\u0395\u03a5\u039c\u0395\u039d\u0397 \u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 5,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u0391\u03a0\u039f\u039a\u0391\u03a4\u0391\u03a3\u03a4\u0391\u03a3\u0397 \u0394\u03a5\u03a3\u039b\u0395\u0399\u03a4\u039f\u03a5\u03a1\u0393\u0399\u03a9\u039d \u03a3\u03a5\u0393\u039a\u039b\u0395\u0399\u03a3\u0397\u03a3",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 5,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u0393\u039d\u0391\u0398\u039f\u03a0\u03a1\u039f\u03a3\u03a9\u03a0\u0399\u039a\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 5,
-                    "time_start": "14:00",
-                    "time_end": "17:00",
-                    "course": "\u0391\u03a1\u03a7\u0395\u03a3 \u039c\u0391\u03a1\u039a\u0395\u03a4\u0399\u039d\u0393\u039a",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 1,
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "course": "\u039f\u03a0\u03a4\u0399\u039a\u0391 KAI \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u039a\u0391 \u039f\u03a1\u0393\u0391\u039d\u0391",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 2,
-                    "time_start": "14:00",
-                    "time_end": "15:00",
-                    "course": "\u03a0\u03a1\u039f\u0395\u0393\u03a7\u0395\u0399\u03a1\u0397\u03a4\u0399\u039a\u039f\u03a3 \u0395\u039b\u0395\u0393\u03a7\u039f\u03a3",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 2,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u03a8\u03a5\u03a7\u039f\u039b\u039f\u0393\u0399\u0391 \u03a4\u0397\u03a3 \u039f\u03a1\u0391\u03a3\u0397\u03a3",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 2,
-                    "time_start": "18:00",
-                    "time_end": "21:00",
-                    "course": "\u0395\u03a0\u0399\u039a\u039f\u0399\u039d\u03a9\u039d\u0399\u0391\u039a\u0395\u03a3 \u0394\u0395\u039e\u0399\u039f\u03a4\u0397\u03a4\u0395\u03a3",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 3,
-                    "time_start": "09:00",
-                    "time_end": "10:00",
-                    "course": "\u03a0\u03a1\u039f\u0392\u039b\u0397\u039c\u0391\u03a4\u0391 \u039f\u03a1\u0391\u03a3\u0397\u03a3 \u03a3\u0395 \u03a5\u03a0\u0395\u03a1\u0397\u039b\u0399\u039a\u0395\u03a3",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 3,
-                    "time_start": "10:00",
-                    "time_end": "13:00",
-                    "course": "\u0393\u039b\u0391\u03a5\u039a\u03a9\u039c\u0391 KAI \u03a0\u0395\u03a1\u0399\u039c\u0395\u03a4\u03a1\u0399\u0391",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 3,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397\u039d \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 4,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u03a4\u0395\u03a7\u039d\u0399\u039a\u0395\u03a3 LASER \u03a3\u03a4\u0397\u039d \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 4,
-                    "time_start": "14:00",
-                    "time_end": "16:00",
-                    "course": "\u039f\u03a0\u03a4\u0399\u039a\u0391 KAI \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u039a\u0391 \u039f\u03a1\u0393\u0391\u039d\u0391",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 4,
-                    "time_start": "19:00",
-                    "time_end": "21:00",
-                    "course": "\u0395\u039c\u03a0\u039f\u03a1\u0399\u039a\u039f KAI \u0395\u03a1\u0393\u0391\u03a4\u0399\u039a\u039f \u0394\u0399\u039a\u0391\u0399\u039f",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 5,
-                    "time_start": "09:00",
-                    "time_end": "12:00",
-                    "course": "\u03a0\u03a1\u039f\u0392\u039b\u0397\u039c\u0391\u03a4\u0391 \u039f\u03a1\u0391\u03a3\u0397\u03a3 \u03a3\u0395 \u03a5\u03a0\u0395\u03a1\u0397\u039b\u0399\u039a\u0395\u03a3",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 5,
-                    "time_start": "13:00",
-                    "time_end": "16:00",
-                    "course": "\u03a0\u03a1\u039f\u0395\u0393\u03a7\u0395\u0399\u03a1\u0397\u03a4\u0399\u039a\u039f\u03a3 \u0395\u039b\u0395\u0393\u03a7\u039f\u03a3",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 6,
-                    "time_start": "17:30",
-                    "time_end": "21:30",
-                    "course": "\u03a0\u039c\u03a3 \u03a0\u03b1\u03b9\u03b4\u03b1\u03b3\u03c9\u03b3\u03b9\u03ba\u03ae \u03bc\u03ad\u03c3\u03c9 \u039a\u03b1\u03b9\u03bd\u03bf\u03c4\u03cc\u03bc\u03c9\u03bd \u03a4\u03b5\u03c7\u03bd\u03bf\u03bb\u03bf\u03b3\u03b9\u03ce\u03bd \u03ba\u03b1\u03b9 \u0392\u03b9\u03bf\u03ca\u03b1\u03c4\u03c1\u03b9\u03ba\u03ce\u03bd \u03a0\u03c1\u03bf\u03c3\u03b5\u03b3\u03b3\u03af\u03c3\u03b5\u03c9\u03bd",
-                    "professor": "",
-                    "area_id": 177
-                },
-                {
-                    "day": 1,
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "course": "\u03a0\u03a5\u03a1\u0397\u039d\u0399\u039a\u0397 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0399\u0399",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 1,
-                    "time_start": "17:00",
-                    "time_end": "19:00",
-                    "course": "\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 \u039c\u0395 \u03a1\u0391\u0394\u0399\u039f\u03a6\u0391\u03a1\u039c\u0391\u039a\u0391",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 2,
-                    "time_start": "08:00",
-                    "time_end": "12:00",
-                    "course": "\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 2,
-                    "time_start": "17:00",
-                    "time_end": "20:00",
-                    "course": "\u0395\u0399\u0394\u0399\u039a\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3 \u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 3,
-                    "time_start": "18:00",
-                    "time_end": "20:00",
-                    "course": "\u0392\u0399\u039f\u0397\u0398\u0399\u039a\u0397 KAI \u0394\u0395\u039f\u039d\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0395\u03a0\u0391\u0393\u0393\u0395\u039b\u039c\u0391\u03a4\u039f\u03a3",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 4,
-                    "time_start": "08:00",
-                    "time_end": "12:00",
-                    "course": "\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 4,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391 - \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u03a5\u03a4\u0399\u039a\u0397 \u039f\u0393\u039a\u039f\u039b\u039f\u0393\u0399\u0391 I",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 4,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u03a5\u03a4\u0399\u039a\u0397 \u039f\u0393\u039a\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399\u0399 - \u03a3\u03a5\u039d\u0394\u03a5\u0391\u03a3\u039c\u039f\u03a3 \u039f\u0393\u039a\u039f\u039b\u039f\u0393\u0399\u039a\u03a9\u039d \u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 1,
-                    "time_start": "09:00",
-                    "time_end": "12:00",
-                    "course": "\u0392\u0399\u039f\u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 1,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u0391\u039d\u0391\u0393\u039d\u03a9\u03a1\u0399\u03a3\u0397 \u03a0\u03a1\u039f\u03a4\u03a5\u03a0\u03a9\u039d \u03a3\u0395 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u0399\u039a\u039f\u039d\u0395\u03a3 \u039c\u0395 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0397 \u03a3\u03a4\u0397\u039d \u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 1,
-                    "time_start": "17:00",
-                    "time_end": "20:00",
-                    "course": "\u0393\u0397\u03a1\u0391\u039d\u03a3\u0397 - \u039c\u0391\u039a\u03a1\u039f\u0396\u03a9\u03aa\u0391",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 2,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u03a4\u039f\u039e\u0399\u039a\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 2,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u03a5\u0393\u0399\u0395\u0399\u039d\u0397 \u039a\u0391\u0399 \u0395\u03a0\u0399\u0394\u0397\u039c\u0399\u039f\u039b\u039f\u0393\u0399\u0391-\u0394\u0397\u039c\u039f\u03a3\u0399\u0391 \u03a5\u0393\u0395\u0399\u0391",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 2,
-                    "time_start": "17:00",
-                    "time_end": "20:00",
-                    "course": "\u0394\u0399\u0391\u03a4\u03a1\u039f\u03a6\u0397 \u039a\u0391\u0399 \u03a5\u0393\u0395\u0399\u0391",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 3,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u039c\u0395\u03a4\u0391\u0393\u0393\u0399\u03a3\u0399\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391-\u0399\u03a3\u03a4\u039f\u03a3\u03a5\u039c\u0392\u0391\u03a4\u039f\u03a4\u0397\u03a4\u0391",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 3,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u0395\u0399\u0394\u0399\u039a\u0391 \u039a\u0395\u03a6\u0391\u039b\u0391\u0399\u0391 \u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u0391\u039a\u0397\u03a3 \u0391\u0399\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391\u03a3 - \u0391\u0399\u039c\u039f\u0394\u039f\u03a3\u0399\u0391\u03a3",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 4,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u0395\u0399\u0394\u0399\u039a\u0391 \u039a\u0395\u03a6\u0391\u039b\u0391\u0399\u0391 \u039a\u039b\u0399\u039d\u0399\u039a\u0397\u03a3 \u03a7\u0397\u039c\u0395\u0399\u0391\u03a3",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 4,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u0394\u0399\u0391\u03a7\u0395\u0399\u03a1\u0399\u03a3\u0397 \u0396\u03a9\u03a9\u039d \u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a5",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 4,
-                    "time_start": "14:00",
-                    "time_end": "17:00",
-                    "course": "\u0395\u03a0\u0399\u0394\u0397\u039c\u0399\u039f\u039b\u039f\u0393\u0399\u0391 \u039b\u039f\u0399\u039c\u03a9\u0394\u03a9\u039d \u039d\u039f\u03a3\u0397\u039c\u0391\u03a4\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 4,
-                    "time_start": "17:00",
-                    "time_end": "20:00",
-                    "course": "\u039c\u0399\u039a\u03a1\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391 \u03a5\u0394\u0391\u03a4\u03a9\u039d \u039a\u0391\u0399 \u03a4\u03a1\u039f\u03a6\u0399\u039c\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 5,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u0395\u0399\u0394\u0399\u039a\u0395\u03a3 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 5,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u0391\u039a\u0397 \u0394\u0399\u0395\u03a1\u0395\u03a5\u039d\u0397\u03a3\u0397 \u03a7\u0395\u0399\u03a1\u039f\u03a5\u03a1\u0393\u0399\u039a\u039f\u03a5 \u0391\u03a3\u0398\u0395\u039d\u0397",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 2,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u039a\u0397 \u03a0\u0391\u0398\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 209
-                },
-                {
-                    "day": 2,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399\u0399",
-                    "professor": "",
-                    "area_id": 209
-                },
-                {
-                    "day": 3,
-                    "time_start": "16:00",
-                    "time_end": "18:00",
-                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3",
-                    "professor": "",
-                    "area_id": 209
-                },
-                {
-                    "day": 4,
-                    "time_start": "17:00",
-                    "time_end": "19:00",
-                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3",
-                    "professor": "",
-                    "area_id": 209
-                },
-                {
-                    "day": 1,
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "course": "\u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0395\u03a0\u0399 \u0395\u039c\u03a6\u03a5\u03a4\u0395\u03a5\u039c\u0391\u03a4\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 199
-                },
-                {
-                    "day": 1,
-                    "time_start": "10:00",
-                    "time_end": "13:00",
-                    "course": "\u03a8\u0397\u03a6\u0399\u0391\u039a\u0397 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 199
-                },
-                {
-                    "day": 2,
-                    "time_start": "10:00",
-                    "time_end": "13:00",
-                    "course": "\u03a0\u039f\u039b\u03a5\u039c\u0395\u03a1\u0397 \u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397\u03a3 \u0395\u03a0\u0399\u039a\u0391\u039b\u03a5\u03a8\u0397\u03a3",
-                    "professor": "",
-                    "area_id": 199
-                },
-                {
-                    "day": 2,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u0395\u039c\u0392\u0399\u039f\u039c\u0397\u03a7\u0391\u039d\u0399\u039a\u0397 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3",
-                    "professor": "",
-                    "area_id": 199
-                },
-                {
-                    "day": 3,
-                    "time_start": "08:00",
-                    "time_end": "12:00",
-                    "course": "\u03a3\u03a5\u0393\u039a\u039b\u0395\u0399\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 199
-                },
-                {
-                    "day": 3,
-                    "time_start": "14:00",
-                    "time_end": "17:00",
-                    "course": "\u039f\u03a1\u0393\u0391\u039d\u03a9\u03a3\u0397 \u0395\u03a1\u0395\u03a5\u039d\u0391\u03a3",
-                    "professor": "",
-                    "area_id": 199
-                },
-                {
-                    "day": 4,
-                    "time_start": "09:00",
-                    "time_end": "12:00",
-                    "course": "\u039a\u0395\u03a1\u0391\u039c\u0399\u039a\u0391 \u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397\u03a3 \u0395\u03a0\u0399\u039a\u0391\u039b\u03a5\u03a8\u0397\u03a3",
-                    "professor": "",
-                    "area_id": 199
-                },
-                {
-                    "day": 5,
-                    "time_start": "08:00",
-                    "time_end": "14:00",
-                    "course": "\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u039c\u039f\u03a1\u03a6\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 199
-                },
-                {
-                    "day": 1,
-                    "time_start": "10:00",
-                    "time_end": "11:00",
-                    "course": "\u039f\u03a1\u0398\u039f\u03a0\u03a4\u0399\u039a\u0397",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 1,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u03a6\u0391\u039a\u039f\u0399 \u0395\u03a0\u0391\u03a6\u0397\u03a3 \u0399",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 1,
-                    "time_start": "14:00",
-                    "time_end": "15:00",
-                    "course": "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 1,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u039f\u0399 \u03a6\u0391\u039a\u039f\u0399 \u0399",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 2,
-                    "time_start": "10:00",
-                    "time_end": "11:00",
-                    "course": "\u03a6\u0391\u039a\u039f\u0399 \u0395\u03a0\u0391\u03a6\u0397\u03a3 \u0399",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 2,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u039f\u03a1\u0398\u039f\u03a0\u03a4\u0399\u039a\u0397",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 3,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0399\u039a\u0395\u03a3 \u03a0\u0391\u0398\u0397\u03a3\u0395\u0399\u03a3 \u039f\u03a6\u0398\u0391\u039b\u039c\u039f\u03a5",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 3,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u039d\u0395\u03a5\u03a1\u039f\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u039f\u03a5",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 3,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 3,
-                    "time_start": "18:00",
-                    "time_end": "19:00",
-                    "course": "\u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u039f\u0399 \u03a6\u0391\u039a\u039f\u0399 \u0399",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 4,
-                    "time_start": "16:00",
-                    "time_end": "19:00",
-                    "course": "\u039c\u0391\u03a1\u039a\u0395\u03a4\u0399\u039d\u0393\u039a",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 5,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u03a0\u0391\u0398\u039f\u039b\u039f\u0393\u0399\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u039f\u03a5",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 5,
-                    "time_start": "17:00",
-                    "time_end": "20:00",
-                    "course": "\u039a\u039f\u03a3\u03a4\u039f\u039b\u039f\u0393\u0397\u03a3\u0397 KAI \u03a4\u0399\u039c\u039f\u039b\u039f\u0393\u0397\u03a3\u0397",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 1,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 \u0399",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 1,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u0399",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 1,
-                    "time_start": "16:00",
-                    "time_end": "20:00",
-                    "course": "\u03a0\u039c\u03a3 \u03a0\u03c1\u03bf\u03c7\u03c9\u03c1\u03b7\u03bc\u03ad\u03bd\u03b7 \u0391\u03b9\u03c3\u03b8\u03b7\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u039a\u03bf\u03c3\u03bc\u03b7\u03c4\u03bf\u03bb\u03bf\u03b3\u03af\u03b1: \u0391\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7-\u03a0\u03bf\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc\u03c2 \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf\u03c2 \u03ba\u03b1\u03b9 \u0391\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03bd\u03ad\u03c9\u03bd \u03ba\u03b1\u03bb\u03bb\u03c5\u03bd\u03c4\u03b9\u03ba\u03ce\u03bd \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03c9\u03bd",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 2,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u0393\u03a5\u039c\u039d\u0391\u03a3\u03a4\u0399\u039a\u0397",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 2,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u0399\u0391\u039c\u0391\u03a4\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 3,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u0399\u039a\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3 LASER \u039a\u0391\u0399 \u03a6\u03a9\u03a4\u039f\u039d\u0399\u039a\u0397\u03a3",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 3,
-                    "time_start": "16:00",
-                    "time_end": "20:00",
-                    "course": "\u03a0\u039c\u03a3 \u03a0\u03c1\u03bf\u03c7\u03c9\u03c1\u03b7\u03bc\u03ad\u03bd\u03b7 \u0391\u03b9\u03c3\u03b8\u03b7\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u039a\u03bf\u03c3\u03bc\u03b7\u03c4\u03bf\u03bb\u03bf\u03b3\u03af\u03b1: \u0391\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7-\u03a0\u03bf\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc\u03c2 \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf\u03c2 \u03ba\u03b1\u03b9 \u0391\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03bd\u03ad\u03c9\u03bd \u03ba\u03b1\u03bb\u03bb\u03c5\u03bd\u03c4\u03b9\u03ba\u03ce\u03bd \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03c9\u03bd",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 4,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u0392\u0391\u03a3\u0399\u039a\u0395\u03a3 \u0391\u03a1\u03a7\u0395\u03a3 \u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397\u03a3 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391\u03a3",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 4,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u039a\u0391\u0399 \u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u03a3\u0395 \u0395\u0399\u0394\u0399\u039a\u039f\u03a5\u03a3 \u03a0\u039b\u0397\u0398\u03a5\u03a3\u039c\u039f\u03a5\u03a3",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 5,
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "course": "\u03a0\u039b\u0391\u03a3\u03a4\u0399\u039a\u0397 \u03a7\u0395\u0399\u03a1\u039f\u03a5\u03a1\u0393\u0399\u039a\u0397 \u039a\u0391\u0399 \u0391\u0398\u039b\u0397\u03a4\u0399\u039a\u0397 \u0394\u03a1\u0391\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a4\u0397\u03a4\u0391",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 5,
-                    "time_start": "10:00",
-                    "time_end": "14:00",
-                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 1,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039a\u039f\u03a3\u039c\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 1,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u03a6\u03a5\u03a3\u0399\u039a\u0391 \u039a\u0391\u0399 \u0392\u0399\u039f\u039b\u039f\u0393\u0399\u039a\u0391 \u039a\u0391\u039b\u039b\u03a5\u039d\u03a4\u0399\u039a\u0391",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 1,
-                    "time_start": "14:00",
-                    "time_end": "17:00",
-                    "course": "\u0395\u039d\u0391\u039b\u039b\u0391\u039a\u03a4\u0399\u039a\u0395\u03a3 \u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0395\u03a3",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 2,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u039a\u0391\u0399 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039a\u039f\u03a3\u039c\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u03a3\u03a4\u039f\u03a5\u03a3 \u039f\u0393\u039a\u039f\u039b\u039f\u0393\u0399\u039a\u039f\u03a5\u03a3 \u0391\u03a3\u0398\u0395\u039d\u0395\u0399\u03a3",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 2,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u03a7\u0397\u039c\u0395\u0399\u0391 \u039a\u0391\u0399 \u039a\u039f\u03a3\u039c\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u03a6\u03a5\u03a3\u0399\u039a\u03a9\u039d \u03a0\u03a1\u039f\u0399\u039f\u039d\u03a4\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 3,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u0391\u03a0\u039f\u03a4\u0395\u039b\u0395\u03a3\u039c\u0391\u03a4\u0399\u039a\u039f\u03a4\u0397\u03a4\u0391 \u039a\u0391\u039b\u039b\u03a5\u039d\u03a4\u0399\u039a\u03a9\u039d \u03a0\u03a1\u039f\u0399\u039f\u039d\u03a4\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 3,
-                    "time_start": "14:00",
-                    "time_end": "17:00",
-                    "course": "\u0391\u039e\u0399\u039f\u039b\u039f\u0393\u0397\u03a3\u0397 \u0391\u03a3\u03a6\u0391\u039b\u0395\u0399\u0391\u03a3 \u039a\u0391\u039b\u039b\u03a5\u039d\u03a4\u0399\u039a\u03a9\u039d \u03a0\u03a1\u039f\u03aa\u039f\u039d\u03a4\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 4,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u0394\u0399\u0391\u03a4\u03a1\u039f\u03a6\u0397 \u039a\u0391\u0399 \u0394\u0395\u03a1\u039c\u0391",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 5,
-                    "time_start": "09:00",
-                    "time_end": "12:00",
-                    "course": "\u03a0\u039f\u0399\u039f\u03a4\u0399\u039a\u039f\u03a3 \u0395\u039b\u0395\u0393\u03a7\u039f\u03a3 \u039a\u0391\u039b\u039b\u03a5\u039d\u03a4\u0399\u039a\u03a9\u039d \u03a0\u03a1\u039f\u03aa\u039f\u039d\u03a4\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 5,
-                    "time_start": "14:00",
-                    "time_end": "17:00",
-                    "course": "\u03a0\u0391\u03a1\u0391\u0393\u03a9\u0393\u0397 \u039a\u0391\u039b\u039b\u03a5\u039d\u03a4\u0399\u039a\u03a9\u039d \u03a0\u03a1\u039f\u03aa\u039f\u039d\u03a4\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 203
-                }
-            ],
-            "\u03a7\u03b5\u03b9\u03bc\u03b5\u03c1\u03b9\u03bd\u03cc \u03b5\u03be\u03ac\u03bc\u03b7\u03bd\u03bf 2025-2026": [
-                {
-                    "day": 1,
-                    "time_start": "09:00",
-                    "time_end": "12:00",
-                    "course": "\u039a\u03a5\u03a4\u03a4\u0391\u03a1\u0399\u039a\u0397 \u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 304
-                },
-                {
-                    "day": 1,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u0393\u0395\u039d\u0399\u039a\u0397 KAI \u0391\u039d\u039f\u03a1\u0393\u0391\u039d\u0397 \u03a7\u0397\u039c\u0395\u0399\u0391 - \u0398",
-                    "professor": "",
-                    "area_id": 304
-                },
-                {
-                    "day": 1,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u039c\u0391\u0398\u0397\u039c\u0391\u03a4\u0399\u039a\u0391 \u03a3\u03a4\u0399\u03a3 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0395\u03a3",
-                    "professor": "",
-                    "area_id": 304
-                },
-                {
-                    "day": 3,
-                    "time_start": "09:00",
-                    "time_end": "12:00",
-                    "course": "\u0392\u0399\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 - \u0398",
-                    "professor": "",
-                    "area_id": 304
-                },
-                {
-                    "day": 3,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u03a0\u039b\u0397\u03a1\u039f\u03a6\u039f\u03a1\u0399\u039a\u0397 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u03a9\u039d \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 304
-                },
-                {
-                    "day": 3,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u039c\u0391\u0398\u0397\u039c\u0391\u03a4\u0399\u039a\u0391 \u03a3\u03a4\u0399\u03a3 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0395\u03a3",
-                    "professor": "",
-                    "area_id": 304
-                },
-                {
-                    "day": 1,
-                    "time_start": "13:00",
-                    "time_end": "16:00",
-                    "course": "\u03a5\u0393\u0399\u0395\u0399\u039d\u0397 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u03a3 \u039a\u0391\u0399 \u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a5",
-                    "professor": "",
-                    "area_id": 198
-                },
-                {
-                    "day": 2,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u0391\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399",
-                    "professor": "",
-                    "area_id": 198
-                },
-                {
-                    "day": 3,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u0391\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399\u0399 - \u0398",
-                    "professor": "",
-                    "area_id": 198
-                },
-                {
-                    "day": 3,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u03a9\u039d \u0391\u03a0\u039f\u039a\u0391\u03a4\u0391\u03a3\u03a4\u0391\u03a3\u0395\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 198
-                },
-                {
-                    "day": 4,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u039a\u0395\u03a1\u0391\u039c\u0399\u039a\u0397 \u0399\u0399 - \u0398",
-                    "professor": "",
-                    "area_id": 198
-                },
-                {
-                    "day": 5,
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "course": "\u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u0399 - \u0395",
-                    "professor": "",
-                    "area_id": 198
-                },
-                {
-                    "day": 1,
-                    "time_start": "09:00",
-                    "time_end": "12:00",
-                    "course": "\u0391\u0399\u039c\u039f\u0394\u039f\u03a3\u0399\u0391 - \u0398",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 1,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u03a0\u0391\u03a1\u0391\u03a3\u0399\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 1,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u03a0\u0391\u0398\u039f\u039b\u039f\u0393\u0399\u039a\u0397 \u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397 - \u0398",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 2,
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "course": "\u0393\u0395\u039d\u0399\u039a\u0397 \u039c\u0399\u039a\u03a1\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 2,
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "course": "\u03a0\u03a1\u03a9\u03a4\u0395\u03a3 \u0392\u039f\u0397\u0398\u0395\u0399\u0395\u03a3 - \u0398",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 2,
-                    "time_start": "13:00",
-                    "time_end": "15:00",
-                    "course": "\u039c\u0395\u0398\u039f\u0394\u039f\u039b\u039f\u0393\u0399\u0391 \u0395\u03a1\u0395\u03a5\u039d\u0391\u03a3",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 2,
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "course": "\u03a0\u0391\u0398\u039f\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 3,
-                    "time_start": "08:00",
-                    "time_end": "12:00",
-                    "course": "\u0391\u0399\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399 - \u0398",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 3,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u0392\u0391\u039a\u03a4\u0397\u03a1\u0399\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 3,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u0395\u0399\u0394\u0399\u039a\u0397 \u0399\u03a3\u03a4\u039f\u039b\u039f\u0393\u0399\u0391-\u039a\u03a5\u03a4\u03a4\u0391\u03a1\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 4,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397 \u0399 - \u0398",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 4,
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "course": "\u0393\u0395\u039d\u0399\u039a\u0397 \u039c\u0399\u039a\u03a1\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 4,
-                    "time_start": "13:00",
-                    "time_end": "16:00",
-                    "course": "\u039d\u039f\u03a3\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 4,
-                    "time_start": "16:00",
-                    "time_end": "18:00",
-                    "course": "\u039c\u0395\u0398\u039f\u0394\u039f\u039b\u039f\u0393\u0399\u0391 \u0395\u03a1\u0395\u03a5\u039d\u0391\u03a3",
-                    "professor": "",
-                    "area_id": 305
-                },
-                {
-                    "day": 1,
-                    "time_start": "10:00",
-                    "time_end": "13:00",
-                    "course": "\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u0393\u039d\u0391\u0398\u0399\u039a\u039f\u03a5 \u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0391\u03a4\u039f\u03a3",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 1,
-                    "time_start": "13:00",
-                    "time_end": "15:00",
-                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0391 \u0392\u0399\u039f\u03a5\u039b\u0399\u039a\u0391 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3 - \u0398",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 2,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399 - \u0398",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 4,
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "course": "\u0399\u03a3\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u03a3 \u039a \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u03a9\u039d \u0399\u03a3\u03a4\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 4,
-                    "time_start": "10:00",
-                    "time_end": "13:00",
-                    "course": "\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u0393\u039d\u0391\u0398\u0399\u039a\u039f\u03a5 \u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0391\u03a4\u039f\u03a3",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 5,
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "course": "\u0399\u03a3\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u03a3 \u039a \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u03a9\u039d \u0399\u03a3\u03a4\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 5,
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0391 \u0392\u0399\u039f\u03a5\u039b\u0399\u039a\u0391 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3 - \u0398",
-                    "professor": "",
-                    "area_id": 200
-                },
-                {
-                    "day": 1,
-                    "time_start": "08:00",
-                    "time_end": "12:00",
-                    "course": "\u0393\u0395\u03a9\u039c\u0395\u03a4\u03a1\u0399\u039a\u0397 \u039a\u0391\u0399 \u03a6\u03a5\u03a3\u0399\u039a\u0397 \u039f\u03a0\u03a4\u0399\u039a\u0397 - \u0398",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 1,
-                    "time_start": "16:00",
-                    "time_end": "18:00",
-                    "course": "\u039f\u03a0\u03a4\u0399\u039a\u0391 \u03a5\u039b\u0399\u039a\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u03a9\u039d \u03a6\u0391\u039a\u03a9\u039d \u039a\u0391\u0399 \u0399\u03a3\u03a4\u039f\u03a1\u0399\u0391 \u03a4\u039f\u03a5 \u0393\u03a5\u0391\u039b\u0399\u039f\u03a5",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 3,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u03a6\u03a9\u03a4\u0399\u03a3\u039c\u039f\u03a3 \u03a0\u0395\u03a1\u0399\u0392\u0391\u039b\u039b\u039f\u039d\u03a4\u039f\u03a3 KAI \u039f\u03a1\u0391\u03a3\u0397",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 4,
-                    "time_start": "08:00",
-                    "time_end": "12:00",
-                    "course": "\u039f\u03a0\u03a4\u0399\u039a\u0397 \u03a4\u0397\u03a3 \u039f\u03a1\u0391\u03a3\u0397\u03a3",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 4,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u0395\u03a1\u0393\u0391\u03a3\u0399\u0391\u039a\u0397 \u0391\u03a3\u03a6\u0391\u039b\u0395\u0399\u0391 KAI \u03a5\u0393\u0399\u0395\u0399\u039d\u0397 \u03a3\u03a4\u039f \u03a7\u03a9\u03a1\u039f \u0395\u03a1\u0393\u0391\u03a3\u0399\u0391\u03a3 \u03a4\u039f\u03a5 \u039f\u03a0\u03a4\u0399\u039a\u039f\u03a5 - \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0397",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 4,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u0394\u0395\u039f\u039d\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u039f\u03a0\u03a4\u0399\u039a\u039f\u03a5 - \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0397",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 5,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u0395\u0399\u0394\u0399\u039a\u0395\u03a3 \u03a4\u0395\u03a7\u039d\u0399\u039a\u0395\u03a3 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u039a\u039f\u03a5 \u0395\u039b\u0395\u0393\u03a7\u039f\u03a5 - \u0398",
-                    "professor": "",
-                    "area_id": 206
-                },
-                {
-                    "day": 1,
-                    "time_start": "11:00",
-                    "time_end": "15:00",
-                    "course": "\u039c\u0397 \u03a0\u0391\u03a1\u0395\u039c\u0392\u0391\u03a4\u0399\u039a\u0397 \u0391\u039d\u03a4\u0399\u039c\u0395\u03a4\u03a9\u03a0\u0399\u03a3\u0397 \u03a4\u0397\u03a3 \u03a0\u0391\u03a7\u03a5\u03a3\u0391\u03a1\u039a\u0399\u0391\u03a3 - \u0398",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 1,
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "course": "\u03a0\u03a5\u03a1\u0397\u039d\u0399\u039a\u0397 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0399 - \u0398",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 1,
-                    "time_start": "17:00",
-                    "time_end": "20:00",
-                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u03a5\u03a4\u0399\u039a\u0397 \u039f\u0393\u039a\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399 - \u03a3\u03a5\u0393\u03a7\u03a1\u039f\u039d\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3 \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391\u03a3",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 2,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u0395\u0399\u0394\u0399\u039a\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3 \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0397\u03a3 KAI \u039c\u0391\u0393\u039d\u0397\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391\u03a3 - \u03a5\u0392\u03a1\u0399\u0394\u0399\u039a\u0395\u03a3 \u03a4\u0395\u03a7\u039d\u0399\u039a\u0395\u03a3",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 2,
-                    "time_start": "14:00",
-                    "time_end": "17:00",
-                    "course": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397\u039d \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0397 \u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391 - \u03a8\u0397\u03a6\u0399\u0391\u039a\u0397 \u0391\u03a0\u0395\u0399\u039a\u039f\u039d\u0399\u03a3\u0397",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 3,
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "course": "\u03a0\u03a5\u03a1\u0397\u039d\u0399\u039a\u0397 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0399 - \u0398",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 3,
-                    "time_start": "17:00",
-                    "time_end": "20:00",
-                    "course": "\u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u039a\u0397 \u0391\u03a0\u0395\u0399\u039a\u039f\u039d\u0399\u03a3\u03a4\u0399\u039a\u0397 \u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 4,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391\u03a3 - \u0398",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 4,
-                    "time_start": "18:00",
-                    "time_end": "20:00",
-                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391\u03a3 - \u0395",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 5,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u0391\u039d\u0395\u03a0\u0399\u0398\u03a5\u039c\u0397\u03a4\u0395\u03a3 \u0395\u039d\u0395\u03a1\u0393\u0395\u0399\u0395\u03a3 \u0391\u03a0\u039f \u039a\u0391\u039b\u03a5\u039d\u03a4\u0399\u039a\u0391-\u03a4\u039f\u039e\u0399\u039a\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 5,
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391\u03a3 - \u0398",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 5,
-                    "time_start": "17:00",
-                    "time_end": "19:00",
-                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391\u03a3 - \u0395",
-                    "professor": "",
-                    "area_id": 208
-                },
-                {
-                    "day": 2,
-                    "time_start": "11:00",
-                    "time_end": "20:00",
-                    "course": "\u03a0\u039b\u0397\u03a1\u039f\u03a6\u039f\u03a1\u0399\u039a\u0397 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u03a9\u039d \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 4,
-                    "time_start": "08:00",
-                    "time_end": "12:00",
-                    "course": "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u03a7\u0397\u039c\u0395\u0399\u0391 \u0399 - \u0398",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 5,
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "course": "\u039c\u0395\u0398\u039f\u0394\u039fI \u03a5\u03a0\u039f\u0392\u039f\u0397\u0398\u039f\u03a5\u039c\u0395\u039d\u0397\u03a3 \u0391\u039d\u0391\u03a0\u0391\u03a1\u0391\u0393\u03a9\u0393\u0397\u03a3 - \u0398",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 5,
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "course": "\u0391\u03a1\u03a7\u0395\u03a3 \u0395\u039d\u039f\u03a1\u0393\u0391\u039d\u0397\u03a3 \u0391\u039d\u0391\u039b\u03a5\u03a3\u0397\u03a3 - \u0398",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 5,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u039c\u0399\u039a\u03a1\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 5,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u039c\u03a5\u039a\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398",
-                    "professor": "",
-                    "area_id": 195
-                },
-                {
-                    "day": 1,
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399 - \u0398",
-                    "professor": "",
-                    "area_id": 209
-                },
-                {
-                    "day": 2,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u039c\u0391\u0393\u039d\u0397\u03a4\u0399\u039a\u0397 \u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391 - \u0398",
-                    "professor": "",
-                    "area_id": 209
-                },
-                {
-                    "day": 2,
-                    "time_start": "17:00",
-                    "time_end": "20:00",
-                    "course": "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399 - \u0398",
-                    "professor": "",
-                    "area_id": 209
-                },
-                {
-                    "day": 1,
-                    "time_start": "14:00",
-                    "time_end": "17:00",
-                    "course": "\u03a3\u03a5\u039d\u0394\u03a5\u0391\u03a3\u039c\u0395\u039d\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397-\u03a3\u03a5\u039d\u0394\u0395\u03a3\u039c\u039f\u0399 \u0391\u039a\u03a1\u0399\u0392\u0395\u0399\u0391\u03a3 - \u0398",
-                    "professor": "",
-                    "area_id": 199
-                },
-                {
-                    "day": 4,
-                    "time_start": "09:00",
-                    "time_end": "12:00",
-                    "course": "\u0392\u03b9\u03bf\u03ca\u03b1\u03c4\u03c1\u03b9\u03ba\u03ad\u03c2 \u03ba\u03b1\u03b9 \u039d\u03b5\u03c5\u03c1\u03bf\u03bc\u03bf\u03c1\u03c6\u03b9\u03ba\u03ad\u03c2 \u039f\u03bb\u03bf\u03ba\u03bb\u03b7\u03c1\u03c9\u03bc\u03ad\u03bd\u03b5\u03c2 \u03a6\u03c9\u03c4\u03bf\u03bd\u03b9\u03ba\u03ad\u03c2 \u0394\u03b9\u03b1\u03c4\u03ac\u03be\u03b5\u03b9\u03c2",
-                    "professor": "",
-                    "area_id": 199
-                },
-                {
-                    "day": 4,
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "course": "\u039f\u03a0\u03a4\u0399\u039a\u0397 \u039c\u0399\u039a\u03a1\u039f\u03a3\u039a\u039f\u03a0\u0399\u0391 \u039a\u0391\u0399 \u0391\u039d\u0391\u039b\u03a5\u03a3\u0397 \u0392\u0399\u039f\u039b\u039f\u0393\u0399\u039a\u03a9\u039d \u0395\u0399\u039a\u039f\u039d\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 199
-                },
-                {
-                    "day": 5,
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "course": "\u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u0399 - \u0398",
-                    "professor": "",
-                    "area_id": 199
-                },
-                {
-                    "day": 5,
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "course": "\u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u0399 - \u0395",
-                    "professor": "",
-                    "area_id": 199
-                },
-                {
-                    "day": 1,
-                    "time_start": "13:00",
-                    "time_end": "15:00",
-                    "course": "\u03a0\u0391\u0398\u039f\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 309
-                },
-                {
-                    "day": 1,
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "course": "\u0391\u03a1\u03a7\u0395\u03a3 \u0395\u039d\u039f\u03a1\u0393\u0391\u039d\u0397\u03a3 \u0391\u039d\u0391\u039b\u03a5\u03a3\u0397\u03a3 - \u0398",
-                    "professor": "",
-                    "area_id": 309
-                },
-                {
-                    "day": 1,
-                    "time_start": "17:00",
-                    "time_end": "20:00",
-                    "course": "\u03a6\u0391\u03a1\u039c\u0391\u039a\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 309
-                },
-                {
-                    "day": 1,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u039d\u0395\u0395\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0395\u03a3 \u03a3\u03a4\u0397\u039d \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 1,
-                    "time_start": "11:00",
-                    "time_end": "12:00",
-                    "course": "\u03a6\u0391\u039a\u039f\u0399 \u0395\u03a0\u0391\u03a6\u0397\u03a3 \u0399\u0399",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 1,
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "course": "\u0394\u0399\u039f\u03a6\u0398\u0391\u039b\u039c\u0397 \u039f\u03a1\u0391\u03a3\u0397",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 1,
-                    "time_start": "14:00",
-                    "time_end": "15:00",
-                    "course": "\u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u039f\u0399 \u03a6\u0391\u039a\u039f\u0399 \u0399\u0399",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 1,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u0392\u0391\u03a3\u0399\u039a\u0397 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391 - \u0398",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 2,
-                    "time_start": "11:00",
-                    "time_end": "14:00",
-                    "course": "\u03a6\u0391\u039a\u039f\u0399 \u0395\u03a0\u0391\u03a6\u0397\u03a3 \u0399\u0399",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 2,
-                    "time_start": "14:00",
-                    "time_end": "15:00",
-                    "course": "\u0394\u0399\u039f\u03a6\u0398\u0391\u039b\u039c\u0397 \u039f\u03a1\u0391\u03a3\u0397",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 3,
-                    "time_start": "11:00",
-                    "time_end": "12:00",
-                    "course": "\u03a6\u03a9\u03a4\u0399\u03a3\u039c\u039f\u03a3 \u03a0\u0395\u03a1\u0399\u0392\u0391\u039b\u039b\u039f\u039d\u03a4\u039f\u03a3 & \u039f\u03a1\u0391\u03a3\u0397 - \u0398",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 3,
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "course": "\u039f\u03a0\u03a4\u0399\u039a\u0391 \u03a5\u039b\u0399\u039a\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u03a9\u039d \u03a6\u0391\u039a\u03a9\u039d \u039a\u0391\u0399 \u0399\u03a3\u03a4\u039f\u03a1\u0399\u0391 \u03a4\u039f\u03a5 \u0393\u03a5\u0391\u039b\u0399\u039f\u03a5",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 3,
-                    "time_start": "14:00",
-                    "time_end": "15:00",
-                    "course": "\u0392\u0391\u03a3\u0399\u039a\u0397 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391 - \u0398",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 3,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u039f\u0399 \u03a6\u0391\u039a\u039f\u0399 \u0399\u0399",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 4,
-                    "time_start": "10:00",
-                    "time_end": "14:00",
-                    "course": "\u03a7\u0391\u039c\u0397\u039b\u0397 \u039f\u03a1\u0391\u03a3\u0397 KAI \u0392\u039f\u0397\u0398\u0397\u039c\u0391\u03a4\u0391 - \u0398",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 5,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u039f\u03a5",
-                    "professor": "",
-                    "area_id": 205
-                },
-                {
-                    "day": 4,
-                    "time_start": "18:00",
-                    "time_end": "20:00",
-                    "course": "\u03a0\u039c\u03a3 \u03a0\u03b1\u03b9\u03b4\u03b1\u03b3\u03c9\u03b3\u03b9\u03ba\u03ae \u03bc\u03ad\u03c3\u03c9 \u039a\u03b1\u03b9\u03bd\u03bf\u03c4\u03cc\u03bc\u03c9\u03bd \u03a4\u03b5\u03c7\u03bd\u03bf\u03bb\u03bf\u03b3\u03b9\u03ce\u03bd \u03ba\u03b1\u03b9 \u0392\u03b9\u03bf\u03ca\u03b1\u03c4\u03c1\u03b9\u03ba\u03ce\u03bd \u03a0\u03c1\u03bf\u03c3\u03b5\u03b3\u03b3\u03af\u03c3\u03b5\u03c9\u03bd",
-                    "professor": "",
-                    "area_id": 268
-                },
-                {
-                    "day": 1,
-                    "time_start": "09:00",
-                    "time_end": "12:00",
-                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u0399\u0399",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 1,
-                    "time_start": "16:00",
-                    "time_end": "20:00",
-                    "course": "\u03a0\u039c\u03a3 \u03a0\u03c1\u03bf\u03c7\u03c9\u03c1\u03b7\u03bc\u03ad\u03bd\u03b7 \u0391\u03b9\u03c3\u03b8\u03b7\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u039a\u03bf\u03c3\u03bc\u03b7\u03c4\u03bf\u03bb\u03bf\u03b3\u03af\u03b1: \u0391\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7-\u03a0\u03bf\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc\u03c2 \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf\u03c2 \u03ba\u03b1\u03b9 \u0391\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03bd\u03ad\u03c9\u03bd \u03ba\u03b1\u03bb\u03bb\u03c5\u03bd\u03c4\u03b9\u03ba\u03ce\u03bd \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03c9\u03bd",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 2,
-                    "time_start": "09:00",
-                    "time_end": "12:00",
-                    "course": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 \u0399\u0399-LASER - \u0395",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 2,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 \u0399\u0399-LASER - \u0395",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 3,
-                    "time_start": "08:00",
-                    "time_end": "12:00",
-                    "course": "\u03a8\u0399\u039c\u03a5\u0398\u0399\u03a9\u03a3\u0397 - \u0394\u0399\u039f\u03a1\u0398\u03a9\u03a4\u0399\u039a\u0397 \u03a8\u0399\u039c\u03a5\u0398\u0399\u03a9\u03a3\u0397 \u0394\u0399\u0391\u03a1\u039a\u0395\u0399\u0391\u03a3 - \u0398",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 3,
-                    "time_start": "12:00",
-                    "time_end": "15:00",
-                    "course": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 \u0399\u0399-LASER - \u0398",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 3,
-                    "time_start": "16:00",
-                    "time_end": "20:00",
-                    "course": "\u03a0\u039c\u03a3 \u03a0\u03c1\u03bf\u03c7\u03c9\u03c1\u03b7\u03bc\u03ad\u03bd\u03b7 \u0391\u03b9\u03c3\u03b8\u03b7\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u039a\u03bf\u03c3\u03bc\u03b7\u03c4\u03bf\u03bb\u03bf\u03b3\u03af\u03b1: \u0391\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7-\u03a0\u03bf\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc\u03c2 \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf\u03c2 \u03ba\u03b1\u03b9 \u0391\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03bd\u03ad\u03c9\u03bd \u03ba\u03b1\u03bb\u03bb\u03c5\u03bd\u03c4\u03b9\u03ba\u03ce\u03bd \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03c9\u03bd",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 4,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399-A\u03a6\u03a1\u039f\u0394\u0399\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 4,
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399-A\u03a6\u03a1\u039f\u0394\u0399\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 - \u0395",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 5,
-                    "time_start": "08:00",
-                    "time_end": "12:00",
-                    "course": "\u0392\u0391\u03a3\u0399\u039a\u0395\u03a3 \u0391\u03a1\u03a7\u0395\u03a3 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391\u03a3 - \u0398",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 5,
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "course": "\u0392\u0391\u03a3\u0399\u039a\u0395\u03a3 \u0391\u03a1\u03a7\u0395\u03a3 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391\u03a3 - \u0395",
-                    "professor": "",
-                    "area_id": 202
-                },
-                {
-                    "day": 1,
-                    "time_start": "09:00",
-                    "time_end": "13:00",
-                    "course": "\u039c\u0397 \u03a0\u0391\u03a1\u0395\u039c\u0392\u0391\u03a4\u0399\u039a\u0397 \u0391\u039d\u03a4\u0399\u039c\u0395\u03a4\u03a9\u03a0\u0399\u03a3\u0397 \u03a4\u0397\u03a3 \u03a0\u0391\u03a7\u03a5\u03a3\u0391\u03a1\u039a\u0399\u0391\u03a3 - \u0398",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 1,
-                    "time_start": "16:00",
-                    "time_end": "18:00",
-                    "course": "\u03a0\u039c\u03a3 \u03a0\u03c1\u03bf\u03c7\u03c9\u03c1\u03b7\u03bc\u03ad\u03bd\u03b7 \u0391\u03b9\u03c3\u03b8\u03b7\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u039a\u03bf\u03c3\u03bc\u03b7\u03c4\u03bf\u03bb\u03bf\u03b3\u03af\u03b1: \u0391\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7-\u03a0\u03bf\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc\u03c2 \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf\u03c2 \u03ba\u03b1\u03b9 \u0391\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03bd\u03ad\u03c9\u03bd \u03ba\u03b1\u03bb\u03bb\u03c5\u03bd\u03c4\u03b9\u03ba\u03ce\u03bd \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03c9\u03bd",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 2,
-                    "time_start": "10:00",
-                    "time_end": "13:00",
-                    "course": "\u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0391\u03a4\u0391 \u039c\u0395\u03a4\u0391\u03a6\u039f\u03a1\u0391\u03a3 \u0394\u03a1\u0391\u03a3\u03a4\u0399\u039a\u03a9\u039d \u039f\u03a5\u03a3\u0399\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 2,
-                    "time_start": "15:00",
-                    "time_end": "18:00",
-                    "course": "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039a\u039f\u03a3\u039c\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399 - \u0398",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 3,
-                    "time_start": "10:00",
-                    "time_end": "14:00",
-                    "course": "\u0392\u0391\u03a3\u0399\u039a\u0395\u03a3 \u0391\u03a1\u03a7\u0395\u03a3 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039a\u039f\u03a3\u039c\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391\u03a3",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 4,
-                    "time_start": "10:00",
-                    "time_end": "13:00",
-                    "course": "\u0394\u0395\u039f\u039d\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0395\u03a0\u0391\u0393\u0393\u0395\u039b\u039c\u0391\u03a4\u039f\u03a3",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 4,
-                    "time_start": "13:00",
-                    "time_end": "16:00",
-                    "course": "\u0395\u039d\u0396\u03a5\u039c\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 - \u0398",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 5,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "\u039d\u039f\u039c\u039f\u0398\u0395\u03a3\u0399\u0391 \u039a\u0391\u039b\u039b\u03a5\u039d\u03a4\u0399\u039a\u03a9\u039d \u039a\u0391\u0399 \u0399\u0391\u03a4\u03a1\u039f\u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u039a\u03a9\u039d \u03a0\u03a1\u039f\u0399\u039f\u039d\u03a4\u03a9\u039d",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 5,
-                    "time_start": "14:00",
-                    "time_end": "17:00",
-                    "course": "\u0391\u039d\u0395\u03a0\u0399\u0398\u03a5\u039c\u0397\u03a4\u0395\u03a3 \u0395\u039d\u0395\u03a1\u0393\u0395\u0399\u0395\u03a3 \u0391\u03a0\u039f \u039a\u0391\u039b\u03a5\u039d\u03a4\u0399\u039a\u0391-\u03a4\u039f\u039e\u0399\u039a\u039f\u039b\u039f\u0393\u0399\u0391",
-                    "professor": "",
-                    "area_id": 203
-                },
-                {
-                    "day": 5,
-                    "time_start": "17:00",
-                    "time_end": "21:00",
-                    "course": "\u03a0\u039c\u03a3 \u03a0\u03b1\u03b9\u03b4\u03b1\u03b3\u03c9\u03b3\u03b9\u03ba\u03ae \u03bc\u03ad\u03c3\u03c9 \u039a\u03b1\u03b9\u03bd\u03bf\u03c4\u03cc\u03bc\u03c9\u03bd \u03a4\u03b5\u03c7\u03bd\u03bf\u03bb\u03bf\u03b3\u03b9\u03ce\u03bd \u03ba\u03b1\u03b9 \u0392\u03b9\u03bf\u03ca\u03b1\u03c4\u03c1\u03b9\u03ba\u03ce\u03bd \u03a0\u03c1\u03bf\u03c3\u03b5\u03b3\u03b3\u03af\u03c3\u03b5\u03c9\u03bd",
-                    "professor": "",
-                    "area_id": 158
-                }
-            ],
-            "\u0395\u03be\u03b5\u03c4\u03b1\u03c3\u03c4\u03b9\u03ba\u03ae \u03c0\u03b5\u03c1\u03af\u03bf\u03b4\u03bf\u03c2 \u03a6\u03b5\u03b2\u03c1\u03bf\u03c5\u03b1\u03c1\u03af\u03bf\u03c5 2026": {
-                "\u0399\u03a3\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u03a3 \u039a \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u03a9\u039d \u0399\u03a3\u03a4\u03a9\u039d": {
-                    "date": "2026-02-02",
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "area_id": [
-                        198,
-                        200,
-                        199
-                    ]
-                },
-                "\u0391\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399 - \u0398": {
-                    "date": "2026-01-26",
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "area_id": [
-                        198,
-                        200,
-                        199
-                    ]
-                },
-                "\u0393\u039d\u0391\u0398\u039f\u03a0\u03a1\u039f\u03a3\u03a9\u03a0\u0399\u039a\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397": {
-                    "date": "2026-02-09",
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "area_id": [
-                        198,
-                        199
-                    ]
-                },
-                "\u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u03a9\u039d \u0391\u03a0\u039f\u039a\u0391\u03a4\u0391\u03a3\u03a4\u0391\u03a3\u0395\u03a9\u039d": {
-                    "date": "2026-01-26",
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        198,
-                        200,
-                        199
-                    ]
-                },
-                "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0391 \u0392\u0399\u039f\u03a5\u039b\u0399\u039a\u0391 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3 - \u0398": {
-                    "date": "2026-02-09",
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        198,
-                        198,
-                        200,
-                        199,
-                        199
-                    ]
-                },
-                "\u03a8\u0397\u03a6\u0399\u0391\u039a\u0397 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391": {
-                    "date": "2026-02-16",
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "area_id": [
-                        198,
-                        198
-                    ]
-                },
-                "\u0391\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399\u0399 - \u0398": {
-                    "date": "2026-01-27",
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "area_id": [
-                        198,
-                        200,
-                        199
-                    ]
-                },
-                "\u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0395\u03a0\u0399 \u0395\u039c\u03a6\u03a5\u03a4\u0395\u03a5\u039c\u0391\u03a4\u03a9\u039d": {
-                    "date": "2026-02-10",
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "area_id": [
-                        198,
-                        199
-                    ]
-                },
-                "\u03a3\u03a5\u039d\u0394\u03a5\u0391\u03a3\u039c\u0395\u039d\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397-\u03a3\u03a5\u039d\u0394\u0395\u03a3\u039c\u039f\u0399 \u0391\u039a\u03a1\u0399\u0392\u0395\u0399\u0391\u03a3": {
-                    "date": "2026-02-10",
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        198,
-                        200,
-                        199
-                    ]
-                },
-                "\u03a0\u039f\u039b\u03a5\u039c\u0395\u03a1\u0397 \u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397\u03a3 \u0395\u03a0\u0399\u039a\u0391\u039b\u03a5\u03a8\u0397\u03a3": {
-                    "date": "2026-01-27",
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        198,
-                        200,
-                        199
-                    ]
-                },
-                "\u0395\u039e\u0395\u0399\u0394\u0399\u039a\u0395\u03a5\u039c\u0395\u039d\u0397 \u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397": {
-                    "date": "2026-02-03",
-                    "time_start": "13:00",
-                    "time_end": "15:00",
-                    "area_id": [
-                        198,
-                        199
-                    ]
-                },
-                "\u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u0399\u0399": {
-                    "date": "2026-02-03",
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "area_id": [
-                        198,
-                        199
-                    ]
-                },
-                "\u0391\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399": {
-                    "date": "2026-01-28",
-                    "time_start": "08:00",
-                    "time_end": "09:00",
-                    "area_id": [
-                        198
-                    ]
-                },
-                "\u0391\u03a0\u039f\u039a\u0391\u03a4\u0391\u03a3\u03a4\u0391\u03a3\u0397 \u0394\u03a5\u03a3\u039b\u0395\u0399\u03a4\u039f\u03a5\u03a1\u0393\u0399\u03a9\u039d \u03a3\u03a5\u0393\u039a\u039b\u0395\u0399\u03a3\u0397\u03a3": {
-                    "date": "2026-02-11",
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "area_id": [
-                        198,
-                        199
-                    ]
-                },
-                "\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399": {
-                    "date": "2026-02-04",
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "area_id": [
-                        198,
-                        200,
-                        199
-                    ]
-                },
-                "\u0391\u03a1\u03a7\u0395\u03a3 \u039c\u0391\u03a1\u039a\u0395\u03a4\u0399\u039d\u0393\u039a": {
-                    "date": "2026-01-28",
-                    "time_start": "09:00",
-                    "time_end": "10:00",
-                    "area_id": [
-                        198
-                    ]
-                },
-                "\u03a3\u03a5\u0393\u039a\u039b\u0395\u0399\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391": {
-                    "date": "2026-01-28",
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        198
-                    ]
-                },
-                "\u03a5\u0393\u0399\u0395\u0399\u039d\u0397 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u03a3 \u039a\u0391\u0399 \u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a5": {
-                    "date": "2026-02-11",
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        198,
-                        200,
-                        199
-                    ]
-                },
-                "\u039f\u03a1\u0393\u0391\u039d\u03a9\u03a3\u0397 \u0395\u03a1\u0395\u03a5\u039d\u0391\u03a3": {
-                    "date": "2026-01-28",
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "area_id": [
-                        198
-                    ]
-                },
-                "\u039a\u0395\u03a1\u0391\u039c\u0399\u039a\u0391 \u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397\u03a3 \u0395\u03a0\u0399\u039a\u0391\u039b\u03a5\u03a8\u0397\u03a3": {
-                    "date": "2026-02-11",
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "area_id": [
-                        198
-                    ]
-                },
-                "\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 \u03a3\u03a4\u039f\u039c\u0391\u03a4\u039f\u0393\u039d\u0391\u0398\u0399\u039a\u039f\u03a5 \u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0391\u03a4\u039f\u03a3": {
-                    "date": "2026-02-05",
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        198,
-                        200,
-                        199
-                    ]
-                },
-                "\u0395\u039c\u0392\u0399\u039f\u039c\u0397\u03a7\u0391\u039d\u0399\u039a\u0397 \u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3": {
-                    "date": "2026-02-05",
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "area_id": [
-                        198
-                    ]
-                },
-                "\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u039a\u0395\u03a1\u0391\u039c\u0399\u039a\u0397 \u0399\u0399 - \u0398": {
-                    "date": "2026-01-29",
-                    "time_start": "13:00",
-                    "time_end": "15:00",
-                    "area_id": [
-                        198,
-                        200,
-                        199
-                    ]
-                },
-                "\u0391\u0399\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399 - \u0398": {
-                    "date": "2026-02-02",
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u03a0\u0391\u03a1\u0391\u03a3\u0399\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398": {
-                    "date": "2026-02-09",
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u039c\u0391\u0398\u0397\u039c\u0391\u03a4\u0399\u039a\u0391 \u03a3\u03a4\u0399\u03a3 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0395\u03a3": {
-                    "date": "2026-02-02",
-                    "time_start": "11:00",
-                    "time_end": "15:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u0392\u0391\u039a\u03a4\u0397\u03a1\u0399\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398": {
-                    "date": "2026-02-09",
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u0393\u0395\u039d\u0399\u039a\u0397 KAI \u0391\u039d\u039f\u03a1\u0393\u0391\u039d\u0397 \u03a7\u0397\u039c\u0395\u0399\u0391 - \u0398": {
-                    "date": "2026-02-09",
-                    "time_start": "13:00",
-                    "time_end": "17:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u0392\u0399\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 - \u0398": {
-                    "date": "2026-01-26",
-                    "time_start": "13:00",
-                    "time_end": "17:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u039c\u0395\u0398\u039f\u0394\u039f\u039b\u039f\u0393\u0399\u0391 \u0395\u03a1\u0395\u03a5\u039d\u0391\u03a3": {
-                    "date": "2026-02-02",
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u03a0\u039b\u0397\u03a1\u039f\u03a6\u039f\u03a1\u0399\u039a\u0397 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u03a9\u039d \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u03a9\u039d": {
-                    "date": "2026-02-03",
-                    "time_start": "09:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u03a0\u0391\u0398\u039f\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391": {
-                    "date": "2026-02-10",
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u039c\u03a5\u039a\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398": {
-                    "date": "2026-01-27",
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u039c\u0395\u0398\u039f\u0394\u039fI \u03a5\u03a0\u039f\u0392\u039f\u0397\u0398\u039f\u03a5\u039c\u0395\u039d\u0397\u03a3 \u0391\u039d\u0391\u03a0\u0391\u03a1\u0391\u0393\u03a9\u0393\u0397\u03a3": {
-                    "date": "2026-02-10",
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u039c\u0399\u039a\u03a1\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391": {
-                    "date": "2026-02-03",
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u03a7\u0397\u039c\u0395\u0399\u0391 \u0399 - \u0398": {
-                    "date": "2026-01-27",
-                    "time_start": "13:00",
-                    "time_end": "15:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u03a6\u0391\u03a1\u039c\u0391\u039a\u039f\u039b\u039f\u0393\u0399\u0391": {
-                    "date": "2026-01-27",
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u0395\u0399\u0394\u0399\u039a\u0397 \u0399\u03a3\u03a4\u039f\u039b\u039f\u0393\u0399\u0391-\u039a\u03a5\u03a4\u03a4\u0391\u03a1\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398": {
-                    "date": "2026-02-04",
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u03a0\u0391\u0398\u039f\u039b\u039f\u0393\u0399\u039a\u0397 \u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397 - \u0398": {
-                    "date": "2026-02-04",
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u039d\u039f\u03a3\u039f\u039b\u039f\u0393\u0399\u0391": {
-                    "date": "2026-02-04",
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0399\u03a3 \u0392\u0399\u039f\u0399\u0391\u03a4\u03a1\u0399\u039a\u0395\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0395\u03a3": {
-                    "date": "2026-02-11",
-                    "time_start": "16:00",
-                    "time_end": "18:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u039a\u03a5\u03a4\u03a4\u0391\u03a1\u0399\u039a\u0397 \u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391": {
-                    "date": "2026-02-12",
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397 \u0399 - \u0398": {
-                    "date": "2026-01-29",
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u0391\u03a1\u03a7\u0395\u03a3 \u0395\u039d\u039f\u03a1\u0393\u0391\u039d\u0397\u03a3 \u0391\u039d\u0391\u039b\u03a5\u03a3\u0397\u03a3 - \u0395": {
-                    "date": "2026-02-05",
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u0393\u0395\u039d\u0399\u039a\u0397 \u039c\u0399\u039a\u03a1\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391": {
-                    "date": "2026-02-12",
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u03a0\u03a1\u03a9\u03a4\u0395\u03a3 \u0392\u039f\u0397\u0398\u0395\u0399\u0395\u03a3 - \u0398": {
-                    "date": "2026-01-29",
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u0391\u0399\u039c\u039f\u0394\u039f\u03a3\u0399\u0391 - \u0398": {
-                    "date": "2026-02-12",
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "area_id": [
-                        305
-                    ]
-                },
-                "\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399\u0399\u0399": {
-                    "date": "2026-02-10",
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "area_id": [
-                        200,
-                        199
-                    ]
-                },
-                "\u039f\u03a1\u0398\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u0399 - \u0398": {
-                    "date": "2026-02-12",
-                    "time_start": "13:00",
-                    "time_end": "15:00",
-                    "area_id": [
-                        200,
-                        199
-                    ]
-                },
-                "\u03a7\u0391\u039c\u0397\u039b\u0397 \u039f\u03a1\u0391\u03a3\u0397 KAI \u0392\u039f\u0397\u0398\u0397\u039c\u0391\u03a4\u0391": {
-                    "date": "2026-02-09",
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u0395\u03a1\u0393\u0391\u03a3\u0399\u0391\u039a\u0397 \u0391\u03a3\u03a6\u0391\u039b\u0395\u0399\u0391 KAI \u03a5\u0393\u0399\u0395\u0399\u039d\u0397 \u03a3\u03a4\u039f \u03a7\u03a9\u03a1\u039f \u0395\u03a1\u0393\u0391\u03a3\u0399\u0391\u03a3 \u03a4\u039f\u03a5 \u039f\u03a0\u03a4\u0399\u039a\u039f\u03a5 - \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0397": {
-                    "date": "2026-01-26",
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u039f\u03a0\u03a4\u0399\u039a\u0391 \u03a5\u039b\u0399\u039a\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u03a9\u039d \u03a6\u0391\u039a\u03a9\u039d \u039a\u0391\u0399 \u0399\u03a3\u03a4\u039f\u03a1\u0399\u0391 \u03a4\u039f\u03a5 \u0393\u03a5\u0391\u039b\u0399\u039f\u03a5": {
-                    "date": "2026-02-09",
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u03a8\u03a5\u03a7\u039f\u039b\u039f\u0393\u0399\u0391 \u03a4\u0397\u03a3 \u039f\u03a1\u0391\u03a3\u0397\u03a3": {
-                    "date": "2026-01-26",
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u0395\u0399\u0394\u0399\u039a\u0395\u03a3 \u03a4\u0395\u03a7\u039d\u0399\u039a\u0395\u03a3 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u039a\u039f\u03a5 \u0395\u039b\u0395\u0393\u03a7\u039f\u03a5": {
-                    "date": "2026-02-10",
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u03a6\u0391\u03a1\u039c\u0391\u039a\u039f\u039b\u039f\u0393\u0399\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u039f\u03a5": {
-                    "date": "2026-02-10",
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u0395\u03a0\u0399\u039a\u039f\u0399\u039d\u03a9\u039d\u0399\u0391\u039a\u0395\u03a3 \u0394\u0395\u039e\u0399\u039f\u03a4\u0397\u03a4\u0395\u03a3": {
-                    "date": "2026-02-03",
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u0395\u039c\u03a0\u039f\u03a1\u0399\u039a\u039f KAI \u0395\u03a1\u0393\u0391\u03a4\u0399\u039a\u039f \u0394\u0399\u039a\u0391\u0399\u039f": {
-                    "date": "2026-02-03",
-                    "time_start": "14:00",
-                    "time_end": "16:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u039d\u0395\u03a5\u03a1\u039f\u03a6\u03a5\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u039f\u03a5": {
-                    "date": "2026-02-10",
-                    "time_start": "16:00",
-                    "time_end": "18:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u0391 \u039f\u03a6\u0398\u0391\u039b\u039c\u039f\u03a5": {
-                    "date": "2026-02-03",
-                    "time_start": "16:00",
-                    "time_end": "18:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u039d\u0395\u0395\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u0395\u03a3 \u03a3\u03a4\u0397\u039d \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391": {
-                    "date": "2026-02-03",
-                    "time_start": "18:00",
-                    "time_end": "20:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u0393\u0395\u03a9\u039c\u0395\u03a4\u03a1\u0399\u039a\u0397 \u039a\u0391\u0399 \u03a6\u03a5\u03a3\u0399\u039a\u0397 \u039f\u03a0\u03a4\u0399\u039a\u0397 - \u0395": {
-                    "date": "2026-02-11",
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397\u039d \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391": {
-                    "date": "2026-01-28",
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u0394\u0395\u039f\u039d\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u039f\u03a0\u03a4\u0399\u039a\u039f\u03a5 - \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0397": {
-                    "date": "2026-02-04",
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u0392\u0391\u03a3\u0399\u039a\u0397 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391 - \u0398": {
-                    "date": "2026-01-28",
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u039f\u03a6\u0398\u0391\u039b\u039c\u0399\u039a\u039f\u0399 \u03a6\u0391\u039a\u039f\u0399 \u0399\u0399": {
-                    "date": "2026-02-04",
-                    "time_start": "16:00",
-                    "time_end": "18:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u039a\u039b\u0399\u039d\u0399\u039a\u0397 \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u0391": {
-                    "date": "2026-01-28",
-                    "time_start": "17:00",
-                    "time_end": "19:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u039f\u03a0\u03a4\u0399\u039a\u0397 \u03a4\u0397\u03a3 \u039f\u03a1\u0391\u03a3\u0397\u03a3": {
-                    "date": "2026-02-05",
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u03a6\u03a9\u03a4\u0399\u03a3\u039c\u039f\u03a3 \u03a0\u0395\u03a1\u0399\u0392\u0391\u039b\u039b\u039f\u039d\u03a4\u039f\u03a3 KAI \u039f\u03a1\u0391\u03a3\u0397 - \u0398": {
-                    "date": "2026-02-05",
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u0394\u0399\u039f\u03a6\u0398\u0391\u039b\u039c\u0397 \u039f\u03a1\u0391\u03a3\u0397": {
-                    "date": "2026-01-29",
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u039f\u03a0\u03a4\u0399\u039a\u0391 KAI \u039f\u03a0\u03a4\u039f\u039c\u0395\u03a4\u03a1\u0399\u039a\u0391 \u039f\u03a1\u0393\u0391\u039d\u0391": {
-                    "date": "2026-02-05",
-                    "time_start": "13:00",
-                    "time_end": "15:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u03a6\u0391\u039a\u039f\u0399 \u0395\u03a0\u0391\u03a6\u0397\u03a3 \u0399\u0399": {
-                    "date": "2026-01-29",
-                    "time_start": "14:00",
-                    "time_end": "16:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u039c\u0391\u03a1\u039a\u0395\u03a4\u0399\u039d\u0393\u039a": {
-                    "date": "2026-01-29",
-                    "time_start": "16:00",
-                    "time_end": "18:00",
-                    "area_id": [
-                        206,
-                        205
-                    ]
-                },
-                "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399 - \u0398": {
-                    "date": "2026-02-16",
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u039c\u0391\u0393\u039d\u0397\u03a4\u0399\u039a\u0397 \u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391 - \u0398": {
-                    "date": "2026-02-16",
-                    "time_start": "17:00",
-                    "time_end": "19:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399\u0399": {
-                    "date": "2026-02-16",
-                    "time_start": "19:00",
-                    "time_end": "21:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397\u039d \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0391\u03a0\u0395\u0399\u039a\u039f\u039d\u0399\u03a3\u0397 \u039a\u0391\u0399 \u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 - \u0398": {
-                    "date": "2026-02-10",
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u03a0\u03a5\u03a1\u0397\u039d\u0399\u039a\u0397 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0399": {
-                    "date": "2026-02-17",
-                    "time_start": "14:00",
-                    "time_end": "16:00",
-                    "area_id": [
-                        208
-                    ]
-                },
-                "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391 \u0399": {
-                    "date": "2026-02-10",
-                    "time_start": "14:00",
-                    "time_end": "16:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u03a5\u03a4\u0399\u039a\u0397 \u039f\u0393\u039a\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399 - \u03a3\u03a5\u0393\u03a7\u03a1\u039f\u039d\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3 \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391\u03a3": {
-                    "date": "2026-02-10",
-                    "time_start": "16:00",
-                    "time_end": "18:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u03a0\u03a5\u03a1\u0397\u039d\u0399\u039a\u0397 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0399\u0399": {
-                    "date": "2026-02-17",
-                    "time_start": "16:00",
-                    "time_end": "18:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u0391\u039a\u03a4\u0399\u039d\u039f\u0392\u0399\u039f\u039b\u039f\u0393\u0399\u0391 - \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u03a5\u03a4\u0399\u039a\u0397 \u039f\u0393\u039a\u039f\u039b\u039f\u0393\u0399\u0391 I": {
-                    "date": "2026-02-10",
-                    "time_start": "18:00",
-                    "time_end": "20:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a0\u03a1\u039f\u03a3\u03a4\u0391\u03a3\u0399\u0391": {
-                    "date": "2026-02-11",
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u03a0\u03a5\u03a1\u0397\u039d\u0399\u039a\u0397\u03a3 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397\u03a3": {
-                    "date": "2026-02-11",
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0399\u03a3 \u0391\u039a\u03a4\u0399\u039d\u039f\u0392\u039f\u039b\u0399\u0395\u03a3": {
-                    "date": "2026-02-11",
-                    "time_start": "13:00",
-                    "time_end": "15:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391\u03a3 - \u0398": {
-                    "date": "2026-02-18",
-                    "time_start": "14:00",
-                    "time_end": "16:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u0395\u0399\u0394\u0399\u039a\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3 \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0397\u03a3 KAI \u039c\u0391\u0393\u039d\u0397\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391\u03a3 - \u03a5\u0392\u03a1\u0399\u0394\u0399\u039a\u0395\u03a3 \u03a4\u0395\u03a7\u039d\u0399\u039a\u0395\u03a3": {
-                    "date": "2026-01-28",
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u039a\u0397 \u0391\u03a0\u0395\u0399\u039a\u039f\u039d\u0399\u03a3\u03a4\u0399\u039a\u0397 \u0391\u039d\u0391\u03a4\u039f\u039c\u0399\u039a\u0397": {
-                    "date": "2026-02-18",
-                    "time_start": "16:00",
-                    "time_end": "18:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397\u039d \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0397 \u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391 - \u03a8\u0397\u03a6\u0399\u0391\u039a\u0397 \u0391\u03a0\u0395\u0399\u039a\u039f\u039d\u0399\u03a3\u0397": {
-                    "date": "2026-01-28",
-                    "time_start": "17:00",
-                    "time_end": "19:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u0391\u039a\u03a4\u0399\u039d\u039f\u03a6\u03a5\u03a3\u0399\u039a\u0397 \u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3": {
-                    "date": "2026-02-11",
-                    "time_start": "18:00",
-                    "time_end": "20:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0397 \u03a3\u03a4\u0397 \u039c\u0391\u0393\u039d\u0397\u03a4\u0399\u039a\u0397 \u03a4\u039f\u039c\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391 - \u0391\u039d\u0391\u039b\u03a5\u03a3\u0397 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397\u03a3 \u0395\u0399\u039a\u039f\u039d\u0391\u03a3": {
-                    "date": "2026-01-28",
-                    "time_start": "19:00",
-                    "time_end": "21:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u039a\u0397 \u03a0\u0391\u0398\u039f\u039b\u039f\u0393\u0399\u0391": {
-                    "date": "2026-02-05",
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u0395\u0399\u0394\u0399\u039a\u0395\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0395\u03a3 \u0391\u039a\u03a4\u0399\u039d\u039f\u039b\u039f\u0393\u0399\u0391\u03a3": {
-                    "date": "2026-02-05",
-                    "time_start": "16:00",
-                    "time_end": "18:00",
-                    "area_id": [
-                        208,
-                        209
-                    ]
-                },
-                "\u03a0\u03a5\u03a1\u0397\u039d\u0399\u039a\u0397 \u0399\u0391\u03a4\u03a1\u0399\u039a\u0397 \u0399 - \u0398": {
-                    "date": "2026-02-17",
-                    "time_start": "14:00",
-                    "time_end": "16:00",
-                    "area_id": [
-                        209
-                    ]
-                },
-                "\u039f\u0394\u039f\u039d\u03a4\u0399\u039a\u0397 \u039c\u039f\u03a1\u03a6\u039f\u039b\u039f\u0393\u0399\u0391": {
-                    "date": "2026-01-27",
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "area_id": [
-                        199
-                    ]
-                },
-                "\u0391\u03a1\u03a7\u0395\u03a3 \u0394\u0399\u039f\u0399\u039a\u0397\u03a3\u0397\u03a3 \u0395\u03a0\u0399\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0395\u03a9\u039d \u039a\u0391\u0399 \u039f\u03a1\u0393\u0391\u039d\u03a9\u03a3\u0397 \u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u039f\u03a5": {
-                    "date": "2026-02-11",
-                    "time_start": "12:00",
-                    "time_end": "14:00",
-                    "area_id": [
-                        199
-                    ]
-                },
-                "\u039a\u0399\u039d\u0397\u03a4\u0397 \u03a0\u03a1\u039f\u03a3\u0398\u0395\u03a4\u0399\u039a\u0397 \u0399": {
-                    "date": "2026-02-05",
-                    "time_start": "08:00",
-                    "time_end": "10:00",
-                    "area_id": [
-                        199
-                    ]
-                },
-                "\u039d\u039f\u039c\u039f\u0398\u0395\u03a3\u0399\u0391 \u039a\u0391\u039b\u039b\u03a5\u039d\u03a4\u0399\u039a\u03a9\u039d \u039a\u0391\u0399 \u0399\u0391\u03a4\u03a1\u039f\u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u0399\u039a\u03a9\u039d \u03a0\u03a1\u039f\u0399\u039f\u039d\u03a4\u03a9\u039d": {
-                    "date": "2026-02-09",
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        202,
-                        203
-                    ]
-                },
-                "\u039c\u0397 \u03a0\u0391\u03a1\u0395\u039c\u0392\u0391\u03a4\u0399\u039a\u0397 \u0391\u039d\u03a4\u0399\u039c\u0395\u03a4\u03a9\u03a0\u0399\u03a3\u0397 \u03a4\u0397\u03a3 \u03a0\u0391\u03a7\u03a5\u03a3\u0391\u03a1\u039a\u0399\u0391\u03a3": {
-                    "date": "2026-01-26",
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        202,
-                        203
-                    ]
-                },
-                "\u03a0\u039c\u03a3 \u03a0\u03c1\u03bf\u03c7\u03c9\u03c1\u03b7\u03bc\u03ad\u03bd\u03b7 \u0391\u03b9\u03c3\u03b8\u03b7\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u039a\u03bf\u03c3\u03bc\u03b7\u03c4\u03bf\u03bb\u03bf\u03b3\u03af\u03b1: \u0391\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7-\u03a0\u03bf\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc\u03c2 \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf\u03c2 \u03ba\u03b1\u03b9 \u0391\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03bd\u03ad\u03c9\u03bd \u03ba\u03b1\u03bb\u03bb\u03c5\u03bd\u03c4\u03b9\u03ba\u03ce\u03bd \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03c9\u03bd": {
-                    "date": "2026-02-02",
-                    "time_start": "16:00",
-                    "time_end": "20:00",
-                    "area_id": [
-                        202,
-                        202,
-                        202,
-                        202,
-                        202,
-                        202,
-                        202,
-                        202,
-                        203,
-                        203,
-                        203,
-                        203,
-                        203,
-                        203,
-                        203,
-                        203
-                    ]
-                },
-                "\u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0391\u03a4\u0391 \u039c\u0395\u03a4\u0391\u03a6\u039f\u03a1\u0391\u03a3 \u0394\u03a1\u0391\u03a3\u03a4\u0399\u039a\u03a9\u039d \u039f\u03a5\u03a3\u0399\u03a9\u039d": {
-                    "date": "2026-01-27",
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "area_id": [
-                        202,
-                        203
-                    ]
-                },
-                "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0391\u0399\u03a3\u0398\u0397\u03a4\u0399\u039a\u0397 \u0399\u0399": {
-                    "date": "2026-02-10",
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "area_id": [
-                        202,
-                        203
-                    ]
-                },
-                "\u0391\u039d\u0395\u03a0\u0399\u0398\u03a5\u039c\u0397\u03a4\u0395\u03a3 \u0395\u039d\u0395\u03a1\u0393\u0395\u0399\u0395\u03a3 \u0391\u03a0\u039f \u039a\u0391\u039b\u03a5\u039d\u03a4\u0399\u039a\u0391-\u03a4\u039f\u039e\u0399\u039a\u039f\u039b\u039f\u0393\u0399\u0391": {
-                    "date": "2026-02-10",
-                    "time_start": "13:00",
-                    "time_end": "15:00",
-                    "area_id": [
-                        202,
-                        203
-                    ]
-                },
-                "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039a\u039f\u03a3\u039c\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399": {
-                    "date": "2026-02-03",
-                    "time_start": "15:00",
-                    "time_end": "17:00",
-                    "area_id": [
-                        202,
-                        203
-                    ]
-                },
-                "\u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0399\u0399-A\u03a6\u03a1\u039f\u0394\u0399\u03a3\u0399\u039f\u039b\u039f\u0393\u0399\u0391 - \u0398": {
-                    "date": "2026-01-28",
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "area_id": [
-                        202,
-                        203
-                    ]
-                },
-                "\u03a8\u0399\u039c\u03a5\u0398\u0399\u03a9\u03a3\u0397 - \u0394\u0399\u039f\u03a1\u0398\u03a9\u03a4\u0399\u039a\u0397 \u03a8\u0399\u039c\u03a5\u0398\u0399\u03a9\u03a3\u0397 \u0394\u0399\u0391\u03a1\u039a\u0395\u0399\u0391\u03a3": {
-                    "date": "2026-02-04",
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "area_id": [
-                        202,
-                        203
-                    ]
-                },
-                "\u0392\u0391\u03a3\u0399\u039a\u0395\u03a3 \u0391\u03a1\u03a7\u0395\u03a3 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039a\u039f\u03a3\u039c\u0397\u03a4\u039f\u039b\u039f\u0393\u0399\u0391\u03a3": {
-                    "date": "2026-02-11",
-                    "time_start": "10:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        202,
-                        203
-                    ]
-                },
-                "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391 \u0399\u0399-LASER": {
-                    "date": "2026-01-28",
-                    "time_start": "11:00",
-                    "time_end": "13:00",
-                    "area_id": [
-                        202,
-                        203
-                    ]
-                },
-                "\u0392\u0391\u03a3\u0399\u039a\u0395\u03a3 \u0391\u03a1\u03a7\u0395\u03a3 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u039b\u039f\u0393\u0399\u0391\u03a3": {
-                    "date": "2026-02-05",
-                    "time_start": "09:00",
-                    "time_end": "11:00",
-                    "area_id": [
-                        202,
-                        203
-                    ]
-                },
-                "\u0394\u0395\u039f\u039d\u03a4\u039f\u039b\u039f\u0393\u0399\u0391 \u0395\u03a0\u0391\u0393\u0393\u0395\u039b\u039c\u0391\u03a4\u039f\u03a3": {
-                    "date": "2026-02-05",
-                    "time_start": "11:00",
-                    "time_end": "12:00",
-                    "area_id": [
-                        202,
-                        203
-                    ]
-                },
-                "\u0395\u039d\u0396\u03a5\u039c\u0399\u039a\u0397 \u0394\u0395\u03a1\u039c\u0391\u03a4\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391": {
-                    "date": "2026-02-12",
-                    "time_start": "13:00",
-                    "time_end": "15:00",
-                    "area_id": [
-                        202,
-                        203
                     ]
                 }
             }
