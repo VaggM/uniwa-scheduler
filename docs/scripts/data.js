@@ -27225,6 +27225,14 @@ const appData = {
                 },
                 {
                     "day": 1,
+                    "time_start": "13:00",
+                    "time_end": "15:00",
+                    "course": "\u03a6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03bc\u03bc\u03b5\u03c4\u03c1\u03af\u03b1 \u0399 (\u0395\u03b9\u03c3\u03b1\u03b3\u03c9\u03b3\u03ae \u03c3\u03c4\u03b7 \u03a6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03bc\u03bc\u03b5\u03c4\u03c1\u03af\u03b1)",
+                    "professor": "",
+                    "area_id": 142
+                },
+                {
+                    "day": 1,
                     "time_start": "09:00",
                     "time_end": "13:00",
                     "course": "\u0394\u03b9\u03b1\u03c7\u03b5\u03af\u03c1\u03b9\u03c3\u03b7 \u0393\u03b5\u03c9\u03c7\u03c9\u03c1\u03b9\u03ba\u03ce\u03bd \u03a0\u03bb\u03b7\u03c1\u03bf\u03c6\u03bf\u03c1\u03b9\u03ce\u03bd \u03c3\u03b5 \u0394\u03b9\u03b1\u03b4\u03b9\u03ba\u03c4\u03c5\u03b1\u03ba\u03cc \u03a0\u03b5\u03c1\u03b9\u03b2\u03ac\u03bb\u03bb\u03bf\u03bd",
