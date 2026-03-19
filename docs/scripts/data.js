@@ -14175,26 +14175,18 @@ const appData = {
                 },
                 {
                     "day": 1,
-                    "time_start": "08:00",
-                    "time_end": "11:00",
-                    "course": "E-TOURISM. \u0394\u0399\u0391\u0394\u0399\u039a\u03a4\u03a5\u0391\u039a\u0395\u03a3 \u03a3\u03a5\u039d\u0391\u039b\u039b\u0391\u0393\u0395\u03a3 \u03a3\u03a4\u039f\u039d \u03a4\u039f\u03a5\u03a1\u0399\u03a3\u039c\u039f (\u0395\u03c1\u03b3\u03b1\u03c3\u03c4\u03b7\u03c1\u03b9\u03bf)",
-                    "professor": "",
-                    "area_id": 139
-                },
-                {
-                    "day": 1,
-                    "time_start": "11:00",
-                    "time_end": "13:00",
+                    "time_start": "12:00",
+                    "time_end": "16:00",
                     "course": "E-TOURISM. \u0394\u0399\u0391\u0394\u0399\u039a\u03a4\u03a5\u0391\u039a\u0395\u03a3 \u03a3\u03a5\u039d\u0391\u039b\u039b\u0391\u0393\u0395\u03a3 \u03a3\u03a4\u039f\u039d \u03a4\u039f\u03a5\u03a1\u0399\u03a3\u039c\u039f (\u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u039f)",
-                    "professor": "",
+                    "professor": "\u03a0\u0395\u0399\u03a3\u03a4\u0399\u039a\u039f\u03a5",
                     "area_id": 139
                 },
                 {
                     "day": 1,
-                    "time_start": "13:00",
+                    "time_start": "16:00",
                     "time_end": "20:00",
                     "course": "E-TOURISM. \u0394\u0399\u0391\u0394\u0399\u039a\u03a4\u03a5\u0391\u039a\u0395\u03a3 \u03a3\u03a5\u039d\u0391\u039b\u039b\u0391\u0393\u0395\u03a3 \u03a3\u03a4\u039f\u039d \u03a4\u039f\u03a5\u03a1\u0399\u03a3\u039c\u039f (\u0395\u03a1\u0393\u0391\u03a3\u03a4\u0397\u03a1\u0399\u039f)",
-                    "professor": "",
+                    "professor": "\u03a0\u0395\u0399\u03a3\u03a4\u0399\u039a\u039f\u03a5",
                     "area_id": 139
                 },
                 {
