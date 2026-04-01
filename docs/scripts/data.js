@@ -16371,7 +16371,7 @@ const appData = {
                 {
                     "day": 2,
                     "time_start": "18:00",
-                    "time_end": "21:30",
+                    "time_end": "21:00",
                     "course": "\u0394\u0397\u039c\u0399\u039f\u03a5\u03a1\u0393\u0399\u039a\u039f\u03a4\u0397\u03a4\u0391  \u039a\u0391\u0399 \u0395\u03a1\u0393\u039f\u0398\u0395\u03a1\u0391\u03a0\u0395\u0399\u0391",
                     "professor": "",
                     "area_id": 192
