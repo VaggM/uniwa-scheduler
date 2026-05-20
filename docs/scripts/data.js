@@ -1323,6 +1323,26 @@ const appData = {
                     ]
                 }
             }
+        },
+        "\u03a4\u03bc\u03ae\u03bc\u03b1 \u039d\u03bf\u03c3\u03b7\u03bb\u03b5\u03c5\u03c4\u03b9\u03ba\u03ae\u03c2": {
+            "\u0395\u03be\u03b5\u03c4\u03b1\u03c3\u03c4\u03b9\u03ba\u03ae \u03c0\u03b5\u03c1\u03af\u03bf\u03b4\u03bf\u03c2 \u0399\u03bf\u03c5\u03bd\u03af\u03bf\u03c5 2026": {
+                "\u0392\u0391\u03a3\u0399\u039a\u0397 \u039d\u039f\u03a3\u0397\u039b\u0395\u03a5\u03a4\u0399\u039a\u0397 \u0399": {
+                    "date": "2026-06-15",
+                    "time_start": "08:00",
+                    "time_end": "12:00",
+                    "area_id": [
+                        186
+                    ]
+                },
+                "\u0394\u0399\u0391\u0393\u039d\u03a9\u03a3\u03a4\u0399\u039a\u0397 \u039d\u039f\u03a3\u0397\u039b\u0395\u03a5\u03a4\u0399\u039a\u0397": {
+                    "date": "2026-06-16",
+                    "time_start": "08:00",
+                    "time_end": "10:00",
+                    "area_id": [
+                        186
+                    ]
+                }
+            }
         }
     }
 };
