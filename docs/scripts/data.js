@@ -802,6 +802,13 @@ const appData = {
             "code": "114"
         },
         {
+            "id": "301",
+            "campus": "\u0391\u03b8\u03b7\u03bd\u03ce\u03bd",
+            "building": "\u0393",
+            "floor": "\u03a0\u03c1\u03ce\u03c4\u03bf\u03c2 \u03cc\u03c1\u03bf\u03c6\u03bf\u03c2",
+            "code": "006"
+        },
+        {
             "id": "129",
             "campus": "\u0386\u03bb\u03c3\u03bf\u03c2 \u0391\u03b9\u03b3\u03ac\u03bb\u03b5\u03c9",
             "building": "\u039a7",
@@ -814,13 +821,6 @@ const appData = {
             "building": "\u0394",
             "floor": "\u03a0\u03c1\u03ce\u03c4\u03bf\u03c2 \u03cc\u03c1\u03bf\u03c6\u03bf\u03c2",
             "code": "110"
-        },
-        {
-            "id": "301",
-            "campus": "\u0391\u03b8\u03b7\u03bd\u03ce\u03bd",
-            "building": "\u0393",
-            "floor": "\u03a0\u03c1\u03ce\u03c4\u03bf\u03c2 \u03cc\u03c1\u03bf\u03c6\u03bf\u03c2",
-            "code": "006"
         }
     ],
     "departments": {
@@ -1827,6 +1827,43 @@ const appData = {
                 }
             }
         },
+        "\u03a4\u03bc\u03ae\u03bc\u03b1 \u03a0\u03bf\u03bb\u03b9\u03c4\u03b9\u03ba\u03ce\u03bd \u0394\u03b7\u03bc\u03cc\u03c3\u03b9\u03b1\u03c2 \u03a5\u03b3\u03b5\u03af\u03b1\u03c2": {
+            "\u0395\u03be\u03b5\u03c4\u03b1\u03c3\u03c4\u03b9\u03ba\u03ae \u03c0\u03b5\u03c1\u03af\u03bf\u03b4\u03bf\u03c2 \u03a3\u03b5\u03c0\u03c4\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5 2026": {
+                "\u03a0\u039c\u03a3 \u0397\u03b3\u03b5\u03c3\u03af\u03b1, \u039a\u03b1\u03b9\u03bd\u03bf\u03c4\u03bf\u03bc\u03b9\u03b1 KAI \u03a0\u03bf\u03bb\u03b9\u03c4\u03b9\u03ba\u03ad\u03c2 \u0391\u03be\u03af\u03b5\u03c2 \u03c3\u03c4\u03b7\u03bd \u03a5\u03b3\u03b5\u03af\u03b1": {
+                    "date": "2026-09-07",
+                    "time_start": "16:00",
+                    "time_end": "20:00",
+                    "area_id": [
+                        301,
+                        301,
+                        301,
+                        301,
+                        301,
+                        301,
+                        301,
+                        301,
+                        301,
+                        301,
+                        301,
+                        301,
+                        301
+                    ]
+                }
+            },
+            "\u0395\u03be\u03b5\u03c4\u03b1\u03c3\u03c4\u03b9\u03ba\u03ae \u03c0\u03b5\u03c1\u03af\u03bf\u03b4\u03bf\u03c2 \u0399\u03bf\u03c5\u03bd\u03af\u03bf\u03c5 2026": {
+                "\u03a0\u039c\u03a3 \u0394\u03b7\u03bc\u03cc\u03c3\u03b9\u03b1\u03c2 \u03a5\u03b3\u03b5\u03af\u03b1\u03c2": {
+                    "date": "2026-07-11",
+                    "time_start": "09:30",
+                    "time_end": "12:30",
+                    "area_id": [
+                        296,
+                        300,
+                        297,
+                        301
+                    ]
+                }
+            }
+        },
         "\u03a4\u03bc\u03ae\u03bc\u03b1 \u039b\u03bf\u03b3\u03b9\u03c3\u03c4\u03b9\u03ba\u03ae\u03c2 \u03ba\u03b1\u03b9 \u03a7\u03c1\u03b7\u03bc\u03b1\u03c4\u03bf\u03bf\u03b9\u03ba\u03bf\u03bd\u03bf\u03bc\u03b9\u03ba\u03ae\u03c2": {
             "\u0395\u03be\u03b5\u03c4\u03b1\u03c3\u03c4\u03b9\u03ba\u03ae \u03c0\u03b5\u03c1\u03af\u03bf\u03b4\u03bf\u03c2 \u0399\u03bf\u03c5\u03bd\u03af\u03bf\u03c5 2026": {
                 "\u0394\u0399\u0395\u0398\u039d\u0397\u03a3 \u03a7\u03a1\u0397\u039c\u0391\u03a4\u039f\u039f\u0399\u039a\u039f\u039d\u039f\u039c\u0399\u039a\u0397": {
@@ -2168,7 +2205,8 @@ const appData = {
                         261,
                         261,
                         261,
-                        261
+                        261,
+                        258
                     ]
                 },
                 "\u0394\u0399\u0391\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0397 \u03a7\u0391\u03a1\u03a4\u039f\u03a6\u03a5\u039b\u0391\u039a\u0399\u039f\u03a5": {
@@ -2287,19 +2325,19 @@ const appData = {
                         263
                     ]
                 },
-                "\u0394\u0399\u0395\u0398\u039d\u0397 \u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0391 \u039a\u0391\u0399 \u03a7\u03a1\u0397\u039c\u0391\u03a4\u039f\u039f\u0399\u039a\u039f\u039d\u039f\u039c\u0399\u039a\u0391 \u03a0\u03a1\u039f\u03a4\u03a5\u03a0\u0391": {
-                    "date": "2026-06-24",
+                "\u0395\u03a0\u0399\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0399\u0391\u039a\u0397 \u03a0\u039b\u0397\u03a1\u039f\u03a6\u039f\u03a1\u0399\u039a\u0397": {
+                    "date": "2026-06-17",
                     "time_start": "09:00",
-                    "time_end": "10:00",
+                    "time_end": "11:00",
                     "area_id": [
                         258,
                         263
                     ]
                 },
-                "\u0395\u03a0\u0399\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0399\u0391\u039a\u0397 \u03a0\u039b\u0397\u03a1\u039f\u03a6\u039f\u03a1\u0399\u039a\u0397": {
-                    "date": "2026-06-17",
+                "\u0394\u0399\u0395\u0398\u039d\u0397 \u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0391 \u039a\u0391\u0399 \u03a7\u03a1\u0397\u039c\u0391\u03a4\u039f\u039f\u0399\u039a\u039f\u039d\u039f\u039c\u0399\u039a\u0391 \u03a0\u03a1\u039f\u03a4\u03a5\u03a0\u0391": {
+                    "date": "2026-06-24",
                     "time_start": "09:00",
-                    "time_end": "11:00",
+                    "time_end": "10:00",
                     "area_id": [
                         258,
                         263
@@ -2329,6 +2367,19 @@ const appData = {
                     "time_end": "18:00",
                     "area_id": [
                         258,
+                        263
+                    ]
+                },
+                "\u03a0\u039c\u03a3 \u0395\u03c6\u03b1\u03c1\u03bc\u03bf\u03c3\u03bc\u03ad\u03bd\u03b7 \u039b\u03bf\u03b3\u03b9\u03c3\u03c4\u03b9\u03ba\u03ae, \u0395\u03bb\u03b5\u03b3\u03ba\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u03a6\u03bf\u03c1\u03bf\u03bb\u03bf\u03b3\u03af\u03b1": {
+                    "date": "2026-07-09",
+                    "time_start": "08:00",
+                    "time_end": "21:00",
+                    "area_id": [
+                        258,
+                        258,
+                        263,
+                        263,
+                        263,
                         263
                     ]
                 },
@@ -2368,19 +2419,19 @@ const appData = {
                         263
                     ]
                 },
-                "\u03a7\u03a1\u0397\u039c\u0391\u03a4\u039f\u039f\u0399\u039a\u039f\u039d\u039f\u039c\u0399\u039a\u0397 \u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0397 \u0399": {
-                    "date": "2026-06-26",
+                "\u0395\u0399\u0394\u0399\u039a\u0391 \u0398\u0395\u039c\u0391\u03a4\u0391 \u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u03a5\u03a0\u039f\u03a0\u039f\u0399\u0397\u03a3\u0397\u03a3": {
+                    "date": "2026-06-19",
                     "time_start": "09:00",
-                    "time_end": "10:30",
+                    "time_end": "10:00",
                     "area_id": [
                         258,
                         263
                     ]
                 },
-                "\u0395\u0399\u0394\u0399\u039a\u0391 \u0398\u0395\u039c\u0391\u03a4\u0391 \u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0397\u03a3 \u03a4\u03a5\u03a0\u039f\u03a0\u039f\u0399\u0397\u03a3\u0397\u03a3": {
-                    "date": "2026-06-19",
+                "\u03a7\u03a1\u0397\u039c\u0391\u03a4\u039f\u039f\u0399\u039a\u039f\u039d\u039f\u039c\u0399\u039a\u0397 \u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0397 \u0399": {
+                    "date": "2026-06-26",
                     "time_start": "09:00",
-                    "time_end": "10:00",
+                    "time_end": "10:30",
                     "area_id": [
                         258,
                         263
@@ -2392,17 +2443,6 @@ const appData = {
                     "time_end": "18:30",
                     "area_id": [
                         258,
-                        263
-                    ]
-                },
-                "\u03a0\u039c\u03a3 \u0395\u03c6\u03b1\u03c1\u03bc\u03bf\u03c3\u03bc\u03ad\u03bd\u03b7 \u039b\u03bf\u03b3\u03b9\u03c3\u03c4\u03b9\u03ba\u03ae, \u0395\u03bb\u03b5\u03b3\u03ba\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u03a6\u03bf\u03c1\u03bf\u03bb\u03bf\u03b3\u03af\u03b1": {
-                    "date": "2026-07-02",
-                    "time_start": "18:00",
-                    "time_end": "20:00",
-                    "area_id": [
-                        263,
-                        263,
-                        263,
                         263
                     ]
                 }
@@ -11642,21 +11682,6 @@ const appData = {
                     "time_end": "14:30",
                     "area_id": [
                         295
-                    ]
-                }
-            }
-        },
-        "\u03a4\u03bc\u03ae\u03bc\u03b1 \u03a0\u03bf\u03bb\u03b9\u03c4\u03b9\u03ba\u03ce\u03bd \u0394\u03b7\u03bc\u03cc\u03c3\u03b9\u03b1\u03c2 \u03a5\u03b3\u03b5\u03af\u03b1\u03c2": {
-            "\u0395\u03be\u03b5\u03c4\u03b1\u03c3\u03c4\u03b9\u03ba\u03ae \u03c0\u03b5\u03c1\u03af\u03bf\u03b4\u03bf\u03c2 \u0399\u03bf\u03c5\u03bd\u03af\u03bf\u03c5 2026": {
-                "\u03a0\u039c\u03a3 \u0394\u03b7\u03bc\u03cc\u03c3\u03b9\u03b1\u03c2 \u03a5\u03b3\u03b5\u03af\u03b1\u03c2": {
-                    "date": "2026-07-11",
-                    "time_start": "09:30",
-                    "time_end": "12:30",
-                    "area_id": [
-                        296,
-                        300,
-                        297,
-                        301
                     ]
                 }
             }
