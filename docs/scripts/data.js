@@ -3918,22 +3918,10 @@ const appData = {
         "\u03a4\u03bc\u03ae\u03bc\u03b1 \u03a0\u03bf\u03bb\u03b9\u03c4\u03b9\u03ba\u03ce\u03bd \u0394\u03b7\u03bc\u03cc\u03c3\u03b9\u03b1\u03c2 \u03a5\u03b3\u03b5\u03af\u03b1\u03c2": {
             "\u0395\u03be\u03b5\u03c4\u03b1\u03c3\u03c4\u03b9\u03ba\u03ae \u03c0\u03b5\u03c1\u03af\u03bf\u03b4\u03bf\u03c2 \u03a3\u03b5\u03c0\u03c4\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5 2026": {
                 "\u03a0\u039c\u03a3 \u0397\u03b3\u03b5\u03c3\u03af\u03b1, \u039a\u03b1\u03b9\u03bd\u03bf\u03c4\u03bf\u03bc\u03b9\u03b1 KAI \u03a0\u03bf\u03bb\u03b9\u03c4\u03b9\u03ba\u03ad\u03c2 \u0391\u03be\u03af\u03b5\u03c2 \u03c3\u03c4\u03b7\u03bd \u03a5\u03b3\u03b5\u03af\u03b1": {
-                    "date": "2026-09-07",
-                    "time_start": "16:00",
+                    "date": "2026-09-02",
+                    "time_start": "18:00",
                     "time_end": "20:00",
                     "area_id": [
-                        301,
-                        301,
-                        301,
-                        301,
-                        301,
-                        301,
-                        301,
-                        301,
-                        301,
-                        301,
-                        301,
-                        301,
                         301
                     ]
                 }
