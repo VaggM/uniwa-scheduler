@@ -8778,6 +8778,14 @@ const appData = {
                     "area_id": 165
                 },
                 {
+                    "day": 4,
+                    "time_start": "08:00",
+                    "time_end": "11:00",
+                    "course": "\u0395\u03a0\u0399\u039a\u039f\u0399\u039d\u03a9\u039d\u0399\u0391 \u039c\u0391\u03a1\u039a\u0395\u03a4\u0399\u039d\u0393\u039a \u0393\u0399\u0391 \u0395\u039a\u03a0\u0391\u0399\u0394\u0395\u03a5\u03a4\u0399\u039a\u0395\u03a3 \u03a5\u03a0\u0397\u03a1\u0395\u03a3\u0399\u0395\u03a3",
+                    "professor": "",
+                    "area_id": 147
+                },
+                {
                     "day": 1,
                     "time_start": "14:00",
                     "time_end": "17:00",
