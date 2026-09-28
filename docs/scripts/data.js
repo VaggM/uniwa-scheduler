@@ -7947,7 +7947,7 @@ const appData = {
                 {
                     "day": 2,
                     "time_start": "09:00",
-                    "time_end": "15:00",
+                    "time_end": "12:30",
                     "course": "ERASMUS",
                     "professor": "",
                     "area_id": 254
@@ -7956,14 +7956,6 @@ const appData = {
                     "day": 3,
                     "time_start": "09:00",
                     "time_end": "12:00",
-                    "course": "ERASMUS",
-                    "professor": "",
-                    "area_id": 254
-                },
-                {
-                    "day": 4,
-                    "time_start": "09:00",
-                    "time_end": "15:00",
                     "course": "ERASMUS",
                     "professor": "",
                     "area_id": 254
@@ -8026,8 +8018,8 @@ const appData = {
                 },
                 {
                     "day": 5,
-                    "time_start": "09:00",
-                    "time_end": "15:00",
+                    "time_start": "08:00",
+                    "time_end": "14:00",
                     "course": "ERASMUS",
                     "professor": "",
                     "area_id": 252
