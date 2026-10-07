@@ -6737,7 +6737,7 @@ const appData = {
                     "day": 2,
                     "time_start": "11:00",
                     "time_end": "14:00",
-                    "course": "\u03a3\u03a4\u0391\u03a4\u0399\u03a3\u03a4\u0399\u039a\u0397 \u0395\u03a0\u0399\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0395\u03a9\u039d \u039a\u0391\u0399 \u039f\u03a1\u0393\u0391\u039d\u0399\u03a3\u039c\u03a9\u039d",
+                    "course": "\u039c\u0391\u0398\u0397\u039c\u0391\u03a4\u0399\u039a\u0391 \u03a4\u0397\u03a3 \u0394\u0399\u039f\u0399\u039a\u0397\u03a4\u0399\u039a\u0397\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0397\u039c\u0397\u03a3",
                     "professor": "\u0392\u0399\u039b.\u039a\u0391\u03a1\u0391\u0393\u0399\u0391\u039d\u039d\u0397",
                     "area_id": 139
                 },
@@ -6838,6 +6838,14 @@ const appData = {
                     "area_id": 138
                 },
                 {
+                    "day": 1,
+                    "time_start": "17:00",
+                    "time_end": "20:00",
+                    "course": "ERASMUS",
+                    "professor": "",
+                    "area_id": 138
+                },
+                {
                     "day": 2,
                     "time_start": "08:00",
                     "time_end": "11:00",
@@ -6859,6 +6867,14 @@ const appData = {
                     "time_end": "14:00",
                     "course": "\u0398\u0395\u03a9\u03a1\u0399\u0395\u03a3 \u03a4\u039f\u03a5\u03a1\u0399\u03a3\u039c\u039f\u03a5.\u03a4\u0391\u039e\u0399\u0394\u0399 \u039a\u0391\u0399 \u03a4\u0391\u039e\u0399\u0394\u0399\u039f\u0393\u03a1\u0391\u03a6\u0399\u0391",
                     "professor": "\u0391\u03a3\u03a4\u0391\u03a1\u0391",
+                    "area_id": 138
+                },
+                {
+                    "day": 3,
+                    "time_start": "14:00",
+                    "time_end": "16:00",
+                    "course": "ERASMUS",
+                    "professor": "",
                     "area_id": 138
                 },
                 {
