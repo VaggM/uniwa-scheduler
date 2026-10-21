@@ -179,7 +179,7 @@ data = {
     "classrooms": classrooms,
     "departments": departments
 }
-
+ 
 with open("docs/scripts/data.js", "w", encoding="utf-8") as f:
     f.write("const appData = ")
     json.dump(data, f, indent=4) # ensure_ascii=False)
