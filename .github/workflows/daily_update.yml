@@ -21,8 +21,9 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12.10' # Change this to your specific version
-          cache: 'pip'          # Automatically caches your requirements
+          python-version: '3.13'
+          cache: 'pip'
+          cache-dependency-path: 'scraper/requirements.txt'
 
       - name: Install dependencies
         run: |
@@ -39,6 +40,4 @@ jobs:
           git add .
           git commit -m "Daily automated update" || echo "No changes to commit"
           git push
-
-
-
+  
