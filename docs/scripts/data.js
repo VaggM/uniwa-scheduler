@@ -3082,6 +3082,14 @@ const appData = {
             },
             "\u03a7\u03b5\u03b9\u03bc\u03b5\u03c1\u03b9\u03bd\u03cc \u03b5\u03be\u03ac\u03bc\u03b7\u03bd\u03bf 2026-2027": [
                 {
+                    "day": 1,
+                    "time_start": "15:00",
+                    "time_end": "17:00",
+                    "course": "\u03a3\u03a7\u0395\u0394\u0399\u0391\u03a3\u0397 \u039a\u0391\u0399 \u03a0\u0391\u03a1\u0391\u0393\u03a9\u0393\u0397 \u039c\u0395 \u03a4\u0397\u039d \u0392\u039f\u0397\u0398\u0395\u0399\u0391 \u0397/\u03a5 (CAD/CAM)",
+                    "professor": "",
+                    "area_id": 275
+                },
+                {
                     "day": 5,
                     "time_start": "11:00",
                     "time_end": "13:00",
