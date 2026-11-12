@@ -7976,14 +7976,6 @@ const appData = {
                     "course": "ERASMUS",
                     "professor": "",
                     "area_id": 252
-                },
-                {
-                    "day": 3,
-                    "time_start": "16:00",
-                    "time_end": "18:00",
-                    "course": "\u0395\u03ba\u03b4\u03ae\u03bb\u03c9\u03c3\u03b7",
-                    "professor": "",
-                    "area_id": 309
                 }
             ]
         },
