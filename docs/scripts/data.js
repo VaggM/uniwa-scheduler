@@ -7956,7 +7956,7 @@ const appData = {
                 {
                     "day": 3,
                     "time_start": "12:00",
-                    "time_end": "15:00",
+                    "time_end": "14:00",
                     "course": "ERASMUS",
                     "professor": "",
                     "area_id": 252
